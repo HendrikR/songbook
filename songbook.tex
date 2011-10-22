@@ -1,0 +1,2122 @@
+\documentclass[a5paper,pagesize,twoside,10pt,headings=small]{scrreprt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{guitar}
+\usepackage{multicol}
+\usepackage[top=1.2cm, bottom=1.5cm, left=2.0cm, right=0.5cm]{geometry}
+\usepackage{lscape}
+
+\pagestyle{plain}
+
+\makeatletter
+\newcommand\ignore[1]{}
+\setlength{\parskip}{-3ex}
+
+% \songheader{Titel}{Autor}
+\newcommand\songheader[3][]{%TODO: Seitenumbrüche sind hier genau falsch.
+  \clearpage%
+    % \par{\Large\bf\sffamily #2}\\[0.2\baselineskip]%
+    \subsection*{\centering #2}\vspace{0.5\baselineskip}%
+    \addcontentsline{toc}{subsection}{#2}
+    \centering \textit{#3}\\%
+    \vspace{\baselineskip}\par%
+}
+
+%\newcommand\songfooter[1]{\par\begin{flushright}\tiny #1\end{flushright}}
+\newcommand\songfooter[1]{\vfill\par\begin{flushright}\tiny #1\end{flushright}}
+%% Abstand vergrößern zwischen Strophen, der ist sonst kaum vom Zeilenabstand zu unterscheiden.
+\renewcommand\guitarEndPar{\par\vspace{1.5\baselineskip}}
+\newcommand\Refrain{\textbf{Refrain}\vspace{-1.0\baselineskip}}
+\newcommand\Refraindef{\textbf{Refrain:}}
+\newcommand\leftrepeat{{\large $|\hspace{-0.2ex}|\hspace{-0.8ex}:\,$}}%TODO
+\newcommand\rightrepeat{{\large $\,:\hspace{-0.8ex}|\hspace{-0.2ex}|$}}%TODO
+\newcommand\Repeat[1]{\leftrepeat #1 \rightrepeat}
+\makeatother
+
+\newcommand\todo{TODO}
+\newcommand\done{DONE}
+\setlength{\footskip}{2.0\baselineskip}
+
+\begin{document}
+\tableofcontents
+\chapter*{Rock/Pop}
+
+\section*{Deutsch}
+%TODO: Mini-Inhaltsverzeichnis???
+\songheader{Als ich fortging}{Karat}
+\begin{guitar}
+[Bm]Als ich fortging war die [Em]Straße steil, [A]kehr' wieder [D]um.
+[G]Nimm an ihrem Kummer [A]teil, mach sie [Bm]heil.
+
+[Bm]Als ich fortging war der [Em]Asphalt heiß, [A]kehr wieder [D]um.
+[G]Red' ihr aus um jeden [A]Preis was sie [Bm]weiß.
+
+[G]Nichts ist [D]unendlich, so [Em]sieh das doch [Bm]ein.
+[G]Ich weiß du willst unendlich [A]sein, schwach und [Bm]klein.
+[G]Feuer brennt [D]nieder, wenn's [Em]keiner mehr [Bm]nährt.
+[G]Kenn' ja selber was dir [A]heut wider[Bm]fährt.
+
+[Bm]Als ich fortging war'n die [Em]Arme leer, [A]kehr' wieder [D]um.
+[G]mach's ihr leichter einmal [A]mehr, nicht so [Bm]schwer.
+
+[Bm]Als ich fortging kam ein [Em]Wind so schwach, [A]warf mich nicht [D]um.
+[G]Unter ihrem Tränen[A]dach war ich [Bm]schwach.
+
+[G]Nichts ist [D]unendlich, so [Em]sieh das doch [Bm]ein.
+[G]Ich weiß du willst unendlich sein, [A]schwach und [Bm]klein.
+[G]Nichts ist von [D]Dauer, was [Em]keiner recht [Bm]will.
+[G]Auch die Trauer wird da sein, [A]schwach und [Bm]klein.
+\songfooter\done
+\end{guitar}
+
+
+\songheader{Marzipan}{(Norbert und die Feiglinge)}
+\begin{guitar}
+{\tiny(Melodie: Lady in Black von Uriah Heap)}
+[Am]Ich ess so gerne Marzipan
+[Am]Es geht nichts über Marzipan
+[G]Ich denk den ganzen Tag daran,
+[Am]Nur dafür schlägt mein Herz.
+[Am]Ich aß grad einen Pelikan aus allerfeinstem Marzipan
+Da [G]plötzlich durchfuhr meinen Körper ein [Am]stechender Schmerz.
+
+[Am]Aa[G]aa[Am]aa[Am]aa[G]h...[Am].
+
+Verdammt, da war ein Loch im Zahn
+Das kommt von zuviel Marzipan.
+Ich rief sofort den Doktor an uns sprach von meiner Qual.
+Der Doktor war ein weiser Mann
+Man sah's ihm an der Brille an
+Er sagte: "`Na dann öffnen Sie den Mund und sagen Sie mal"'
+
+Aaaaaah....
+
+Er brummelte:"`Mein lieber Schwan"'
+Und irgendwas vom Schlendrian
+Er fing sofort zu bohren an mit furchtbarem Radau
+Es tat jedoch fast gar nicht weh
+Ich dachte"`Kerl, was biste zäh
+Und tapfer". Doch dann traf er einen Nerv und zwar genau.
+
+Aaaaaah....
+
+Ach bitte Doktor sei human
+Ich hab doch keinem was getan
+Ich sage auch dem Marzipan für alle Zeit ade
+Er füllte ihn mit Amalgam, den Rest von meinem Backenzahn
+dann fragt' er mich:"`Na junger Mann, wo tut es denn jetzt noch weh?"'
+
+-"`Daaaaaa..."'
+-"`Hier?"'
+-"`Jaaaaaah..."'
+
+"`Den müssen wir wohl ziehen den Zahn.
+Haben wir noch ein' Termin im Plan?
+Brigitte, stimmen sie das mal bitte
+Mit dem Herrn hier ab"' -"`Jaha!"'
+Das war die Zahnarzthelferin
+Die war so schön, ich war ganz hin
+Und weg, sie fragte zärtlich, welche Blutgruppe ich hab.
+
+-"`Aaaaaaa...."'
+-"`Und die Krankenkasse?"'
+-"`Aaaaaa... AOK!"'
+
+Das war ja fast wie im Roman
+Verliebt bin ich nach Haus gefahrn
+Sie hatte sich für meine Krankenkasse interessiert
+Seither verlier ich Zahn um Zahn,
+Ich eß noch viel mehr Marzipan
+Da jedes Zahnweh mir ein Wiedersehen gerantiert
+Und wenn ich jetzt hier sitz und schrei
+Dann ist das völlig einerlei
+ich leide gern, mein Leid ist durch die Liebe motiviert.
+
+Aaaaaaaaah...
+\end{guitar}
+
+\songheader{Ich denk, es war ein gutes Jahr}{Reinhard Mey}%%TODO
+\begin{guitar}
+Der Raureif legt sich vor mein Fenster,
+Kandiert die letzten Blätter weiß.
+Der Wind von Norden jagt Gespenster 
+aus Nebelschwaden über's Eis,
+Die in den Büschen hängenbleiben 
+an Zweigen wie Kristall so klar.
+Ich hauche Blumen auf die Scheiben 
+und denk', es war ein gutes Jahr!
+Ich hauche Blumen auf die Scheiben 
+und denk', es war ein gutes Jahr!
+
+Sind ein paar Hoffnungen zerronnen? 
+War dies und jenes Lug und Trug?
+Hab' nichts verloren, nichts gewonnen, 
+so macht mich auch kein Schaden klug.
+So bleib ich Narr unter den Toren, 
+hab' ein paar Illusionen mehr,
+Hab' nichts gewonnen und nichts verloren, 
+und meine Taschen bleiben leer.
+Hab' nichts gewonnen und nichts verloren, 
+und meine Taschen bleiben leer.
+
+Nichts bleibt von Bildern, die zerrinnen. 
+Nur eines seh' ich noch vor mir,
+Als läg' ein Schnee auf meinen Sinnen, 
+mit tiefen Fußstapfen von dir!
+Mir bleibt noch im Kamin ein Feuer 
+und ein paar Flaschen junger Wein.
+Mehr Reichtum wär mir nicht geheuer 
+und brächte Sorgen obendrein.
+Mehr Reichtum wär mir nicht geheuer 
+und brächte Sorgen obendrein.
+
+Du kommst den Arm um mich zu legen,
+Streichst mit den Fingern durch mein Haar:
+\Repeat{"`Denk dran ein Holzscheit nachzulegen ... Ich glaub', es war ein gutes Jahr!"'}
+ladadada.....
+\end{guitar}
+
+
+
+
+\songheader{Du hast mir gesagt}{Element of Crime}
+\begin{guitar}
+Ich [A]liege träge in der [D]Sonne, und [A]sehe, wie der Fluß [D]vorüberfließt
+[A]Du hast mir gesagt, daß man [D]nichts erzwingen soll
+Und ich [A]warte hier, und ich [D]warte hier
+Auf das Glück und den gestrigen [A]Tag[D].
+
+Ich freunde mich an mit einer Spinne und schaue ihr bei der Arbeit zu
+Du hast mir gesagt, daß man Tiere lieben soll
+Und ich warte hier, und ich warte hier
+Auf das Glück und den gestrigen Tag
+
+[D]Wenn du mich liebst, wirst du mich [A]finden
+[D]Verliebte gehn hier immer an den [A]Fluß
+Und [D]du hast mir gesagt, das alles [A]kommt, wie es kommen muß
+Und ich [D]warte hier, und ich [D]warte hier, auf das [D]Glück und den gestrigen [A]Tag
+
+Ich werfe Steine in die Strömung, und schaue ihnen beim Versinken hzu
+Du hast mir gesagt, daß man sich nützlich machen soll
+Und ich warte hier, und ich warte hier, auf das Glück und den gestrigen Tag
+
+Wenn du mich liebst ...
+
+Ich würde gerne endlich mal was essen
+und die Augen fallen mir von selber zu
+Du hast mir gesagt, daß man nicht locker lassen soll
+Und ich warte hier, und ich warte hier, und ich warte hier,
+auf das Glück und den gestrigen Tag
+
+Wenn du mich liebst ...
+\end{guitar}
+
+\songheader{Wer ich wirklich bin}{Element of Crime}
+\begin{guitar}
+[Em]In meinem Schädel wohnt ein Tier, das trampelt alles kurz [Am]und klein
+[Em]Was ich mir vorgenommen hab für einen lieben [Am]langen Tag
+[D]Wozu bewegen, [H]ich weiß ja nicht [Em]wohin
+[D]Manchmal wüsst ich gern, [H]wer ich wirklich [Em]bin
+
+In meiner Kehle wohnt ein Tier, das frisst die klugen Worte auf
+Die ich mir beigebogen hab für einen lieben langen Tag
+Was soll ich sagen, wenn da keine Worte sind
+Manchmal wüsst ich gern, wer ich wirklich bin
+
+In meinem Herzen wohnt ein Tier, das beißt die edle Regung tot
+Die ich mir abgerungen hab für einen lieben langen Tag
+Wozu Gedanken, wenn die doch nur böse sind
+Manchmal wüsst ich gern, wer ich wirklich bin
+
+In meinen Augen wohnt ein Tier, das sieht mich immer hungrig an
+Als ob's mich aufgehoben hat für einen lieben langen Tag
+Was soll werden, wenn es die Oberhand gewinnt
+Manchmal wüsst ich gern, wer ich wirklich bin
+\end{guitar}
+
+\songheader{Delmenhorst}{Element of Crime}
+\begin{guitar}
+[G/C (4x)] 
+
+[G]Ich bin jetzt immer da, wo [C]du nicht bist / [G]Und das ist immer Delmen[C]horst
+[Am]Es ist schön, wenn's nicht [G]mehr weh tut / [Am]Und wo zu sein, wo du nie [D]warst
+[Hm]Hinter Huchting ist ein [C]Graben / [D]Der ist weder breit noch [Em]tief
+[G]Und dann kommt gleich Getränke-[Am]Hoffmann,
+[C]Sag Bescheid, wenn du mich [G]liebst
+
+Ich hab jetzt Sachen an, die du nicht magst
+Und die sind immer grün und blau
+Ob ich wirklich Sport betreibe / Interessiert hier keine Sau
+Hinter Huchting ist ein Graben / Der in die Ochtum sich ergießt
+Und dann kommt gleich Getränke Hoffmann
+Sag Bescheid, wenn du mich liebst
+
+Ich mach jetzt endlich alles öffentlich / Und erzähle, was ich weiß
+Auf der Strasse der Verdammten / Die hier Bremer Straße heißt
+Hinter Huchting ist ein Graben / In den sich einer übergibt
+Und dann kommt gleich Getränke Hoffmann
+Sag Bescheid, wenn du mich liebst
+
+Ich bin jetzt da, wo ich mich haben will / Und das ist immer Delmenhorst
+Erst wenn alles scheißegal ist / Macht das Leben wieder Spaß
+Hinter Huchting ist ein Graben / Der ist weder breit noch tief
+Und dann kommt gleich Getränke Hoffmann
+\Repeat{[Cm]Sag Bescheid, [G]wenn du mich liebst}$_3$
+\end{guitar}
+
+\songheader{Straßenbahn des Todes}{Element of Crime}
+\begin{guitar}
+[Am]Wo die alten Leute [Em]immer / [Am]Schimpfend an der Ecke [Em]stehen
+[Am]Werd ich mich dazu [Em]gesellen / [Am]Und Zigaretten für sie [H7]drehen
+
+[Am]Und grad wenn [D]wir uns richtig ei[G]nig sind,
+Dass [C]alles immer [Am]schlimmer wird,
+Wirst [D]du vorüber [G]gehen [G7] 
+[Am]Wo die Neu[D]rosen wuchern
+[G]Will ich Landschafts[C]gärtner sein
+Und [H7]dich will ich endlich wieder[Em]sehen
+
+Vor dem Edeka des Grauens / Wo wer freundlich ist verliert
+Halt ich jeden Abend Wache / Auf dem Container für Papier
+
+Und wenn du kommst, dann sehe ich 
+dich von weitem schon
+Und kann schnell zu den Einkaufswagen gehen
+Wo die Neurosen wuchern
+Will ich Landschaftsgärtner sein
+Und dich will ich endlich wiedersehen
+
+In die Straßenbahn des Todes / Die heulend sich zum Stadtrand quält
+Werd ich mich klaustrophobisch zwängen / Weil auch die kleine Geste zählt
+
+Und wenn du einsteigst
+Bin ich lang schon eng befreundet
+Mit den Leuten die auf meinen Füßen stehen
+Wo die Neurosen wuchern
+Will ich Landschaftsgärtner sein
+\Repeat{Und dich will ich endlich wiedersehen}
+\end{guitar}
+
+\songheader{Bring den Vorschlaghammer mit}{Element of Crime}
+\begin{guitar}
+[Am]Siehst du diesen Teller, den hab ich aus [C]Florenz
+[Am]und der alte Benz läuft immer noch wie [C]neu
+na und [F]wie ich mich da freu
+und der [Em]Plattenspieler, der wird heute [Dm]nicht mehr [G]gebaut
+der war mir [C]lange Jahre [A]treu.
+
+Bring den [Dm]Vorschlaghammer [G]mit, wenn du [C]heute abend [Am]kommst
+dann [Dm]hauen wir [G]alles kurz und [C]klein[A],
+der ganze [Dm]alte Schrott muß raus, [G]und neuer [C]Schrott muß rein[Am],
+bis [Dm]morgen muß der ganze Rotz [G]verschwunden [C]sein!
+
+
+Der Aschenbecher da, den hab ich mal geklaut
+ich glaub, das war in einem griechischen Lokal
+und das Plattenregal 
+habe ich selbstgebaut, das war normal, der Herd war gekauft
+und die anderen Möbel auch
+
+Bring den Vorschlaghammer mit, wenn du heute abend kommst
+dann hauen wir alles kurz und klein
+der ganze alte Schrott muß raus und neuer Schrott muß rein
+bis morgen muß der ganze Rotz verschwunden sein
+
+Der Computer ist auf dem allerneuesten Stand
+da ist noch Pfand auf den Flaschen, die in der Küche stehen, 
+da will ich bald mal Scherben sehen
+und der Bücherwand, für die ein halber Wald einmal starb,
+schlägt die letzte Stunde bald
+\end{guitar}
+
+
+\songheader{Ich war nicht dabei}{Element of Crime}
+\begin{guitar}
+[Em]Erst war es Silvester und später neues Jahr
+Und sie [Am]schrien mir ins Ohr, wie es später wirklich war
+Da sprangen [H]alle auf die Tische, und ich war nicht [Em]dabei.
+Die [Em]Leiber so verschwitzt und die Augen so verstrahlt
+Und [Am]kurz nachdem ich ging hat keiner mehr bezahlt
+Die tranken [H]alles, was nicht weglief, und ich war nicht da[Em]bei.
+[F]Wo ich da wohl grade [G]war -- das wissen [B]eigentlich nur wir [H]zwei!
+
+Zuerst waren's über Hundert, und später nur noch vier
+Doch die marodierten weiter auf ein allerletztes Bier
+Mein Name war ihr Schlachtruf, und ich war nicht dabei.
+Später gab es Ärger und ordentlich Polizei
+Bloß hat das keiner mehr gemerkt, die waren alle viel zu high
+Das war dann irgendwie auch schade, und ich war nicht dabei.
+Wo ich da wohl grade war -- das wissen eigentlich nur wir zwei!
+
+Erst war es noch dunkel, und später wieder hell
+Und später wieder dunkel, und dann war's wieder hell
+Das war dann auch nicht mehr so wichtig, und ich war nicht dabei.
+Am Besten war's am Ende, da hat keiner mehr gelacht
+Da floß der Reue heiße Träne, das hat richtig Spaß gemacht
+Da waren alle richtig alle, und ich war nicht dabei
+Wo ich da wohl grade war -- das wissen eigentlich nur wir zwei!
+\end{guitar}
+
+
+\songheader{Mit Dir allein}{Element of Crime}
+\begin{guitar}
+Mit [Gm]zitternden Händen sitz ich am [Am]Fenster
+Und [Gm]rauche als kriegt ich's be[Am]zahlt
+Im [Fmaj7]Hinterhof schreit eine [Gm]Katze
+Und [B]darüber sieht der [A]Himmel aus wie gemalt
+Jetzt bloß keine [Gm]Stille, das könnte [Am]fatal sein
+Du kramst nach [Gm]Gläsern im Bücherre[Am]gal
+In meinem [Fmaj7]Kopf sieht es aus wie in deinem [Gm]Zimmer
+Was ich [B]trinken will, fragst du, das ist mir [A]sowas von egal!
+
+Das erste [Dm]Mal mit dir [Gm7]allein[Gm6],
+Das erste [Dm]Mal mit dir [Gm]allein[Gm6].
+
+Wir reden wahllosen Schwachsinn
+Ich kneife mich heimlich ins Bein
+Im Hinterhof zanken die Nachbarn
+Und wie ein Vollidiot stopf ich 
+Kartoffelchips in mich rein
+\Repeat{Das erste Mal mit dir allein}
+
+Sag doch irgendwas Schlaues
+Mir fällt leider nichts ein
+Im Hinterhof zerplatzt eine Lampe
+Und als stiller Komplize
+kriecht die Dämmerung zu uns rein
+\Repeat{Das erste Mal mit dir allein}
+\end{guitar}
+
+\songheader{Wenn der Morgen graut}{Element of Crime}
+\begin{guitar}
+[G] \ [Em] \ [G] \ [Em] \ 
+
+[G]Kurz vor der ersten Straßen[Em]bahn
+[G]Sind alle Häuser finster und [Am]stumm.
+[Am]Dreh dich noch einmal nach mir [G]um,
+[G]Einmal für [Em]dich, [Em]einmal für [G]mich.
+
+Kurz vor der ersten Straßenbahn
+Sind alle Wege öde und leer.
+Lauf noch ein bischen neben mir her,
+Einmal für dich, einmal für mich.
+
+[C]Wo ist der Gott, der uns [Am]liebt, Ist der [Am]Mensch, der uns [C]traut,
+Ist die [C]Flasche, die uns [Am]wärmt, Wenn der [Am]Morgen [G]graut?
+
+Kurz vor der ersten Straßenbahn
+Sind die Gedanken müde und schwer.
+Ein Stern fällt ins Wasser und der Mond hinterher,
+Einmal für dich, einmal für mich.
+
+Wo ist der Gott, ...
+
+[Hm]Dreh dich noch einmal nach mir [Am]um,
+[Hm]Lauf noch ein bischen neben mir [Am]her!
+Ein [Am]Stern fällt ins Wasser und der Mond hinter[G]her,
+[G]Einmal für [Em]dich, [Em]einmal für [G]mich.
+
+Wo ist der Gott, ...
+\end{guitar}
+
+
+\songheader{Und du wartest}{Element of Crime}
+\begin{guitar}
+Ein [Am]alter Mann steht unten am See
+Und be[Dm]wirft die Enten mit [F]Brot vom vorigen [Am]Jahr
+Und du [Em]wartest.
+Kommt [Am]Zeit, kommt Rat, kommt Vater Staat,
+Kommt [Dm]Rente, kommt Ente, kommt [F]Haß auf alles, was [Am]früher war;
+Und du [Em]wartest -- auf [Dm]irgendwas
+Auf den [E]gestrigen Tag, auf [Am]längeres Haar
+Auf den [Dm]Sommer, und darauf, daß [F]einer das Klo [Am]repariert.
+[Am]Sogar [G]auf ein Zeichen von [C]ihr.
+
+Ein kleiner Junge steht unten im Hof
+Und beweint den Tod eines Schneemanns vom vorigen Jahr
+Und du wartest.
+Kommt Zeit, kommt Rat, kommt gute Tat,
+Kommt gute Fee, kommt Schnee, kommt Haß auf alles, was früher war;
+Und du wartest -- auf irgendwas
+Auf die Müllabfuhr, einen Platz an der Bar
+Auf den Sommer, und darauf, daß einer das Klo repariert.
+Sogar auf ein Zeichen von ihr.
+
+Ein alter Zausel betrachtet sich selbst
+Und zerschabt sein Gesicht mit Klingen vom vorigen Jahr
+Und du wartest.
+Kommt Zeit, kommt Rat, kommt Fusselbart,
+Kommt Rasierapparat, und vergessen ist alles, was früher war;
+Und du wartest -- auf gar nichts mehr
+Auf den Sommer nicht, und nicht auf längeres Haar.
+Schon gar nicht auf ein Zeichen von ihr.
+\end{guitar}
+
+
+\songheader{Weißes Papier}{Element of Crime}
+\begin{guitar}
+Ich [Dm]nehm deine Katze und [Dm]schüttel sie aus, bis [Am]alles herausfällt [Am]aus ihr,
+was sie [Gm]jemals aus meiner Hand [F]fraß
+[B]später klopf ich noch den [A]Teppich aus
+Und [Dm]find ich ein Haar von Dir [Dm]darin
+so [Am]steck ich es einfach ein[Am].
+[Gm]nichts soll dir böse [F]Erinnerung sein
+[B]verraten, was ich dir [A]gewesen  bin
+Sag [B]nicht, daß das gar nicht nötig [C]wär
+den [C7]schmerzhaft wird es erst [F]hinterher
+wenn wieder [Am]hochkommt, was früher mal [Dm]war
+Dann [Gm]lieber so rein und so [A]dumm sein wie weißes [Dm]Papier
+
+Auch werd ich in Zukunft ein anderer sein, Als der, der ich einmal war
+die Hose, die du mir gehäkelt hast
+werf ich in den Container der Heilsarmee rein
+Ich eß auf dem Fußboden aus der Hand
+seh mir jeden Trickfilm im Fernsehn an
+alles was du nicht magst, lobe ich mir
+Ich werd einfach so rein und so dumm sein wie weißes Papier
+
+Nicht mal das Meer darf ich wiedersehn, wo der Wind deine Haare vermißt
+Wo jede Welle ein Seufzer
+und jedes Sandkorn ein Blick von dir ist
+Am liebsten wär ich ein Astronaut
+und flöge auf Sterne, wo gar nichts vertraut
+und versaut ist durch eine Berührung von dir
+Ich werd nie mehr so rein und so dumm sein wie weißes Papier
+\end{guitar}
+
+
+\songheader{Ein Kompliment/Un Complimento}{Sportfreunde Stiller}
+\begin{multicols*}{2}
+\begin{guitar}
+[D]Chiamati se vuoi,
+la fine di un [Am]tragitto lungo,
+[C]perfetta sotto ogni [Em]aspetto
+[Em]e lieve nei momenti di silenzio,
+[D]la cresta dell' [Am]ondata di passione,
+in [C]salita la mia spinta in [Em]propulsione.
+
+[D]Ascoltami, [Am]volevo solo dirti che [C]tu sei,
+il massimo per [Em]me.
+[D]e star sicuro [Am]che hai la stessa idea,
+[C]su di me, su di [Em]me.
+
+Chiamati se vuoi,
+la mia chill-out-area,
+una vacanza che non se ne va,
+un frigo pieno di gelati alla spiaggia,
+la soluzione se qualcosa va storto,
+così preziosa che la tengo nascosta
+e così bella
+che non vorrei mai farne a meno.
+
+Ascoltami, volevo solo dirti che tu sei,
+il massimo per me.
+e star sicuro che tu hai la stessa idea
+su di me, su di me.
+
+\columnbreak
+
+[D]Wenn man so will,
+bist [Am]du das Ziel einer langen Reise. 
+Die [C]Perfektion der besten Art und [Em]Weise, 
+[Em]in stillen Momenten leise, 
+[D]Schaumkrone der [Am]Woge der Begeisterung
+[C]bergauf, mein Antrieb und [Em]Schwung.
+
+[D]Ich wollte dir [Am]nur mal eben sagen,
+dass du [C]das Größte für mich [E]bist.
+[D]und sichergehen, [Am]ob du denn dasselbe
+für mich [C]fühlst, für mich [E]fühlst.
+
+Wenn man so will, 
+bist du meine Chill-Out Area, 
+meine Feiertage in jedem Jahr, 
+meine Süßwarenabteilung im Supermarkt. 
+Die Lösung, wenn mal was hakt, 
+so wertvoll, dass man es sich gerne aufspart, 
+und so schön,
+dass man nie darauf verzichten mag.
+
+Chorus 2x
+\end{guitar}
+\end{multicols*}
+
+
+\newpage\section*{International}
+\songheader{Shape of my Heart}{Sting}\vspace{-\baselineskip}
+\begin{guitar}
+[Fm]He deals the cards as a [Bm]meditation
+[Fm]And those he plays never [Bm]suspect
+[D/F#]He doesnt play for the [A]money he [C#/F]wins
+[D/F#]He doesnt play for the [Fm]respect
+[Fm]He deals the cards to find the [Bm]answer
+[Fm]The sacred geometry of [Bm]chance
+[D/F#]The hidden law of [A]probable [C#/F]outcome
+[D/F#]The numbers lead a [Fm]dance
+
+\Refraindef [Fm]I know that the spades are the [Bm]swords of a soldier
+[Fm]I know that the clubs are weapons of [Bm]war
+[D/F#]I know that diamonds mean [A]money for this [C#/F]art
+[D/F#]But thats not the shape of my [Fm]heart
+
+He may play the jack of diamonds, He may lay the queen of spades
+He may conceal a king in his hand, While the memory of it fades
+
+\Refrain
+
+And if I told you that I loved you / You'd maybe think there's something wrong
+Im not a man of too many faces / The mask I wear is one
+Those who speak know nothing / And find out to their cost
+Like those who curse their luck in too many places
+And those who smile are lost.
+
+\Refrain
+\end{guitar}
+
+\songheader{Fields of Gold}{Sting}
+\begin{guitar}
+[Am]You'll remember me [F]when the west wind moves,
+[F]Upon the [F/G?]fields of [C]barley
+[Am]You'll forget the sun [F]in his [C]jealous sky
+[F]As we walk in the [G]fields of [C]gold
+
+So she took her love / For to gaze awhile / Upon the fields of barley
+In his arms she fell as her hair came down / Among the fields of gold
+
+Will you stay with me, will you be my love / Among the fields of barley
+We'll forget the sun in his jealous sky / As we lie in the fields of gold
+
+See the west wind move like a lover so / Upon the fields of barley
+Feel her body rise when you kiss her mouth / Among the fields of gold
+
+[Am]I never made [F]promises [G]lightly [C],
+[Am]And there have been [F]some that I've [G]broken [C],
+[Am]But I swear in the [F]days still [G]left [C],
+\Repeat{[F]We'll walk in the [G]fields of [C]gold}
+
+Many years have passed since those summer days
+Among the fields of barley
+See the children run as the sun goes down
+Among the fields of gold
+You'll remember me when the west wind moves
+Upon the fields of barley
+You can tell the sun in his jealous sky
+\Repeat{When we walked in the fields of gold}$_3$
+\end{guitar}
+
+
+
+
+\chapter*{Alte Musik}
+
+\songheader{An hellen Tagen}{Giovanni Gastoldi, "`Balletti a 5 voci"', 1591 \quad deutsch: Peter Cornelius (1824 - 1874)}%TODO
+\begin{guitar}
+\Repeat{[C]An hellen Tagen, [C]Herz welch ein Schlagen.
+[C]Fa la la la la, [G]fa la la [C]la.}
+[C]Himmel dann [F]blauet, Auge dann schauet,
+[G]Herz wohl den beiden, [F]manches vertrauet.
+[C]Fa la la la la la , [G]fa la la [C]la.
+ 
+\Repeat{Beim Dämm'rungsschimmer, Herz du schlägst immer
+Fa la la la la, fa la la.}
+Ob auch zerronnen Strahlen und Wonnen,
+Herz will an beiden still sich noch sonnen.
+Fa la la la la la , fa la la la.
+ 
+\Repeat{Wenn Nacht sich neiget Herz nimmer schweiget.
+Fa la la la la, fa la la.}
+Schlummer mag walten, Traum sich entfalten
+Herz hat mit beiden Zwiesprach zu halten.
+Fa la la la la la , fa la la la.
+\end{guitar}
+
+
+\songheader[Scribere proposui]{Ad Mortem festinamus}{\todo}%TODO
+\begin{guitar}
+Scribere proposui de contemptu mundano,
+ut degentes seculi non mulcentur in vano.
+Iam est hora surgere a sompno mortis pravo.
+Ad mortem festinamus, peccare desistamus!
+
+Vita brevis breviter in brevi finietur,
+mors venit velociter quae neminem veretur.
+Omnia mors perimit et nulli miseretur.
+Ad mortem festinamus, peccare desistamus!
+
+Ni conversus fueris et sicut puer factus,
+et vitam mutaveris in meliores actus.
+Intrare non poteris regnum Dei beatus.
+Ad mortem festinamus, peccare desistamus!
+
+Tuba cum sonuerit dies crit extrema,
+et iudex advenerit vocabit sempiterna.
+Electos in patria, prescitos ad inferna.
+Ad mortem festinamus, peccare desistamus!
+\end{guitar}
+
+\songheader{Gaudete}{16. Jahrhundert, ``Piæ Cantiones''}%TODO
+\begin{guitar}
+\Refraindef
+[Am]Gaude[G]te, [Am]gaude[C]te! [C]Chris[Em]tus est natus
+[G]Ex Ma[Em]ria virgine, [Am]gau[G]de[Am]te!
+
+[Am]Tempus adest gratiæ,
+Hoc quod opta[G]bamus,
+Carmina lætitiæ
+[Em]Devote [Am]reddamus.
+
+\Refrain
+
+Deus homo factus est
+Natura mirante,
+Mundus renovatus est
+A Christo regnante.
+
+\Refrain
+
+Ezechielis porta
+Clausa pertransitur,
+Unde lux est orta
+Salus invenitur.
+
+\Refrain 
+
+Ergo nostra contio
+Psallat iam in lustro;
+Benedicat Domino:
+Salus Regi nostro.
+
+\Refrain
+\end{guitar}
+
+\songheader{Gaudete (Potentia Animi)}{Potentia Animi}%TODO
+\begin{guitar}
+\Refraindef
+\Repeat{Gaudete, Gaudete Christus est Natus 
+Ex Maria Virginae, Gaudete!}
+
+Cunnilingus Vagina - Fellatio Phallus,
+Fantasië Orgie, Multiple Orgasmus!
+
+\Refrain
+
+Sodomië, Pedophil, Exibitionismus,
+Necrophile Inzest Sadomasochismus!
+
+\Refrain
+
+Onanië, Petting, Masturbation,
+Pornophil, Godmiché, Ejakulation!
+
+\Refrain
+
+Syphilis, Gonorrhoe, Ulcus molle lues
+Balanitis Scabies, Peticulus Pubes!
+
+\Refrain
+\end{guitar}
+
+
+\songheader{Gaudeamus igitur}{Christian Wilhelm Kindleben, 1781}
+\begin{multicols*}{2}
+\begin{guitar}
+\Repeat{[G]Gaudeamus [C]igitur
+[D]iuvenes dum [G]sumus}
+[D]post iucundam [G]iuven[D]tutem,
+[D]post molestam [G]senec[D]tutem,
+\Repeat{[Em]nos ha[C]bebit [G|D]hu[Em|G]mus!}
+
+\Repeat{Ubi sunt qui ante nos
+in mundo fuere?}
+vadite ad superos
+transite ad inferos
+\Repeat{ubi iam fuere?}
+
+\Repeat{Vita nostra brevis est,
+brevi finietur,}
+venit mors velociter,
+rapit nos atrociter
+\Repeat{nemini parcetur!}
+
+\Repeat{Vivat academia,
+vivant professores!}
+vivat membrum quodlibet,
+vivant membra quaelibet,
+\Repeat{semper sint in flore!}
+
+\Repeat{Vivant omnes virgines
+faciles, formosae,}
+vivant et mulieres,
+tenerae, amabiles,
+\Repeat{bonae, laboriosae}
+
+\Repeat{Vivat et res publica,
+et qui illam regit!}
+vivat nostra civitas,
+maecenatum caritas,
+\Repeat{quae nos hic protegit!}
+
+\Repeat{Pereat tristitia
+pereant osores}
+pereat diabolus
+quivis antiburschius
+\Repeat{atque irrisores}
+\end{guitar}
+\end{multicols*}
+
+
+\chapter*{Landsknechtlieder}
+\section*{Traditionell}
+\songheader{Unser liebe Fraue vom kalten Bronnen}{um 1536}%%TODO
+\begin{guitar}
+[Am]Unser liebe [F]Fra[C]ue vom [C]kalten [G]Bron[C]nen,
+[C]Bescher uns armen [F]Landsknecht ein' warme Sonnen!
+Daß wir nit erfrieren, gehn in des Wirtes Haus
+wir ein mit vollem Säckel, mit leerem wieder aus.
+
+\Refraindef Die Drummen, die Drummen, Lärman, lärman, lärman, 
+heiridiridiran, ridiran Ride Landsknecht voran.
+
+Unser liebe Fraue vom kalten Bronnen,
+bescher' uns armen Landsknecht ein' warme Sonnen!
+Daß wir nit erfrieren, zieh'n wir dem Bauermann
+das wullen Hemd vom Leibe, das steht ihm übel an.
+\Refrain
+
+Wir schlucken Staub beim Wandern der Säckel hängt uns hohl
+der Kaiser schluckt ganz Flandern bekomm's ihm ewig wohl
+Er denkt beim Länderschmause wie er die Welt erwürb
+mir wohnt ein Lieb zu Hause das weinte, wenn ich stürb
+\Refrain
+
+Trommler schlägt Parade, die seid'nen Fahnen weh'n,
+jetzt heißt's auf Glück und Gnade ins Feld marschieren geh'n.
+Korn reift auf den Feldern, es schnappt der Hecht im Strom,
+heiß weht der Wind von Geldern, herauf gen Berg op Zoom.
+\Refrain
+
+Unser liebe Fraue vom kalten Bronnen,
+bescher' uns armen Landsknecht ein' warme Sonnen!
+Daß wir endlich finden von aller Arbeit Ruh!
+Der Teufel hol das Saufen, das Rauben auch dazu.
+\Refrain
+\end{guitar}
+\songfooter{1536 aufgezeichnet}
+
+
+\songheader{Oh Magdeburg}{Nach einer Soldatenweise von 1540}%TODO
+\begin{multicols*}{2}
+\begin{guitar}
+O Magdeburg, halt dich feste,
+du wohlgebautes Haus!
+Dir kommen fremde Gäste,
+die woll'n wir treiben aus.
+
+Die Gäst' und die uns kennen seind
+Mönch' und Pfaffenknecht',
+hilf reicher Christ im Himmel,
+daß wird sie grüßen recht.
+
+Zu Magdeburg auf der Brucken,
+da liegen drei Hündelein,
+sie heulen alle Morgen,
+kein'n Spanier lassen sie ein.
+
+Zu Magdeburg steht auf dem Platze
+ein großer eiserner Mann,
+derselb' nimmt acht der Hatze
+und sieht dein'n Spanier an.
+
+Zu Magdeburg auf der Mauern,
+da liegt ein gutes Geschütz,
+bringt manchem Herzen Trauern,
+daß man sie doch nicht nützt.
+
+\columnbreak
+
+Auch liegen an der Zinnen
+zwei scharfe Ritterschwert:
+Könnten diese Mönch' gewinnen,
+wär's manche Knappen wert!
+
+Zu Magdeburg auf der Brucken
+sitzen zwei Jungfrauen fein,
+die machen alle Morgen
+drei Rautenkränzelein.
+
+Das eine soll Herzog Hansen,
+dem Fürsten hochgeboren;
+Graf Albrecht von Mansfeld
+das andre ist erkoren.
+
+Das dritt', das ist versprochen
+ein'n Held noch unbekannt,
+der läßt nichts ungerochen,
+wagt drauf sein Leut und Land.
+
+Dies Liedlein hat gesungen
+ein Landsknecht frisch und frei,
+stund, da viel Kronen klungen,
+daß Gott stets bei ihm sei.
+\end{guitar}
+\end{multicols*}
+%\songfooter{Das Lied hat eine etwas komplexere Melodie als die "Landsknechts-Schlager" der Bündischen Jugend}
+
+
+\songheader{Die Landsknechte kommen}{}%TODO: Einordnen. Wer hats geschrieben, Zeitangabe?
+\begin{guitar}
+Die Landsknechte kommen
+Trum, trum, terum tum tum
+Trum, trum, terum tum tum,
+die Landsknecht zieh'n im Land herum.
+Trum, trum, terum tum tum,
+mit Trommeldröhnen und Gebrumm.
+Es schrillen die Flöten,
+das Kriegsvolk, es singt,
+es flattern die Fahnen,
+es jauchzt und es klingt.
+
+Hei, hei, heißa juchei,
+die Wallensteiner zieh'n vorbei.
+Hei, hei, heißa juchei,
+mit Spiel und Feldgeschrei.
+Trum, trum, terum tum tum,
+Trum, trum, terum tum tum. 
+Trum, trum, terum tum tum,
+und wieder geht die Trommel um,
+trum, trum, terum tum tum,
+sie wird nicht müde und nicht stumm.
+Sie dreuet dem Schweden im blutigen Krieg,
+wir hör'n sie beim Sterben,
+wir hör'n sie beim Sieg.
+Hei, hei, heißa juchei...
+
+Trum, trum, terum tum tum,
+die Trommel trägt die Not herum.
+Trum, trum, terum tum tum,
+die besten schlägt sie lahm und krumm.
+Auf endlosen Wegen, an Trümmern entlang,
+bellt fremd uns entgegen der heisere Sang.
+Hei, hei, heißa juchei...
+\end{guitar}
+
+\songheader{Wir zogen in das Feld}{um 1509}%TODO
+\begin{guitar}
+Wir zogen in das Feld.
+Wir zogen in das Feld.
+Da hätten wir weder Säckl noch Geld
+
+Strampede mi 
+A la mi presente 
+Al vostra signori.
+
+Wir kamen vor Siebentod,
+Wir kamen vor Siebentod,
+Da hätten wir weder Wein noch Brot.
+
+Strampede mi 
+A la mi presente 
+Al vostra signori.
+
+Wir kamen vor Friaul,
+Wir kamen vor Friaul,
+Da hätten wir allesamt voll Maul.
+
+Strampede mi 
+A la mi presente 
+Al vostra signori.
+
+Wir kamen vor Benevent,
+Wir kamen vor Benevent,
+Da hat all unser Not ein End.
+
+Strampede mi 
+A la mi presente 
+Al vostra signori.
+\end{guitar}
+
+\newpage\section*{Neuzeitlich}
+\songheader{Jörg von Frundsberg, führt uns an!}{Wilhelm Kutschbach, 1934}
+\begin{guitar}
+[Am]Jörg von Frundsberg, führt uns an,
+[Am]Tra la la [Dm]la la la [E]la,
+\Repeat{[F]Der die [C/Am]Schlacht [F/Am]gewann,
+[E]Lerman vor Pavi-[Am]a.}
+
+Kaiser Franz von Frankenland,
+Tra la la la la la la,
+Fiel in des Frundsbergs Hand,
+Lerman vor Pavia.
+
+Alle Blümlein standen rot,
+Tra la la la la la la,
+Heißa, wie schneit der Tod,
+Lerman vor Pavia.
+
+Als die Nacht am Himmel stund,
+Tra la la la la la la,
+Trommel und Pfeif' ward kund,
+Lerman vor Pavia.
+
+Und der euch dies Liedlein sang,
+Tra la la la la la la,
+Ward ein Landsknecht genannt,
+Lerman vor Pavia.
+\end{guitar}
+
+\songheader{Des Geyers schwarzer Haufen}{Anfang 20. Jh.}%TODO: Umbruch
+\begin{guitar}
+[Am]Wir sind des Geyers schwarzer Haufen - [F]Heyah [Am]Heyoh
+[G]Wir wolln mit Pfaff und Adel [Am]raufen - [E]Heyah [Am]Heyoh
+
+\Refraindef [Am]Spieß voran - hey! [F]Rauf und [Am]ran
+[G]Setzt aufs Klosterdach den [E]roten [Am]Hahn
+
+[Am]Uns führt der Florian Geyer an, [F]trotz Acht und [Am]Bann,
+[G]Den Bundschuh führt er [Am]in der Fahn', hat [E]Helm und Harnisch [Am]an.
+
+\Refrain
+
+[Am]Nun gilt es Schloß Abtei und Stift - [F]Heyah [Am]Heyoh
+[G]Uns gilt nichts als die [Am]heil'ge Schrift - [E]Heyah [Am]Heyoh
+
+\Refrain
+
+[Am]Als Adam grub und Eva spann - [F]Kyrie[Am]leis
+[G]Wo war denn da der [Am]Edelmann - [E]Kyrie[Am]leis
+
+\Refrain
+
+[Am]Das Reich und der Kaiser hören uns nicht, [F]heia [Am]hoho,
+[G]wir halten selber [Am]das Gericht, [E]heia [Am]hoho.
+
+\Refrain
+
+[Am]Ein gleich' Gesetz das wollen wir han', [F]heia [Am]hoho,
+[G]vom Fürsten bis [Am]zum Bauersmann, [Em]heia [Am]hoho.
+
+\Refrain
+
+[Am]Wir woll'n nicht länger sein ein Knecht - [F]Heyah [Am]Heyoh
+[G]Leibeigen, frönig, [Am]ohne Recht - [E]Heyah [Am]Heyoh
+
+\Refrain
+
+[Am]Bei Weinsberg setzt es Brand und Stank, [F]Heyah [Am]Heyoh
+[G]Da mancher über die Klinge [Am]sprang, [E]Heyah [Am]Heyoh
+
+\Refrain
+
+[Am]Sie schlugen uns mit Prügeln platt, [F]heia [Am]hoho,
+[G]und machten uns mit [Am]Hunger satt, [E]heia [Am]hoho.
+
+\Refrain
+
+[Am]Geschlagen gehen wir nach Haus - [F]Heyah [Am]Heyoh
+[G]Die Enkel fechten's [Am]besser aus - [E]Heyah [Am]Heyoh
+
+\Refrain
+\end{guitar}
+\songfooter{Der Text des Liedes entstand um 1920 in Kreisen der Jugendbewegung unter Verwendung von Textteilen des Gedichtes "`Ich bin der arme Kunrad"' von Heinrich von Reder (1885), die Melodie stammt von Fritz Sotke (1919) - (Quelle:Wikipedia)}
+
+
+\songheader{Es klappert der Huf am Stege}{Hans Riedel/Robert Götz, 1920}%TODO
+\begin{guitar}
+Es klappert der Huf am Stege,
+Wir ziehn mit dem Fähnlein ins Feld;
+Blut'ger Kampf allerwege,
+Dazu sind auch wir bestellt.
+Wir reiten und reiten und singen,
+Im Herzen die bitterste Not.
+Die Sehnsucht will uns bezwingen
+Doch wir reiten die Sehnsucht tot. 
+
+Dörfer und Städte flogen
+Vorüber an unserem Blick.
+Wir sind immer weiter gezogen,
+Für uns gibt es kein Zurück.
+Wir reiten durch Täler und Hügel,
+Wo der Sommer in Blüte steht;
+Es knirschen Zaumzeug und Zügel,
+Der Wimpel hoch über uns weht. 
+
+Leis sinkt der Abend nieder,
+Uns wird das Herz so schwer;
+Leiser werden die Lieder,
+Wir sehn keine Heimat mehr.
+Wir reiten und reiten und reiten
+Und hören von fern schon die Schlacht,
+Herr, laß uns stark sein im Streiten,
+Dann sei unser Leben vollbracht.
+\end{guitar}
+
+
+\songheader{Wilde Gesellen}{Fritz Sotke, 1923}%TODO
+\begin{guitar}
+Wilde Gesellen vom Sturmwind durchweht,
+Fürsten in Lumpen und Loden,
+Ziehn wir dahin bis das Herze uns steht,
+Ehrlos bis unter den Boden.
+Fidel Gewand in farbiger Pracht
+Trefft keinen Zeisig ihr bunter,
+Ob uns auch Speier und Spötter verlacht,
+Uns geht die Sonne nicht unter.
+
+Ziehn wir dahin durch Braus und durch Brand,
+Klopfen bei Veit und Velten.
+Huldiges Herze und helfende Hand
+Sind ja so selten, so selten.
+Weiter uns wirbelnd auf staubiger Straß
+Immer nur hurtig und munter;
+Ob uns der eigene Bruder vergaß,
+Uns geht die Sonne nicht unter.
+
+Aber da draußen am Wegesrand,
+Dort bei dem König der Dornen.
+Klingen die Fiedeln ins weite Land,
+Klagen dem Herrn unser Carmen.
+Und der Gekrönte sendet im Tau
+Tröstende Tränen herunter.
+Fort geht die Fahrt durch den wilden Verhau,
+Uns geht die Sonne nicht unter.
+
+Bleibt auch dereinst das Herz uns stehn
+Niemand wird Tränen uns weinen.
+Leis wird der Sturmwind sein Klagelied wehn
+Trüber die Sonne wird scheinen.
+Aus ist ein Leben voll farbiger Pracht,
+Zügellos drüber und drunter.
+Speier und Spötter, ihr habt uns verlacht,
+Uns geht die Sonne nicht unter.
+\end{guitar}
+
+\chapter*{Folk (International)}
+\begin{landscape}
+\songheader{Young Ned of the Hill (The Pogues)}{\vspace{-3\baselineskip}}%%TODO: Layout
+\begin{multicols*}{2}
+\begin{guitar}
+[Am]Have you ever walked the [Em]lonesome hills
+[Am]And heard the curlews [Em]cry
+[Am]Or seen the raven [G]black as night
+[F]Upon a windswept [Am]sky
+[Am]To walk the purple heather
+[Am]And hear the westwind [Em]cry
+[Am]To know that's where the [G]rapparee must [Am]die
+[Am] \ [G] \ [Em] \ [D] \ [C] \ [Am] \ [C] \ [Dm] \ [Am]
+
+Since Cromwell pushed us westward
+To live our lowly lives
+Some of us have deemed to fight
+From Tipperary mountains high
+Noble men with wills of iron
+Who are not afraid to die
+Who'll fight with gaelic honour held on high
+
+\Refraindef
+A curse upon you Oliver Cromwell
+You who raped our Motherland
+I hope you're rotting down in hell
+For the horrors that you sent
+To our misfortunate forefathers
+Who ye robbed of their birthright
+To hell or Connaught, may you burn in hell tonight
+
+Of one such man I'd like to speak
+A rapparee by name and deed
+His fam'ly dispossessed \& slaughtered
+They put a price upon his head
+His name's known in song \& story
+His deeds are legends still
+And murdered for blood money
+Was young Ned of the hill
+
+\Refrain
+
+You have robbed our homes \& fortunes
+Even drove us from our land
+You tried to break our spirit
+But you'll never understand
+The love of dear old Ireland
+That will forge an iron will
+As long as there are gallant men
+Like young Ned of the hill
+\end{guitar}
+\end{multicols*}
+\end{landscape}
+
+\songheader{Ye Jacobites by Name}{Robert Burns, 1791}
+\begin{guitar}
+[Am]Ye Jacobites by name, [C]lend an ear, [G]lend an ear,
+[Am]Ye Jacobites by [Em]name, lend [(G)]an [Am]ear,
+[C]Ye Jacobites by name,
+[G]Your faults I will proclaim,
+\Repeat{[Am]Your doctrines I must [Em]blame, (ye [C]shall hear), ye [Em]shall hear}
+
+What is Right, and what is Wrong, by the law, by the law?
+What is Right and what is Wrong by the law?
+What is Right, and what is Wrong?
+A short sword or a long,
+A weak arm or a strong, for to draw.
+
+What makes heroic strife, famed afar, famed afar?
+What makes heroic strife famed afar?
+What makes heroic strife?
+To whet the assassin's knife,
+Or hunt a Parent's life, in bloody war?
+
+Then let your schemes alone, in the state, in the state,
+Then let your schemes alone in the state.
+Then let your schemes alone,
+Adore the rising sun,
+And leave a man undone, to his fate.
+\end{guitar}
+
+
+\chapter*{Volksliedgut und Vagantenlieder}
+\songheader{Papst und Sultan}{Text: Christian Ludwig Noack (1767-1821), Melodie: Zupfgeigenhansel}
+\begin{multicols*}{2}
+\begin{guitar}
+Der [C]Papst lebt herrlich in der [G]Welt,
+es [G]fehlt ihm nie an Ablaß[C]geld;
+[C]er trinkt vom aller[G]besten [Am]Wein:
+drum möcht' ich [F]auch d. [G]P. wohl [C]sein.
+
+Doch nein, er ist ein armer Wicht,
+ein holdes Mädchen küßt ihn nicht;
+er schläft in seinem Bett allein:
+drum möchte ich der Papst nicht sein.
+
+Der Sultan lebt in Saus und Braus,
+er wohnt in einem Freudenhaus
+voll wunderschönen Mägdelein:
+drum möcht ich wohl der Sultan sein.
+
+Doch nein, er ist ein armer Mann,
+denn folgt er seinem Alkoran,
+so trinkt er keinen Tropfen Wein:
+drum möcht ich auch $\neg$ Sultan sein.
+
+Geteilt veracht ich beider Glück
+und kehr in meinen Stand zurück;
+doch das geh ich mit Freuden ein:
+halb Sultan und halb Papst zu sein.
+
+Drum Mädchen, gib mir einen Kuß,
+denn jetzt bin ich dein Sultanus!
+Ihr trauten Brüder, schenket ein,
+damit ich auch der Papst kann sein!
+
+\columnbreak
+Pa[C]pa est in lautit[G]iis
+Cum [G]poenitentiae nummu[C]lis,
+[C]Haurit Fa[G]lerni pocu[Am]la:
+Quam velim [F]ipse [G]sim pa[C]pa!
+
+At miser est homunculus,
+Caret uxore lectulus,
+Quae nectat ei brachia.
+Quam nolim ipse sim papa!
+
+Luxuriosus sultanus
+Auratis agit lectibus,
+Plena puellarum domo,
+Velim sultanus sim ego!
+
+At homo est miserrimus
+Corano parens sultanus!
+Non bibit vini guttulam.
+Auferte vitam Turcicam!
+
+Non minus est optanda mors,
+Quam separata horum sors.
+At id accipio statim,
+Ut papa nunc, nunc Turcus sim.
+
+Puellula, da osculum!
+Nam ecce, sultanus nunc sum!
+Implete, fratres, pocula,
+Ut iterum tunc sim papa!
+\end{guitar}
+\end{multicols*}
+
+\songheader{Es dunkelt schon auf der Heide}{\todo}
+\begin{guitar}
+Es [A]dunkelt schon [D]in der [A]Heide, nach [A]Hause [E]lass uns [A]geh'n.
+\Repeat{[A]Wir haben das Korn geschnitten mit [D]unserm [E]blanken [A]Schwert.}
+
+Ich hörte die Sichel rauschen, ja rauschen durch das Korn.
+Ich hörte mein Feinslieb klagen, sie hätte ihr Lieb' verlor'n.
+
+Hast du dein Lieb' verloren, so hab ich noch das mein;
+so wollen wir beide mit'nander uns winden ein Kränzelein.
+
+Ein Kränzelein von Rosen, ein Sträußelein von Klee,
+zu Frankfurt an der Brücke, da liegt ein tiefer Schnee.
+
+Der Schnee, der ist zerschmolzen, das Wasser läuft dahin,
+kommst mir aus meinem Auge, kommst mir nicht aus dem Sinn.
+
+In meines Vaters Garten, da steh'n zwei Bäumelein;
+das eine trägt Muskaten, das and're Braunnägelein.
+
+Muskaten, die sind süße, Braunnägelein sind schön;
+wir beide uns müssen scheiden, ja scheiden, das tut weh.
+\end{guitar}
+
+
+\songheader{Es wollt' ein Bauer früh aufstehn}{\todo}
+\begin{multicols*}{2}
+\begin{guitar}
+[C]Es wollt' ein Bauer früh aufstehn,
+[C]Es wollt' ein Bauer [G]früh aufstehn,
+[G]Und hinaus auf seinen [C]Acker gehn
+[G]Fallera--di--[C]rallala, [G]Fallera-la-[C]la
+
+Und als er dann nach Hause kam
+Da wollt er was zu Fressen ham
+
+"`Ei Lieschen koch mir Hirsebrei
+Mit Bratkartoffeln und Spiegelei!"'
+
+Und als der Bauer saß und aß
+Da rumpelt in der Kammer was
+
+"`Ei, liebe Frau was ist denn das?
+Da rumpelt in der Kammer was"'
+
+"`Ei, lieber Mann das ist der Wind
+Der raschelt da am Küchenspind"'
+
+Der Bauer sprach:"`Will selber sehn
+Will selber raus in die Kammer gehn"'
+
+\columnbreak
+
+Und als der Bauer in d'Kammer kam
+Da zog der Pfaff die Hosen an
+
+"`Ei, Pfaff was machst in meinem Haus
+Ich werf dich ja sogleich hinaus!"'
+
+Der Pfaff der sprach: "`Was ich verricht
+Deine Frau, die kennt die Beicht noch nicht"'
+
+Da nahm der Baur ein Ofenscheit
+Und schlug den Pfaffen daß er schreit
+
+Der Pfaff der schrie: "`Oh Schreck, oh Graus!"'
+Und hielt den Arsch zum Fenster raus
+
+Da kam' die Leut von nah und fern
+Und dachten's wär der Morgenstern
+
+Der Morgenstern der war es nicht
+Es war des Pfaffen Arschgesicht
+
+Und die Moral von der Geschicht
+Trau nicht des Pfaffen Arschgesicht
+\end{guitar}
+\end{multicols*}
+
+
+\songheader{Ein Mönch kam vor ein Nonnenkloster}{Trad., ca. 17. Jhd.}
+\begin{multicols*}{2}
+\begin{guitar}
+Ein [C]Mönch kam vor 1 Nonnenkloster
+-- [C]Ei, [G]ei, [C]ei!
+Mit [C]seinem langen [G]Paternoster,
+-- [G]fallahi und [C]fallaha!
+Mit [C]seinem langen [G]Paternoster,
+-- [G]fallahi-a-[C]he!
+\Repeat{Und seinem
+[C/G]Kling klang klonimus [G/C]Dominus}
+[F]Orati[G]oni[C]mus
+
+Der Pater klopft an die Klostertür
+Da schaut ne kranke Nonn' herfür
+Für seinen ...
+
+Der Pater steigt die Trepp' hinauf
+Die Nonne schaut von unten auf
+Sie sah sein ...
+
+"`Ei Pater was'n das für'n Ding?
+Was unter eurer Kutten schwingt"'
+Ist das ein ...
+
+\columnbreak
+
+"`Ja das ist mein Patientenstab
+Mit dem ich kranke Nonnen lab"'
+Das ist mein ...
+
+"`\Repeat{Ei Pater}, so labet auch mich!
+Die kränkste aller Nonn'n bin ich!"'
+Mit eurem ...
+
+Er ging mit ihr auf den Orgelboden
+Und orgelte nach allen Noten
+Mit seinem ...
+
+"`Ei Pater das hat wohlgetan!"'
+"`Da fang'n wir gleich von vorne an!"'
+Sieh nur mein ...
+
+Und die Moral von der Geschicht
+Wer's nicht versteht, der orgele nicht!
+Mit einem ...
+\end{guitar}
+\end{multicols*}
+
+
+\songheader{Bunt sind schon die Wälder}{\todo}
+\begin{multicols*}{2}
+\begin{guitar}
+[G]Bunt sind schon die [D]Wäl[G]der,
+[G]Gelb die Stoppel[C]fel[G]der,
+[D]Und der [A]Herbst be[D]ginnt.
+[G]Rote Blätter [C]fallen[E],
+[Am]Graue Nebel [D]wallen, 
+[G]Kühler [D]weht der [G]Wind.
+%[C]Bunt sind schon die [G]Wäl[C]der,
+%[C]Gelb die Stoppel[F]fel[C]der,
+%[G]Und der [C]Herbst be[G]ginnt.
+%[C]Rote Blätter [Am]fallen,
+%[F]Graue Nebel [G]wallen, 
+%[C]Kühler [G]weht der [C]Wind.
+
+Wie die volle Traube
+Aus dem Rebenlaube
+Purpurfarbig strahlt!
+Am Geländer reifen
+Pfirsiche, mit Streifen
+Rot und weiß bemalt.
+
+Dort im grünen Baume
+hängt die blaue Pflaume
+am gebognen Ast.
+Gelbe Birnen winken
+dass die Zweige sinken
+unter ihrer Last.
+
+Welch ein Äpfelregen
+rauscht vom Baum. Es legen
+in ihr Körbchen sie
+Mädchen leicht geschürzet
+und ihr Röckchen kürzet
+sich bis an das Knie.
+
+\columnbreak
+
+Winzer, füllt die Fässer!
+Eimer, krumme Messer,
+Butten sind bereit!
+Lohn für Müh' und Plage
+sind die frohen Tage
+in der Lesezeit!
+
+Unsre Mädchen singen
+und die Träger springen,
+alles ist so froh.
+Bunte Bänder schweben
+zwischen hohen Reben
+auf dem Hut von Stroh.
+
+Flinke Träger springen,
+Und die Mädchen singen,
+Alles jubelt froh!
+Bunte Bänder schweben
+Zwischen hohen Reben
+Auf dem Hut von Stroh.
+
+Geige tönt und Flöte
+Bei der Abendröte
+Und im Mondesglanz;
+Junge Winzerinnen
+Winken und beginnen
+Frohen Erntetanz.
+\end{guitar}
+\end{multicols*}
+
+
+
+\songheader{Wenn alle Brünnlein fließen}{\todo}
+\begin{guitar}
+Wenn [D]alle [A]Brünnlein [D]fließen,
+So [G]muß man [Em]trin-[A]ken
+Wenn [D]ich mein'n [A]Schatz nicht [D]rufen darf,
+Tu [G]ich ihm [Em]win-[A]ken,
+Wenn [A]ich mein'n Schatz nicht [D]rufen darf,
+[A]Ju, ja, [D]rufen darf,
+Tu ich ihm [A]win-[D]ken.
+
+Ja, winken mit den Äugelein,
+Und treten auf den Fuß;
+'s ist eine in der Stube drin,
+Die meine werden muß,
+'s ist eine in der Stube drin,
+Ju, ja, Stube drin,
+Die meine werden muß,
+
+Warum sollt sie's nicht werden,
+Ich hab' sie ja so gern;
+Sie hat zwei blaue Äugelein,
+Die leuchten wie zwei Stern,
+Sie hat zwei blaue Äugelein,
+Ju, ja, Äugelein,
+Die leuchten wie zwei Stern.
+
+Sie hat zwei rote Wängelein,
+Sind röter als der Wein;
+Ein solches Mädel findst du nicht
+Wohl unterm Sonnenschein;
+Ein solches Mädel findst du nicht,
+Ju, ja, findst du nicht,
+Wohl unterm Sonnenschein.
+\end{guitar}
+
+\songheader{Zogen einst fünf wilde Schwäne}{\todo}
+\begin{guitar}
+{\tiny (Jede Zeile wird zweimal gesungen. Das eingeklammerte "`ja"' wird nur beim ersten Mal gesungen.)}
+Es [A]zogen [D]einst [A]fünf wilde [F#m]Schwäne, [D]Schwäne leuchtend [E]weiß und [A]schön.
+[E]Sing, sing, [A]was geschah? [E]Keiner ward mehr [A]gesehen(, ja).
+
+Es zogen einst fünf junge Burschen stolz und kühn zum Kampf hinaus.
+Sing, sing, was geschah? Keiner kam mehr nach Haus(, ja).
+
+Es wuchsen einst fünf junge Birken, schlank und grün an Bachesrand.
+Sing, sing, was geschah! Keine in Blüte stand(, ja).
+
+Es wuchsen einst fünf junge Mädchen schlank und schön am Memelstrand.
+Sing, sing, was geschah? Keine den Brautkranz wand(, ja).
+
+\Repeat{Sing, sing, was geschah? Keine den Brautkranz wand(, ja).}
+\end{guitar}
+
+
+\songheader{Es, es, es und es}{\todo}
+\begin{multicols*}{2}
+\begin{guitar}
+[G]Es, [D]es, [G]es und es,
+Es ist ein [D]harter [G]Schluss,
+Weil, [D]weil, [G]weil und weil,
+weil ich aus [D]Frankfurt [G]muss!
+Drum schlag ich F. [D]aus dem Sinn
+Und [G]wende mich Gott [A]weiß [D]wohin.
+Ich [G]will mein [D]Glück [G]probieren,
+Marsch-[D]ier[G]-en.
+
+Er, er, er und er,
+Herr Meister, leb er wohl!
+Er, er, er und er,
+Herr Meister, leb er wohl!
+Ich sag's ihm grad frei ins Gesicht,
+Seine Arbeit \& sein Lohn gefällt mir nicht.
+Ich will mein Glück probieren,
+Marschieren.
+
+Sie, sie, sie und sie,
+Frau Meistrin leb sie wohl!
+Sie, sie, sie und sie,
+Frau Meistrin leb sie wohl!
+Ihr Essen war so angericht',
+Das fraßen selbst die Schweine nicht
+Ich will mein Glück probieren,
+Marschieren.
+
+\columnbreak
+
+Er, er, er und er,
+Herr Wirt, nun leb er wohl!
+Er, er, er und er,
+Herr Wirt, nun leb er wohl!
+Hätt er die Kreid nicht doppelt geschrieben,
+So wär ich noch länger dageblieben
+Ich will mein Glück probieren,
+Marschieren.
+
+Ihr, ihr, ihr und ihr,
+Ihr Brüder lebet wohl!
+Ihr, ihr, ihr und ihr,
+Ihr Brüder lebet wohl!
+Hab ich euch was zuleid getan
+So bitt' ich um Verzeihung an.
+\Repeat{Ich will mein Glück probieren,
+Marschieren.}
+\end{guitar}
+\end{multicols*}
+
+
+\chapter*{Moderne Balladen}
+\songheader{Andre, die das Land so sehr nicht liebten}{Text: Theodor Kramer \quad Melodie: E. Schmeckenbecher (Zupfgeigenhansel)}
+\begin{guitar}
+[C]Andre, die das Land so sehr nicht [G]liebten,
+[Am]warn von Anfang [F]an gewillt zu [C]gehn' [G];
+[Am]ihnen - manche [F]sind schon fort - [C]ist besser,
+[C]ich doch müßte mit dem eignen [G]Messer
+[Am/F]meine Wurzeln [G]aus der Erde [C]drehn.
+
+Keine Nacht hab ich seither geschlafen,
+und es ist mir mehr als weh zumut;
+viele Wochen sind seither verstrichen,
+alle Kraft ist längst aus mir gewichen,
+und ich fühl, daß ich daran verblut.
+
+Und doch müßt ich mich von hinnen heben,
+sei's auch nur zu bleiben, was ich war.
+Nimmer kann ich, wo ich bin, gedeihen;
+draußen braucht ich wahrlich nicht zu schreien,
+denn mein leises Wort war immer wahr.
+
+Seiner wär ich wie in alten Tagen
+sicher; schluchzend wider mich gewandt,
+hätt ich Tag und Nacht mich nur zu heißen,
+mich samt meinen Wurzeln auszureißen
+und zu setzen in ein andres Land.
+\end{guitar}
+
+\songheader{Mein Michel, was willst du noch mehr?}{Text: um 1918 \quad Melodie: Zupfgeigenhansel}
+\begin{guitar}
+1. [Am]Du hast [G]Batallionen, [Am]Schwadronen
+Batter[C]ien, Ma[G]schinenge[C]wehr
+du [Dm]hast auch die größten [C]Kano[Dm]nen
+\Repeat{[Dm]Mein [Am]Michel, was [Dm/G]willst du noch [Am]mehr}
+
+2. Du hast zwei dutzend Monarchen,
+Lakaien und Pfaffen, ein Heer.
+Da kannst du beseligt schnarchen,
+Mein Michel was willst du noch mehr...
+
+3. Du hast ungezählt Paragraphen,
+deine Gefängnisse werden nicht leer.
+da kannst du in Schutzhaft drin schlafen,
+Mein Michel was willst du noch mehr...
+
+4. Du zahlst die beträchtlichsten Steuern,
+deine Junker plagen sich sehr,
+um dir das Brot zu verteuern,
+Mein Michel was willst du noch mehr...
+
+5. Du hast Kohlrüben und Eicheln,
+und trägst du nach anderm Begehr,
+so kannst du den Bauch dich streicheln,
+Mein Michel was willst du noch mehr...
+
+6. Du darfst exerzieren, marschieren,
+am Kasernenhof, kreuz und die quer,
+und dann für den Kaiser krepieren,
+Mein Michel was willst du noch mehr...
+\end{guitar}
+
+\begin{landscape}
+\songheader{Mit Wunder jetzunder}{Trad. aus :"`Ebermannstädter Liederhandschrift"', 1750}
+\begin{multicols*}{2}
+\begin{guitar}
+[C]Mit Wunder [G]jezunder man [C]sehen kann [G]recht
+[F]wie mancher [C]verachtet das [G]Baurenge[C]schlecht
+[C]er bildet ihm ein, [C]viel besser zu sein
+[C]als Bauren, die bauen [d]das Korn und den [G]Wein
+[C]Wer will nun jetzt [G]zweifeln, wo [C]solches kommt [G]her
+[F]das Kisten und [C]Kasten und [G]Scheuren so [C]leer.
+
+Wann aber ein jeder die Sache bedächt
+wie das wir seynd alle von Baurengeschlecht
+auch kommen seynd her, so würde nun Er
+den Bauren auch geben gebührende Ehr
+Der Kayser, der König, der Bürger im Land
+sich müssen ernähren von's Bauren sein Hand.
+
+Ja! wann man thut hören vom Kriegesgeschrey
+wo nimmt man her Haber? wo nimmt mann her Heu?
+wo nimmt man her Holz? wo nimmt man her Schmalz?
+die Bauren, die müssen herschaffen ja all's
+Wann d'Herren sich raufen, sag: ist es nicht wahr?
+So müssen die Bauren hergeben die Haar.
+
+Wie mancher verachtet die Bauren auf Erd
+vor alters Gott selbsten die Bauren hielt wert
+wie solches man dann schön lesen noch kann
+in heiligen Schriften: drum höret mich an
+der Elisaeus auch ein Bauersmann war
+Gott macht ihn jedoch zum Propheten so gar.
+
+Hat Gott der Herr selbsten kein Bauren veracht
+aus Bauren berühmte Propheten gemacht
+drum jeder denk fein, und bilde ihm ein
+das Er nicht woll besser als Bauersleut seyn
+die Bauren auf Erden seynd Ehrens wohl wert
+die--weil sich ein jeder vom Bauren ernährt.
+\end{guitar}
+\end{multicols*}
+\end{landscape}
+
+\songheader{Wer jetzig Zeiten leben will}{}
+\begin{multicols*}{2}
+\begin{guitar}
+Wer [G]jetzig Zeiten [C]leben [D]will, 
+muss [Am]han ein [D]tapfer [G]Herze.
+Er hat der argen [C]Feind so [D]viel, 
+be-[Am]reiten [D]ihm groß [G]Schmerze.
+
+Da [G]heißt es steh'n ganz [Em]unver-[Am]zagt 
+in [G]seiner blanken [D]Wehre,
+dass [G]sich der Feind nicht [C]an uns [D]wagt, 
+es [Am]geht um [D]Gut und [G]Ehre.
+
+Geld nur regiert die ganze Welt, 
+dazu verhilft Betrügen,
+wer sich sonst noch so redlich hält, 
+muss doch bald unterliegen.
+
+Rechtschaffen hin, rechtschaffen her, 
+das sind nur alte Geigen:
+Betrug, Gewalt und List vielmehr, 
+klag du, man wird dir's zeigen.
+
+\columnbreak
+
+Der Kipper, Teufel und Soldat, 
+die haben itzt Gewalten,
+was sonst noch ist, kein Ansehn hat - 
+wie soll man Recht behalten?
+
+Weg da Gesetz, weg da mit Recht, 
+die können nichts entscheiden.
+Der Klein' ist so des Großen Knecht, 
+so alles muss erleiden.
+
+Doch wie's auch kommt, das arge Spiel: 
+Behalt ein tapfer Herze,
+und sind der Feind' auch noch so viel: 
+Verzage nicht im Schmerze!
+
+Steh selbstbewusst und unverzagt 
+in deiner blanken Wehre:
+Wenn sich der Feind jetzt an uns wagt, 
+es geht um Gut und Ehre!
+\end{guitar}
+\end{multicols*}
+
+\songheader{Die Gedanken sind frei}{}
+\begin{guitar}
+Die [G]Gedanken sind frei, wer [D]kann sie [G]erraten,
+sie eilen vorbei, wie [D]nächtliche [G]Schatten.
+Kein [D]Mensch kann sie [G]wissen, kein [D]Jäger er-[G]schießen.
+Mit [C]Pulver oder [G]Blei: Die [D]Gedanken sind [G]frei!
+
+Ich denke was ich will und was mich beglückt,
+doch alles in der Still', und wie es sich schicket.
+Mein Wunsch und Begehren kann niemand verwehren,
+es bleibet dabei: Die Gedanken sind frei!
+
+Ich liebe den Wein, mein Mädchen vor allen,
+sie tut mir allein am besten gefallen.
+Ich bin nicht alleine bei einem Glas Weine,
+mein Mädchen dabei: Die Gedanken sind frei!
+
+Und sperrt man mich ein in finsteren Kerker,
+das alles sind rein vergebliche Werke.
+Denn meine Gedanken zerreißen die Schranken
+und Mauern entzwei, die Gedanken sind frei!
+
+Drum will ich auf immer den Sorgen entsagen
+und will mich auch nimmer mit Grillen mehr plagen.
+Man kann ja im Herzen stets lachen und scherzen
+und denken dabei: Die Gedanken sind frei!
+\end{guitar}
+
+\songheader{Schließ Aug' und Ohr für eine Weil}{}
+\begin{guitar}
+Schließ [Dm]Aug' und Ohr für [A]eine Weil
+vor [Gm]dem Getös [A]der [Dm]Zeit.
+Du [F]heilst es nicht und [C]hast kein [A]Heil
+als [Dm]wo dein [A]Herz sich [Dm]weiht. 
+
+Dein Amt ist hüten, harren, sehn
+im Tag die Ewigkeit.
+Du bist schon so im Weltgeschehen
+befangen und befreit.
+
+Die Stunde kommt da man dich braucht.
+Dann sei du ganz bereit.
+Und in das Feuer, das verraucht,
+wirf dich als letztes Scheit.
+
+Dein Amt ist Hüten, Harren, Sehen
+In die Ewigkeit.
+So bist du schon im Weltgeschehen
+Befangen und befreit.
+\end{guitar}
+
+
+
+
+\songheader{Das weiche Wasser}{Dieter Dehm}
+\begin{guitar}
+Europa hatte zweimal Krieg
+der dritte wird der letzte sein.
+Gib bloß nicht auf, gib nicht klein bei,
+das weiche Wasser bricht den Stein.
+
+
+Die Bombe, die kein Leben schont,
+Maschinen nur und Stahlbeton.
+Hat uns zu einem Lied vereint
+das weiche Wasser bricht den Stein.
+
+
+Es reißt die schwersten Mauern ein
+und sind wir schwach und sind wir klein,
+wir wollen wie das Wasser sein,
+das weiche Wasser bricht den Stein.
+
+
+Raketen steh'n vor uns'rer Tür,
+die soll'n zu uns'rem Schutz hier sein.
+Auf solchen Schutz verzichten wir,
+das weiche Wasser bricht den Stein.
+
+
+Es reißt die schwersten Mauern ein
+und sind wir schwach und sind wir klein,
+wir wollen wie das Wasser sein,
+das weiche Wasser bricht den Stein.
+
+
+Die Rüstung sitzt am Tisch der Welt,
+und Kinder, die vor Hunger schrei'n,
+für Waffen fließt das große Geld,
+das weiche Wasser bricht den Stein.
+
+
+Komm feiern wir ein Friedensfest,
+und zeigen, wie sich's leben läßt.
+Mensch, Menschen können Menschen sein,
+das weiche Wasser bricht den Stein.
+
+{\tiny "`Das weiche Wasser bricht den Stein"' wurde Ende der 70er / Anfang der 80er Jahre von Dieter Dehm für die Friedensbewegung geschrieben, friedensbewegter Barde der SPD.}
+\end{guitar}
+
+\songheader{Zehn Orks}{Text: Die Streuner, Melodie: Trad. jiddisch}
+\begin{multicols*}{2}
+\begin{guitar}
+Zehn Orks sennen wir gewesen
+Haben wir nit geblieben daheim
+Haben Elfenstamm getroffen
+Sennen wir geblieben neun
+
+Neun Orks sennen wir gewesen
+Haben wir über Zwerg gelacht
+Zwerg der hat nicht mitgelacht
+Sennen wir geblieben acht
+
+\Refraindef
+Grishnak mit große Hammer
+Zorg mit rostig Schwert
+Raufen, Saufen, Schnaufen
+Bis sich nichts mehr wehrt ...
+
+Acht Orks sennen wir gewesen
+Wollten wir Menschenweiber lieben
+Eine sennen Mann gewesen
+Sennen wir geblieben sieben
+
+Sieben Orks sennen wir gewesen
+Wollten wir reiten auf die Besen von die Hex'
+Mauer dort im Weg gestanden
+Sennen wir geblieben sechs
+\Refrain
+
+\columnbreak
+
+Sechs Orks sennen wir gewesen
+Ham' wir ausgezogen unsere Strimpf'
+Einer nit beliftet war
+Sennen wir geblieben finf
+
+Finf Orks sennen wir gewesen
+Haben wir getrunken eigen Bier
+Eins war mit Glykol gepanscht
+Sennen wir geblieben vier
+\Refrain
+
+Vier Orks sennen wir gewesen
+Haben wir gemacht d' Bäume entzwei
+Baum san leider Ent gewesen
+Sennen wir geblieben drei
+
+Drei Orks sennen wir gewesen
+Haben wir gefunden scheenes Ei
+Mütterchen Drach's vorbeigekommen
+Sennen wir geblieben zwei
+\Refrain
+
+Zwei Orks sennen wir gewesen
+Hatten wir zu Essen leider keiner
+Als Briederchen geschlafen hat
+Bin ich mir geblieben einer
+
+Ein Ork bin ich mir gewesen
+Wollt' ich andere Orks zurick
+Seitdem bin ich auf der Suche
+Nach einen guten F...rau
+\Refrain
+\end{guitar}
+\end{multicols*}
+
+
+
+\chapter*{Seemannslieder}
+\songheader{Alle, die mit uns auf Kaperfahrt fahren}{}
+\begin{guitar}
+\Repeat{[Am]Alle, die mit uns auf Kaperfahrt fahren
+[Am]Müssen Männer mit Bärten sein}
+[Am]Jan und Hein und [G]Klaas und [C]Pit - [Am]die haben [G]Bärte, die haben [Am]Bärte
+[Am]Jan und Hein und [G]Klaas und [C]Pit - [Am]die haben Bärte, die [Em]fahren [Am]mit
+
+Alle, die Weiber und Branntwein lieben \ldots
+
+Alle, die mit uns das Walroß töten \ldots
+
+Alle, die Tod und Teufel nicht fürchten \ldots
+
+Alle, die öligen Zwieback lieben \ldots
+
+Alle, die endlich zur Hölle mitfahren \ldots
+
+Alle die Frauen und Branntwein lieben \ldots
+\end{guitar}
+
+\songheader{Hamburger Veermaster}{\todo}
+\begin{guitar}
+Ick heff mol en Hamborger Veermaster sehn, 
+To my ho dae! To my ho dae! 
+De Masten so scheef as den Schipper sien Been, 
+To my ho dae ho dae ho ho ho ho! 
+\Refraindef Blow boys blow for Californio, 
+There is plenty of Gold 
+So I've been told, 
+On the banks of Sacramento. 
+
+Dat Deck weur vun Isen, Vull Schiet uns vull Schmeer. 
+To my ho dae! To my ho dae!
+"`Rein Schipp"' weur den Käpten Sin grötstet Pläseer.
+To my ho dae ho dae ho ho ho ho!
+\Refrain
+
+Dat Logis weur vull Wanzen, De Kombüs weur vull Dreck, 
+To my ho dae, to my ho dae! 
+De Beschüten, de leupen Von sülben all weg. 
+To my ho dae ho dae ho ho ho ho! 
+\Refrain
+
+Dat Soltfleesch weur greun, Un de Speck weur vull Moden. 
+To my ho dae, to my ho dae! 
+Köm gäv dat bloß an Wiehnachtsobend. 
+To my ho dae ho dae ho ho ho ho! 
+\Refrain
+
+Un wulln wi mol seiln, Ick segg dat jo nur, 
+To my ho dae, to my ho dae! 
+Denn leup he dree vorut Und veer wedder retur. 
+To my ho dae ho dae ho ho ho ho! 
+\Refrain
+
+As dat Schipp weur so weur Ok de Kaptein, 
+To my ho dae, to my ho dae! 
+De Lüd for dat Schipp weurn Ok blot schangheit. 
+To my ho dae ho dae ho ho ho ho! 
+\Refrain
+\end{guitar}
+
+\songheader{Spanish Ladies}{}
+\begin{guitar}
+[Am]Farewell and adieu to [C]you, Spanish [Em]Ladies,
+[Am]Farewell and adieu to you, [C]ladies of [Em]Spain;
+[C]For we've received orders for to [Am]sail for old [Em]England,
+But we [Am]hope in a short time to [Em]see you [Am]again.
+
+\Refraindef We will rant and we'll roar like true British sailors,
+We'll rant and we'll roar all on the salt sea.
+Until we strike soundings in the channel of old England;
+From Ushant to Scilly is thirty five leagues.
+
+We hove our ship to with the wind from sou'west, boys
+We hove our ship to, deep soundings to take;
+'Twas forty-five fathoms, with a white sandy bottom,
+So we squared our main yard and up channel did make.
+\Refrain
+
+The first land we sighted was called the Dodman,
+Next Rame Head off Plymouth, Start, Portland and Wight;
+We sailed by Beachy, by Fairlight and Dover,
+And then we bore up for the South Foreland light.
+\Refrain
+
+Then the signal was made for the grand fleet to anchor,
+And all in the Downs that night for to lie;
+Let go your shank painter, let go your cat stopper!
+Haul up your clewgarnets, let tacks and sheets fly!
+\Refrain
+
+Now let ev'ry man drink off his full bumper,
+And let ev'ry man drink off his full glass;
+We'll drink and be jolly and drown melancholy,
+And here's to the health of each true-hearted lass.
+\Refrain
+\end{guitar}
+
+\songheader{Arthur McBride}{Trad. irish / Paul Brady / Bob Dylan}
+\begin{guitar}
+Oh me[G] and my cousin one A[G]rthur McBride
+As we[C] went a-wal[G]king down by[Am7] the seasi[C]de
+A-ma[G]rking what followed and what[G] might betide
+For it being on Christmas mo[D]rning
+And f[G]or recreation we we[G]nt on a tramp
+And we met[C] Sergeant Har[G]per and Cor[Am7]poral [C]Ramp
+And the li[G]ttle wee drummer intending to camp
+For the day being pleasant and cha[D]rming[G].
+
+"`Good morning, good morning"' the Sergeant he cried,
+"`And the same to you gentlemen"' we did reply,
+Intending no harm as we meant to pass by,
+For it being on Christmas morning.
+But says he "`My fine fellows if you will enlist
+It's ten guineas in gold I will slip in your fists.
+And a crown in the bargain for to  kick up the dust
+And drink the King's health in the morning.
+
+For a soldier he leads a very fine life,
+He always is blessed with a charming young wife,
+And he pays all his debts without sorrow and strife,
+And he always lives pleasant and charming.
+And a soldier he always is decent and clean,
+In the finest of clothing he's constantly seen.
+While other poor fellows look dirty and mean,
+And sup on thin gruel in the morning"'
+
+But says Arthur "`I wouldn't be proud of your clothes,
+For you've only the lend of them, as I suppose.
+And you dare not change them one night for you know,
+If you do you'll be flogged in the morning.
+And although that we are single and free,
+We take great delight in our own company,
+And we have no desire strange faces to see,
+Although that your offers are charming.
+And we have no desire to take your advance,
+All hazards and dangers we barter on chance.
+For you would have no scruple for to send us to France,
+Where we would get shot without warning.
+
+"`Oh no,"' says the Sergeant, "`I'll hear no such chat,
+And I never will take it from spalpeen or brat.
+For if you insult me with one other word,
+I'll cut off your heads in the morning."'
+And then Arthur and I we soon drew our odds,
+And we scarce gave them time for to draw their own blades,
+When a trusty shillelagh came over their heads,
+And bade them take that as fair warning.
+
+And their old rusty rapiers that hung by their sides,
+We flung them as far as we could in the tide.
+"`Now take them out, devils,"' cried Arthur McBride,
+"`And temper their edge in the morning"'
+And the little wee drummer we flattened his pouch,
+And we made a foot-bowl of his rowdy-dowd-dowd,
+Threw it in the tide for to rock and to roll,
+And bade it a tedious returning.
+
+And we having no money, paid them off in cracks,
+And we paid no respect to their two bloody backs.
+But we lathered them there like a pair of wet sacks,
+And left them for dead in the morning.
+And so to conclude and to finish disputes,
+We obligingly asked if they wanted recruits,
+For we were the lads who would give them hard clouts,
+And bid them look sharp in the morning.
+\end{guitar}
+
+\songheader{Ich bin ein freier Bauernknecht}{}
+\begin{multicols*}{2}
+\begin{guitar}
+[Gm]Ich bin ein freier [Cm]Bauern[B]knecht
+ob [Eb]mein Stand gleich [F]ist eben [B]schlecht
+So [B]hab ich [F]mich [B]doch ebenso[D] gut
+Als [Gm]einer [D]der am [Gm]Hofe [D]tut
+[g]Trallti[D]ralla
+Ich [Gm]bin doch mein [Cm]eigen
+[Gm]Darf mich vor keinem 
+[Cm]bücken noch [D]nei-[Gm]gen
+
+Trag ich gleich keinen Biberhut
+So ist ein rauer Filz mir gut
+Darauf ein grünen Busch gelegt,
+So wohl als teure Federn steht
+Tralltiralla
+Ich tu es nicht achten 
+Obschon die Hofleut spöttisch drauf lachen. 
+
+Trag ich nicht lange krause Haar 
+Und Pulver drein, das Geld ich spar 
+Der Staub vom Lande weht der Wind
+Des Sommers in mein Haar g'schwind
+Traltiralla
+Drum geh ich gestutzet 
+Obschon mein Haar ist vorn geputzet
+
+\columnbreak
+
+Ich habe auch keinen Rittersitz
+Bin nicht beredt, voll List und Witz
+So hab ich doch ein Bauerngut
+Bin frisch fröhlich doch von Mut
+Traltiralla
+Bin drauf beflissen
+Was einem Bauern dient zu wissen.
+
+Ich bin gar selten krank von Leib 
+Das macht, dass ich d. Pflug oft treib
+Jener aber säuft und frist
+Das macht, dass er so krank oft ist
+Traltiralla
+Bin frischer daneben
+als jene, die am Hofe stets leben.
+
+Was bildet sich der Hofmann ein
+Dass er als ich will besser sein
+Da Adam ackert und Eva spann 
+Wer war damals ein Edelmann
+Taltiralla
+Ich leb alle Morgen 
+Sicher und frei von allen Sorgen.
+\end{guitar}
+\end{multicols*}
+
+
+\songheader{Jeder Traum}{Text: Louis Fürnberg \quad Musik: Pit Budde (Cochise)}
+\begin{guitar}
+[G4]Jeder [G]Traum, an den ich mich verschwendet, 
+Jeder Kampf, wo ich mich nicht geschont, 
+Jeder Sonnenstrahl, der mich geblendet -
+Alles hat am Ende sich gelohnt.
+
+Jedes Feuer, das mein Herz gefangen, 
+Jede Sorge, die mein Herz beschlich -
+War's oft schwer, so ist's ja doch gegangen.
+Narben blieben, doch es lohnte sich.
+
+Unser Leben ist nicht leicht zu tragen.
+Nur wer fest sein Herz in Händen hält, 
+Hat die Kraft, zum Leben Ja zu sagen
+Und zum Kampf für eine neue Welt.
+
+Jeder Tag ist in mein Herz geschlossen,
+Der auch mich zu diesem Dienst beschied.
+Was ich singe, sing ich den Genossen,
+Ihre Träume gehen durch mein Lied.
+\end{guitar}
+
+
+\end{document}
