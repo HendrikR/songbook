@@ -7,7 +7,8 @@
 \usepackage{multicol}
 \usepackage[top=1.2cm, bottom=1.5cm, left=2.0cm, right=0.5cm]{geometry}
 \usepackage{lscape}
-\usepackage{url}
+\usepackage{hyperref}
+\usepackage{xspace}
 
 \pagestyle{plain}
 
@@ -25,12 +26,14 @@
     \vspace{\baselineskip}\par%
 }
 
+\newcommand\Definepart[1]{\textbf{#1}\xspace}
+\newcommand\Repeatpart[1]{\textbf{\ensuremath{\uparrow} #1}\vspace{-1.0\baselineskip}\xspace}
 %\newcommand\songfooter[1]{\par\begin{flushright}\tiny #1\end{flushright}}
 \newcommand\songfooter[1]{\vfill\par\begin{flushright}\tiny #1\end{flushright}}
 %% Abstand vergrößern zwischen Strophen, der ist sonst kaum vom Zeilenabstand zu unterscheiden.
 \renewcommand\guitarEndPar{\par\vspace{1.5\baselineskip}}
-\newcommand\Refrain{\textbf{Refrain}\vspace{-1.0\baselineskip}}
-\newcommand\Refraindef{\textbf{Refrain:}}
+\newcommand\Refrain{\Repeatpart{Refrain}}
+\newcommand\Refraindef{\Definepart{Refrain:}}
 \newcommand\leftrepeat{{\large $|\hspace{-0.2ex}|\hspace{-0.8ex}:\,$}}%TODO
 \newcommand\rightrepeat{{\large $\,:\hspace{-0.8ex}|\hspace{-0.2ex}|$}}%TODO
 \newcommand\Repeat[1]{\leftrepeat #1 \rightrepeat}
@@ -193,16 +196,18 @@ Du hast mir gesagt, daß man Tiere lieben soll
 Und ich warte hier, und ich warte hier
 Auf das Glück und den gestrigen Tag
 
+\Refraindef{
 [D]Wenn du mich liebst, wirst du mich [A]finden
 [D]Verliebte gehn hier immer an den [A]Fluß
 Und [D]du hast mir gesagt, das alles [A]kommt, wie es kommen muß
 Und ich [D]warte hier, und ich [D]warte hier, auf das [D]Glück und den gestrigen [A]Tag
+}
 
 Ich werfe Steine in die Strömung, und schaue ihnen beim Versinken zu
 Du hast mir gesagt, daß man sich nützlich machen soll
 Und ich warte hier, und ich warte hier, auf das Glück und den gestrigen Tag
 
-Wenn du mich liebst ...
+\Refrain: Wenn du mich liebst ...
 
 Ich würde gerne endlich mal was essen
 und die Augen fallen mir von selber zu
@@ -210,7 +215,7 @@ Du hast mir gesagt, daß man nicht locker lassen soll
 Und ich warte hier, und ich warte hier, und ich warte hier,
 auf das Glück und den gestrigen Tag
 
-Wenn du mich liebst ...
+\Refrain: Wenn du mich liebst ...
 \end{guitar}
 
 \songheader{Wer ich wirklich bin}{Element of Crime}
@@ -492,7 +497,6 @@ Ich werd nie mehr so rein und so dumm sein wie weißes Papier
 \begin{guitar}
 [Am]Leichen im Keller, Beton im Gemüt
 Und [Dm]viel zu lang schon allein
-
 Beim [C]Essen ein Schwein, beim Trinken ein Loch ohne [Dm]Grund
 Und auch [C]dich hab ich bisher nur selten [Dm]verstanden
 Ganz [C]leicht, ganz [E]leicht wird es [Am]nicht[Dm].
@@ -528,18 +532,18 @@ Die [C]Perfektion der besten Art und [Em]Weise,
 [C]bergauf, mein Antrieb und [Em]Schwung.
 
 [D]Ich wollte dir [Am]nur mal eben sagen,
-dass du [C]das Größte für mich [E]bist.
+dass du [C]das Größte für mich [Em]bist.
 [D]und sichergehen, [Am]ob du denn dasselbe
-für mich [C]fühlst, für mich [E]fühlst.
+für mich [C]fühlst, für mich [Em]fühlst.
 
-Wenn man so will, 
-bist du meine Chill-Out Area, 
-meine Feiertage in jedem Jahr, 
-meine Süßwarenabteilung im Supermarkt. 
-Die Lösung, wenn mal was hakt, 
-so wertvoll, dass man es sich gerne aufspart, 
-und so schön,
-dass man nie darauf verzichten mag.
+[D]Wenn man so will, 
+bist [Am]du meine Chill-Out Area,
+meine [C]Feiertage in jedem Jahr,
+[Em]meine Süßwarenabteilung im Supermarkt.
+[D]Die Lösung, [Am]wenn mal was hakt,
+[Am]so wertvoll, dass man es sich gerne [C]aufspart,
+[C]und so schön,
+[C]dass man [Em]nie darauf verzichten mag.
 
 Chorus 2x
 \end{guitar}
@@ -557,74 +561,18 @@ il massimo per [Em]me.
 [D]e star sicuro [Am]che hai la stessa idea,
 [C]su di me, su di [Em]me.
 
-Chiamati se vuoi,
-la mia chill-out-area,
-una vacanza che non se ne va,
-un frigo pieno di gelati alla spiaggia,
-la soluzione se qualcosa va storto,
-così preziosa che la tengo nascosta
-e così bella
-che non vorrei mai farne a meno.
+[D]Chiamati se vuoi,
+la [Am]mia chill-out-area,
+[C]una vacanza che non se ne va,
+un [Em]frigo pieno di gelati alla spiaggia,
+[D]la soluzione se [Am]qualcosa va storto,
+[Am]così preziosa che la tengo [C]nascosta
+[C]e così bella
+[C]che non vor[Em]rei mai farne a meno.
 
 Chorus 2x
 \end{guitar}
 \end{minipage}
-
-\songheader{Ein Kompliment/Un Complimento}{Sportfreunde Stiller}
-\begin{multicols*}{2}
-\begin{guitar}
-[D]Wenn man so will,
-bist [Am]du das Ziel einer langen Reise. 
-Die [C]Perfektion der besten Art und [Em]Weise, 
-[Em]in stillen Momenten leise, 
-[D]Schaumkrone der [Am]Woge der Begeisterung
-[C]bergauf, mein Antrieb und [Em]Schwung.
-
-[D]Ich wollte dir [Am]nur mal eben sagen,
-dass du [C]das Größte für mich [E]bist.
-[D]und sichergehen, [Am]ob du denn dasselbe
-für mich [C]fühlst, für mich [E]fühlst.
-
-Wenn man so will, 
-bist du meine Chill-Out Area, 
-meine Feiertage in jedem Jahr, 
-meine Süßwarenabteilung im Supermarkt. 
-Die Lösung, wenn mal was hakt, 
-so wertvoll, dass man es sich gerne aufspart, 
-und so schön,
-dass man nie darauf verzichten mag.
-
-Chorus 2x
-
-\columnbreak
-
-[D]Chiamati se vuoi,
-la fine di un [Am]tragitto lungo,
-[C]perfetta sotto ogni [Em]aspetto
-[Em]e lieve nei momenti di silenzio,
-[D]la cresta dell' [Am]ondata di passione,
-in [C]salita la mia spinta in [Em]propulsione.
-
-[D]Ascoltami, [Am]volevo solo dirti che [C]tu sei,
-il massimo per [Em]me.
-[D]e star sicuro [Am]che hai la stessa idea,
-[C]su di me, su di [Em]me.
-
-Chiamati se vuoi,
-la mia chill-out-area,
-una vacanza che non se ne va,
-un frigo pieno di gelati alla spiaggia,
-la soluzione se qualcosa va storto,
-così preziosa che la tengo nascosta
-e così bella
-che non vorrei mai farne a meno.
-
-Ascoltami, volevo solo dirti che tu sei,
-il massimo per me.
-e star sicuro che tu hai la stessa idea
-su di me, su di me.
-\end{guitar}
-\end{multicols*}
 
 
 \newpage\section{International}
@@ -701,7 +649,7 @@ Intro / Zwischenspiel: B -- F -- Dm -- C -- C\sus4 -- C -- B
 We can [B]beat the sun as [C]long as we keep [Dm]moving
 [B]From the [F]air, [Dm]stadium lights stand [C]out like flares
 And [C]all I know is that [C\sus4]you're [C]sat here right [B]next to me
-We rarely see warning signs in the air we breathe
+[B]We rarely [F]see warning signs in the air we breathe
 Right now I feel each and every fragment
 
 [B]This paper trail [C]leads right [Dm]back to you[C], [B]You say you need me to [C]step out-[Dm]side

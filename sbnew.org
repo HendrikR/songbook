@@ -1,0 +1,586 @@
+* DONE Heroes del Silencio: Entre dos Tierras {1990}
+\Definepart{Intro:} [Hm]\quad[G]\quad[Hm]\quad[A]
+\quad[Hm]\quad[F#m]\quad[Em]\quad[G]\quad
+
+Te [Hm]puedes ven[F#m]der,
+[Em]cualquier [G]ofertas buena
+si [Hm]quieres po[F#m]der. [Em]Oo-[G]ohhh
+I [Hm]Que facil [F#m]es,
+[Em]abir tan[G]to la boca
+[Hm]para o[F#m]pinar [Em]y
+si te [GGG]piensas e[Hm]char [F#m]atras
+[Em]tienes muchas [G]huellas que [Hm]borrar [F#m]dddarrr, [Em]Hmmm[G]mm:
+
+\Refraindef{
+deja[Hm]me, que [D]yo no tengo la [G]culpa de verte [Hm]caer
+si [D]yo no tengo la [G]culpa de verte [Hm]caer.
+}
+
+\Repeatpart{Intro}
+
+Pi[Hm]erdes la [F#m]fe,
+[Em]cualquier esper[G]anza es vana
+[Hm]no se que [F#m]creer[Em];
+[GGG]ppp- [Hm]pero [F#m]olvidame
+que [Em]nadie te ha [G]amado
+y ya es[Hm]tas [F#m]otra vez, [Em]Hmmm[G]mm:
+
+\Refrain
+
+\Definepart{Zwischenspiel:}
+[F]Entre dos [Cm]tierras [Gm]estas
+y no dejas [Cm]aire que re[Gm]spirar  ohoho
+[F]Entre dos [Cm]tierras [Gm]estas
+y no dejas [Cm]aire que [G]respirar
+
+De[Hm]jalo [F#m]ya,
+[Em]no seas mem[G]brillo y
+per[Hm]mite pa[F#m]sar [Em]\ [GGG]y si no piensas e-
+[Hm]char [F#m]atras
+[Em]tienes mucho [G]barro que [Hm]tragar        [F#m]oohoho[Em]\quad[G]
+
+\Refrain
+\Zwischenspiel
+
+\Definepart{Solo:}
+
+2x verses ( Hm F#m Em G)
+muted:          Hm  A  G   F#m   Hm
+                F#m  D  G   ->   Hm  A
+2x verses ( Hm F#m Em G)
+Hm   A  ->  F#m
+
+\Refrain
+\Zwischenspiel
+* DONE The Police: So lonely {Outlandos d'Amour, 1978}
+[C]Well, 	[G]someone told me 	[Am]yester-	[F]day
+[C]that 	[G]when you throw your 	[Am]love a	[F]way
+[C]you  	[G]act as if you 	[Am]just don´t 	[F]care,
+[C]you  	[G]look as if you´re 	[Am]going some	[F]where.
+[C]But  	[G]I just can´t con-	[Am]vince my	[F]self,
+[C]I    	[G]couldn´t live with 	[Am]noone 	[F]else
+[C]and  	[G]I can only   	[Am]play that 	[F]part
+[C]and  	[G]sit and nurse my 	[Am]broken 	[F]heart. So lonely!
+
+\Repeat[4]{[C]So lonely, [G]so lonely, [Am]so lonely[F]!}
+
+[C]Now  	[G]noone´s knocked up	[Am]on my 	[F]door
+[C]for a 	[G]thousand years or 	[Am]maybe 	[F]more.
+[C]All  	[G]made up and no  	[Am]where to	[F]go,
+[C]welcome	[G]to this      	[Am]one man	[F]show.
+[C]Just 	[G]take a seat, they´re	[Am]always 	[F]free,
+[C]     	[G]no surprise, no 	[Am]myste-	[F]ry.
+[C]In this 	[G]theatre that I 	[Am]call my 	[F]soul
+[C]I    	[G]always play the 	[Am]starring 	[F]role. So lonely!
+
+\Repeat[4]{[C]So lonely, [G]so lonely, [Am]so lonely[F]!}
+* DONE The Police: Walking on the Moon {Regatta de blanc, 1979}
+[Dm|Am]Giant steps are what you take [B|F]walking on the [C|G]moon
+[Dm|Am]I hope my legs don't break [B|F]walking on the [C|G]moon
+[Dm|Am]We could walk forever [B|F]walking on the [C|G]moon
+[Dm|Am]We could be together [B|F]walking on, walking [C|G]on the moon[Dm|Am]\ 
+
+Walking back from your house walking on the moon
+Walking back from your house walking on the moon
+Feet they hardly touch the ground walking on the moon
+My feet don't hardly make no sound walking on, walking on the moon
+
+\Refraindef
+[B|F]Some may [F|C]say I'm [C|G]wishing my [Gm|Dm]days away
+[B|F]No way [F|C]and [C|G]if it's the [Gm|Dm]price I pay
+[B|F]Some say [F|C]to[C|G]morrow's an[Gm|Dm]other day
+[B|F]You stay [F|C]I may as [C|G]well play
+
+1. Strophe wiederholen
+
+\Refrain
+
+\Repeat[$\infty$]{[Dm|Am]Keep it up [B|F]\quad[C|G]}
+* DONE Nick Cave: Where The Wild Roses Grow {Murder Ballads, 1996}
+Eventuell auf 2 Spalten verteilen, so dass He/Elisa je in 1 Spalte landen.
+
+They [Gm]call me The [Cm]Wild 	Rose
+[Gm]But my [B]name was Elisa [D]Day
+Why they [Gm]call me it I do not [Cm]know
+[Gm]For my name was [F]Elisa [Gm]Day
+
+\textbf{He:}
+From the [Gm]first day I saw her I knew [B]she was the one
+As she [Cm]stared in my eyes and  [D]smiled
+For her [Gm]lips were the color of the [B]roses
+They [Cm]grew down the river, all [D]bloody and wild
+\Refrain
+
+\textbf{Elisa:}
+When he knocked on my door and entered the room
+My trembling subsided in his sure embrace
+He would be my first man, and with a careful hand
+He wiped the tears that ran down my face
+\Refrain
+
+\textbf{He:}
+On the second day I brought her a flower
+She was more beautiful than any woman I'd seen
+I said, "Do you know where the wild roses grow
+So sweet and scarlet and free?"
+\Refrain
+
+\textbf{Elisa:}
+On the second day he came with a single rose
+Said: "Will you give me your loss and your sorrow?"
+I nodded my head, as I lay on the bed
+He said, "If I show you the roses will you follow?"
+\Refrain
+
+\textbf{Elisa:}
+On the third day he took me to the river
+He showed me the roses and we kissed
+And the last thing I heard was a muttered word
+As he stood smiling above me with a rock in his fist
+\Refrain
+
+\textbf{He:}
+On the last day I took her where the wild roses grow
+And she lay on the bank, the wind light as a thief
+As I kissed her goodbye, I said, "All beauty must die"
+And I lent down and planted a rose between her teeth
+
+\textbf{Elisa:}
+They call me The Wild Rose
+But my name was Elisa Day
+Why they call me it I do not know
+\Refrain
+
+\Repeat[3]{For my name was Elisa Day}
+* DONE Johnny hates Jazz: Shattered Dreams {Shattered Dreams, 1987}
+[Am]So much for your [Em]promises
+They died the [F]day you let me [Dm]go
+[Am]Caught up in a [Em]web of lies
+But it was [F]just too late to [Dm]know
+
+[G]I thought it was [D]you
+Who would stand [F]by my [Dm]side
+
+\Refraindef
+And now you've [Am]given me, [G]given me
+Nothing but [F]shattered dreams, shattered [Dm]dreams
+Feel like I could [Am]run away, run a[G]way
+From this empty [F]heart[Dm]\ 
+[Am]\quad[G]You said you'd [F]die for [Dm]me
+
+[Am]Woke up to re[Em]ality
+And found the [F]future not so [Dm]bright
+[Am]I dreamt the im[Em]possible
+That maybe [F]things could work out [Dm]right
+[G]I thought it was [D]you
+Who would do [F]me no [Dm]wrong
+
+\Refrain
+* DONE Johnny Cash/NiN: Hurt {American VI: The man comes around, 2002}
+\textbf{Vor-/Zwischenspiel:}
+\Repeat{Am C D}
+
+I [C]hurt my[D]self to[Am]day       \quad to [C]see if [D]I still [Am]feel
+I focus on the pain       \quad the only thing that's real.
+The needle tears a hole,  \quad the old familiar sting,
+Try to kill it all away,  \quad but I remember everything.
+
+\Refraindef
+[C]What have I be[D]come,       \quad [C]my sweetest [G]friend?
+[C]Everyone I [D]know           \quad goes a[C]way in the [G]end.
+And [Am]you could have it [C]all,\quad [G]my empire of dirt.
+[Am]I will let you [C]down,      \quad [G]I will make you [Am]hurt.
+
+\textbf{Zwischenspiel}
+
+I wear this crown of thorns \quad upon my liar's chair.
+Full of broken thoughts     \quad I cannot repair.
+Beneath the stain of time   \quad the feeling disappears.
+You are someone else        \quad I am still right here.
+
+\Refrain
+\textbf{Zwischenspiel}
+
+If I could start again      \quad a million miles away,
+I would keep myself         \quad I would find a way.
+* DONE Subway to Sally: Sieben {Nord-Nordost, 2005}
+Ich [Am]habe sieben Nägel,
+Die [Am]schlag ich für dich ein,
+Und [F]schling dir sieben Ketten
+Um [G]Hüfte, Arm und Bein.
+Mein [Am]Haus hat sieben Türen,
+Ich [Am]sichre mein Versteck
+Mit [F]siebenfachen Schlössern,
+und die [G]Schlüssel werf ich weg.
+
+Und [Am]nicht eins, nicht zwei, nicht [G]drei und vier, nicht [G]fünf mal still ich [Am]meine Gier,
+auch [F]sechs ist nicht ge[G]nug
+
+\Refraindef
+[Am]Sieben mal flecht ich dein [G]Haar um den alten Apfelbaum
+[Am]Sieben Mal und es wird [G]wahr
+[G]Du hast keine Wahl
+Denn die [Am]Sie-[G]ben ist meine [Am]Zahl.
+
+Zwischenspiel: Am G C F Am G Am
+
+Ich [Am]habe sieben Hunde 
+die [Am]wachen vor dem Haus 
+und [F]sieben Raben singen 
+ihr [G]Lied Tag ein, Tag aus
+
+Und [Am]nicht eins, nicht zwei, nicht [G]drei und vier, nicht [G]fünf mal still ich [Am]meine Gier,
+auch [F]sechs ist nicht ge[G]nug
+
+\Refrain
+
+[Am]\quad[G]\quad[C]Sieben [F]Mal! [Am]\quad[G]Du hast [C]keine [F]Wahl! 
+denn die [Am]Sie-[G]ben ist meine [Am]Zahl.
+
+Zwischenspiel:
+[F]Sieben Lieben [G]sind gekommen 
+[Am]keine ist mir lang geblieben 
+[F]sechs mal hab ichs [G]hingenommen 
+[Am]doch du bist die Nummer Sieben! 
+[F]Sie-[G]ben ist die [Am]Zahl...
+
+\Refrain
+denn 
+\Refrain
+
+[Am]\quad[G]\quad[C]Sieben [F]Mal! [Am]\quad[G]Du hast [C]keine [F]Wahl! 
+denn die [Am]Sie-[G]ben ist meine [Am]Zahl.
+* DONE Subway to Sally: Auf Kiel {Bastard, 2007}
+[Am]Ich hab mein Boot auf Kiel gelegt,
+[C]vertäut nach allen [F]Regeln.
+[Am]Ich hab das Meer vom Rumpf gefegt,
+[C]nahm Wind aus seinen [F]Segeln,
+[Dm]zerbrach die Ruder und das Schwert,
+[Dm]ließ alle Lasten [B]löschen,
+ nun liegt es fest und [D#]unbeschwert,
+ so fest und [D]unbeschwert.
+
+[Am]Nur manchmal, [C]wenn der Südwind [Em]weht
+und [G]wildes Fernweh [Am]durch mich geht
+wie [C]schauerliche [D]Stürme,
+dann sehn ich mich [F]wieder [G]nach der [Am]See.
+
+Auf Kiel gelegt hab ich mein Boot,
+es faulen bald die Planken,
+die Ratten gingen längst von Bord,
+und alle Anker sanken.
+Mein Boot liegt fest und will nicht fort,
+liegt fest und will nicht fort.
+
+Nur manchmal, wenn der Südwind weht
+und wildes Fernweh durch mich geht
+wie schauerliche Stürme,
+dann sehn ich mich wieder nach der See.
+
+[Am]Ein Sturm zieht auf, [C]ich steh an Deck,
+[D]die Seeluft schmeckt nach [F]Re[Em]gen,
+[Am]der Himmel streckt die [C]Hände aus,
+[D]ich stemm’ mich ihm ent[F]ge[Em]gen.
+
+Nur manchmal, wenn der Südwind weht
+und wildes Fernweh durch mich geht
+wie schauerliche Stürme
+
+Nur manchmal, wenn der Südwind weht
+und wildes Fernweh durch mich geht
+wie schauerliche Stürme,
+dann sehn ich mich wieder nach der See.
+* PEND Subway to Sally: Umbra {Bastard, 2007}
+[Am]Ich komme aus dem [Em]Schatten,
+wo meine Wiege [F]stand,
+[F]bot eine dunkle [Em]Wolke
+dem [Em]Zwielicht ihre [Am]Hand.
+
+Auf allen Wänden tanzten
+die Schemen um mich her,
+ich las in ihren Rätseln
+mein Schicksal und Begehr.
+
+\Refraindef
+Wo[C]hin ich auch [D]immer geh, [Am]ich meide [C]stets das [Hm7]Licht,
+[Am]ich traue [C]keinem Schatten [F]und auch dem eigenen nicht.
+Wo[C]hin ich auch [D]immer geh, [Am]ich meide [C]stets das [Hm7]Licht,
+[Am]ich traue [C]keinem Schatten [F]und auch dem eigenen nicht.
+
+
+ Ich komme aus dem Schatten,
+ ich lebte vom Verzicht
+ und nährte mich von Träumen,
+ niemand sah je mein Gesicht.
+
+ Es schauderte die Menschen
+ in meiner Gegenwart,
+ sie jagten mich mit Fackeln,
+ zu fremd war ihnen meine Art.
+
+\Refrain
+
+ Ich stell mich in den Schatten,
+ werf keinen je voraus
+ und werf ihn nicht auf andre,
+ die Nacht ist mein Zuhaus.
+
+\Refrain
+* TODO Subway to Sally: Meine Seele brennt {Bastard, 2007}
+Jemand hat die Feuer brennen lassen
+Und sie brennen tief bis in die Nacht
+Flammenfinger die nach Reisig fassen
+Haben Feuergarben angefacht
+
+Jemand hat den heißen Stahl vergossen
+Hat dabei nicht lange nachgedacht 
+Flackernd steigen Feuersäulen
+Blutig rot hinauf ins All
+Und wie Glas zerspringt der Himmel
+Sterne fallen überall
+
+Der Mond ist rot vom Sternenblut
+Und auch in mir ist Fieberglut
+Es glüht das ganze Firmament
+Das kommt weil meine Seele brennt
+
+Jemand hat den Himmel angezündet
+Hat dabei die Nacht zum Tag gemacht
+Ich bin von diesem Glanz erblindet
+Dieses Licht hat mich entfacht
+Bis ich ausgebrannt verlösche
+Werd ich brennen diese Nacht
+
+Der Mond ist rot vom Sternenblut
+Und auch in mir ist Fieberglut
+Es glüht das ganze Firmament
+Das kommt weil meine Seele brennt
+
+Doch aus Glut und weißer Asche
+So ist es mir zugedacht
+Werd ich heute neu geboren
+Auferstehen diese Nacht
+
+Der Mond ist rot vom Sternenblut
+Und auch in mir ist Fieberglut
+Es glüht das ganze Firmament
+Das kommt weil meine Seele brennt
+* DONE Subway to Sally: So Rot {Herzblut, 2001}
+[Esus4]Stand sie da im [Esus4_G]roten Kleid
+[Hm]Augen so weit [Em]im [Asus4]roten [Hm]Kleid
+[F#m]so stand sie da
+[Esus4]sah mich an, [Esus4_G]Wangen so rot
+das [Hm]Feuer loht
+[Em]die [Asus4]Wangen [Hm]rot, [F#m]sah sie mich an.
+
+\Refraindef
+Da [G]hab ich [Asus4]sie be[Hm]rührt  	 
+hab [G]ihre [A]Angst ge[Em]spürt	 
+zu[G]viel ge[A]litten [Hm]und zuviel ge[F#m]wusst	 
+
+[Esus4]ihr roter Mund [Esus4_G]hat geglüht
+war [Hm]aufgeblüht, [Em]hat [Asus4] so ge[Hm]glüht
+[F#m]ihr roter Mund
+[Esus4]kam der Tag im [Esus4_G]Morgenrot
+ein [Hm]kleiner Tod [Em]im [Asus4]Morgen[Hm]rot
+[F#m]so kam der Tag
+
+\Refrain
+
+* DONE Dire Straits: So far away {Brothers in Arms, 1985}
+Vor-/Zwischenspiel: E/C B/G A/F E/C
+[E/C]Here I am again in this [B/G]mean old town -- and you're so far a[E/C]way from me.
+Now [E/C]where are you when the [B/G]sun goes down -- and you're so far a[E/C]way from me.
+
+\Refraindef{
+[A/F]So far a[C#/Dm]way from me, [B/G]so far I [E/C]just can't see.
+[A/F]So far a[C#/Dm]way from me, [B/G]just so [A/F]far from [E/C]me.
+E/C B/G A/F E/C
+}
+
+I'm tired of bein in love and bein all alone -- when you're so far away from me
+I'm tired of making out on the telephone -- cus you're so far away from me
+\Refrain
+
+And I get so tired when I have to explain -- you're so far away from me.
+See you be in the sun and I be in the rain -- and you're so far away from me.
+\Refrain
+* TODO Dire Straits: Walk of Life
+
+E	A	B	A	B	E
+Here comes Johnny singing oldies, goldies  Be-Bop-A-Lula, Baby What I Say
+Here comes Johnny singing I Gotta Woman
+Down in the tunnels, trying to make it pay
+ 	A	E
+ 	He got the action, He got the motion    	Yeah the boy can play
+ 	A	E
+ 	Dedication, devotion   	Turning all the night time into the day
+ 	E	B
+ 	He do the song about the sweet lovin' 	woman
+ 	E	A
+He do the 	song about the knife	 
+ 	E7	B	A	B	E	A	B	A	B
+He do the 	walk,	 he do the walk of 	life. Yeah	, he do the walk of 	life	 	 	 	 
+ 	E
+ 	Here comes Johnny and he'll tell you the story
+Hand me down my walkin' shoes
+Here come Johnny with the power and the glory
+Backbeat the talkin' blues
+ 	A
+ 	He got the action, He got the motion
+ 	E
+ 	Yeah the boy can play
+ 	A
+ 	Dedication, devotion
+ 	E
+ 	Turning all the night time into the day
+ 	E	B
+ 	He do the song about the sweet lovin' 	woman
+ 	E
+He do the 	song about the knife
+ 	E7	B	A	B	E	A	B	A	B
+He do the 	walk	, he do the walk of 	life.  	Yeah, he do the walk of 	lif	e	 	 	 
+ 	E
+ 	Here comes Johnny singing oldies, goldies  Be-Bop-A-Lula, Baby What I Say
+Here comes Johnny singing I Gotta Woman
+Down in the tunnels, trying to make it pay
+ 	A
+ 	He got the action, He got the motion
+ 	E
+ 	Yeah the boy can play
+ 	A
+ 	Dedication, devotion
+ 	E
+ 	Turning all the night time into the day
+ 	E	B
+ 	And after all the violence and 	double talk
+ 	E	A
+There's just a 	song in all the trouble and the 	strife
+ 	E7	B	A	B	E	A	B	A	B
+You do the 	walk	, you do the walk of 	life. Yea	h, you do the walk of 	lif	e	 	 	 
+
+* PEND Dire Straits: Brothers in Arms
+
+\Definepart{Intro/Zwischenspiel:}
+[Em C Am Am Em_G Em_{F#}]\quad
+
+These mist covered [E|C]mountains	 
+ [F#|D]Are home now for [H|G]me
+But my [D#m|Hm]home is the [G#m|Em]low[D#m|Hm]lands	 
+And always will [E|C]be[D]
+[D]Someday you'll re[Em]turn to[Hm]
+Your [Hm]valley and your [C]farms[D]
+And you'll [D]no longer [Em]burn
+To be [C]brothers in [D]arms	 
+
+\Usepart{Zwischenspiel}
+
+ 	D#m(A	E	F#
+Through these fi	elds of de	structio	n
+ 	B	Bsus4	B
+Baptisms of f	ire	 	 
+ 	D#m(A	G#m	D#m
+I've w	atched all your su	ffering	 
+ . E F#sus4 F#
+As the battles raged higher
+ 	G#m	D#m
+And though they did 	hurt me so b	ad
+ 	E	C#m	F#sus4
+In the fear and al	arm	 	 
+ 	F#	G#m
+You 	did not d	esert me
+ 	E	F#
+My bro	thers in 	arms
+
+
+------------------------
+G: G#m / E / C#m / E / G#m / E / C#m / C#m -E-F#/ G#m sus2 etc
+
+
+-------------------------
+ 	G#m	F#	G#m	F#
+ 	There's so 	many different w	orlds	 
+ 	B	E
+So 	many different s	uns
+ 	F#	G#m	F#
+And 	we have just one 	world	 
+ 	B	E	E
+But we l	ive in differe	nt ones	 
+
+
+-----------------------------
+G: G#m / E / C#m / E / G#m / E / C#m / C#m -E-F#/ G#m sus2 etc
+
+
+-----------------------------
+ 	D#m(A	E	F#
+Now the 	sun's gone to 	hell	 
+ 	B	Bsus4	B
+And the moon's riding h	igh	 	 
+ 	D#m(A	G#m	D#m
+Let me b	id your fare	well	 
+ 	E
+Everyman has to d	ie
+ 	G#m	D#m
+But its written in the st	arlight	 
+ 	E	C#m	F#sus4
+ANd every line on your p	alm	 	 
+ 	F#	G#m
+We're fo	ols to make w	ar
+ 	E	F#
+On our b	rothers in a	rms
+
+
+---------------------------------
+: G#m / E / C#m / E
+: G#m / E / C#m / E-F#
+: G#m / E / C#m / E
+: G#m / E / C#m / E-F# etc
+fade.
+
+
+------------------------------------------------------------
+* TODO Portal?: Still alive
+This was a triumph. 
+I'm making a note here: 
+"Huge Success" 
+It's hard to overstate my satisfaction. 
+Aperture Science. We do what we must, because we can, 
+For the good of all of us, except the ones who are dead.
+
+But there's no sense crying over every mistake. 
+You just keep on trying 'till you run out of cake. 
+And the science gets done, and you make a neat gun 
+for the people who are still alive.
+
+I'm not even angry. 
+I'm being so sincere right now. 
+Even though you broke my heart and killed me. 
+And tore me to pieces, 
+and threw every piece into a fire. 
+As they burned it hurt because I was so happy for you. 
+Now these points of data make a beautiful line 
+and we're off the beta, we're releasing on time.
+
+So I'm glad I got burned, 
+think of all the things we learned 
+for the people who are still alive.
+
+Go ahead and leave me. 
+I think I prefer to stay inside. 
+Maybe you'll find someone else, to help you. 
+Maybe Black Mesa. 
+That was a joke. Haha. Fat chance. 
+Anyway, this cake is great. 
+It's so delicious and moist. 
+Look at me still talking when there's science to do. 
+When I look up there it makes me glad I'm not you. 
+I've experiments to run, 
+there is research to be done on the people who are still alive.
+
+And believe me I am still alive. 
+I'm doing science and I'm still alive. 
+I feel fantastic and I'm still alive. 
+While you're dying I'll be still alive. 
+And when you're dead I will be, still alive. 
+Still alive, still alive.
