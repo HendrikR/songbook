@@ -326,7 +326,7 @@ Wo[C]hin ich auch [D]immer geh, [Am]ich meide [C]stets das [Hm7]Licht,
  die Nacht ist mein Zuhaus.
 
 \Refrain
-* TODO Subway to Sally: Meine Seele brennt {Bastard, 2007}
+* NOPE Subway to Sally: Meine Seele brennt {Bastard, 2007}
 Jemand hat die Feuer brennen lassen
 Und sie brennen tief bis in die Nacht
 Flammenfinger die nach Reisig fassen
@@ -388,22 +388,24 @@ ein [Hm]kleiner Tod [Em]im [Asus4]Morgen[Hm]rot
 \Refrain
 
 * DONE Dire Straits: So far away {Brothers in Arms, 1985}
-Vor-/Zwischenspiel: E/C B/G A/F E/C
-[E/C]Here I am again in this [B/G]mean old town -- and you're so far a[E/C]way from me.
-Now [E/C]where are you when the [B/G]sun goes down -- and you're so far a[E/C]way from me.
+Vor-/Zwischenspiel: C G F C
+[C]Here I am again in this [G]mean old town -- and you're so far a[C]way from me.
+Now [C]where are you when the [G]sun goes down -- and you're so far a[C]way from me.
 
 \Refraindef{
-[A/F]So far a[C#/Dm]way from me, [B/G]so far I [E/C]just can't see.
-[A/F]So far a[C#/Dm]way from me, [B/G]just so [A/F]far from [E/C]me.
-E/C B/G A/F E/C
+[F]So far a[Dm]way from me, [G]so far I [C]just can't see.
+[F]So far a[Dm]way from me, [G]just so [F]far from [C]me.
+C G F C
 }
 
-I'm tired of bein in love and bein all alone -- when you're so far away from me
-I'm tired of making out on the telephone -- cus you're so far away from me
+I'm [C]tired of bein in love and bein [G]all alone -- when you're so far a[C]way from me
+I'm [C]tired of making out on the [G]telephone -- cus you're so far a[C]way from me
+
 \Refrain
 
-And I get so tired when I have to explain -- you're so far away from me.
-See you be in the sun and I be in the rain -- and you're so far away from me.
+And [C]I get so tired when I [G]have to explain -- you're so far a[C]way from me.
+[C]See you be in the sun and I [G]be in the rain -- and you're so far a[C]way from me.
+
 \Refrain
 * TODO Dire Straits: Walk of Life
 
@@ -459,15 +461,14 @@ There's just a 	song in all the trouble and the 	strife
  	E7	B	A	B	E	A	B	A	B
 You do the 	walk	, you do the walk of 	life. Yea	h, you do the walk of 	lif	e	 	 	 
 
-* PEND Dire Straits: Brothers in Arms
-
+* DONE Dire Straits: Brothers in Arms
 \Definepart{Intro/Zwischenspiel:}
-[Em C Am Am Em_G Em_{F#}]\quad
+[Em C Am Am_G Am_{F#}]\quad
 
-These mist covered [E|C]mountains	 
- [F#|D]Are home now for [H|G]me
-But my [D#m|Hm]home is the [G#m|Em]low[D#m|Hm]lands	 
-And always will [E|C]be[D]
+These mist covered [C]moun[D]tains	 
+ [D]Are home now for [G]me
+[Hm]But my home is the [Em]low[Hm]lands	 
+And always will [C]be[D]
 [D]Someday you'll re[Em]turn to[Hm]
 Your [Hm]valley and your [C]farms[D]
 And you'll [D]no longer [Em]burn
@@ -475,71 +476,35 @@ To be [C]brothers in [D]arms
 
 \Usepart{Zwischenspiel}
 
- 	D#m(A	E	F#
-Through these fi	elds of de	structio	n
- 	B	Bsus4	B
-Baptisms of f	ire	 	 
- 	D#m(A	G#m	D#m
-I've w	atched all your su	ffering	 
- . E F#sus4 F#
-As the battles raged higher
- 	G#m	D#m
-And though they did 	hurt me so b	ad
- 	E	C#m	F#sus4
-In the fear and al	arm	 	 
- 	F#	G#m
-You 	did not d	esert me
- 	E	F#
-My bro	thers in 	arms
+Through these fields of de[C]struc[D]tion
+[D]Baptisms of [G]fire
+[Hm]I've watched all your [Em]suffe[Hm]ring
+As the battles raged [C]higher[D]
+And though they did [Em]hurt me so [Hm]bad
+In the fear and a[C]larm[D]
+You [D]did not de[Em]sert me
+My [C]brothers in [D]arms
 
+\Usepart{Zwischenspiel}
 
-------------------------
-G: G#m / E / C#m / E / G#m / E / C#m / C#m -E-F#/ G#m sus2 etc
+There's so many different [Em]worlds[D]
+So [Hm]many different [C]suns[D]
+And [D]we have just one [Em]world[D]
+But we [Hm]live in different [C]ones[D]
 
+\Usepart{Zwischenspiel}
 
--------------------------
- 	G#m	F#	G#m	F#
- 	There's so 	many different w	orlds	 
- 	B	E
-So 	many different s	uns
- 	F#	G#m	F#
-And 	we have just one 	world	 
- 	B	E	E
-But we l	ive in differe	nt ones	 
+Now the sun's gone to hell	 
+And the moon's riding high	 	 
+Let me bid your farewell	 
+Everyman has to die
+But its written in the starlight	 
+ANd every line on your palm	 	 
+We're fools to make war
+On our brothers in arms
 
-
------------------------------
-G: G#m / E / C#m / E / G#m / E / C#m / C#m -E-F#/ G#m sus2 etc
-
-
------------------------------
- 	D#m(A	E	F#
-Now the 	sun's gone to 	hell	 
- 	B	Bsus4	B
-And the moon's riding h	igh	 	 
- 	D#m(A	G#m	D#m
-Let me b	id your fare	well	 
- 	E
-Everyman has to d	ie
- 	G#m	D#m
-But its written in the st	arlight	 
- 	E	C#m	F#sus4
-ANd every line on your p	alm	 	 
- 	F#	G#m
-We're fo	ols to make w	ar
- 	E	F#
-On our b	rothers in a	rms
-
-
----------------------------------
-: G#m / E / C#m / E
-: G#m / E / C#m / E-F#
-: G#m / E / C#m / E
-: G#m / E / C#m / E-F# etc
-fade.
-
-
-------------------------------------------------------------
+\Usepart{Zwischenspiel}
+\emph{fadeout}
 * TODO Portal?: Still alive
 This was a triumph. 
 I'm making a note here: 
@@ -584,3 +549,91 @@ I feel fantastic and I'm still alive.
 While you're dying I'll be still alive. 
 And when you're dead I will be, still alive. 
 Still alive, still alive.
+* TODO Die Wallerts: Branntwein (Raubkopiert, 2010)
+Ich behaupte voller Stolz von mir selbst, ich sei ein Gourmet.
+Drum mix' ich meine Coke nicht mit Wodka, sondern mit Chantré.
+Die Penner trinken Pilsner und die Kenner roten Wein. (Oh yeah!)
+Doch in meine Einkaufstüte kommt nur ein Getränk hinein.
+
+\Refraindef{\Repeat[3]{Ich trink' so gern Branntwein, Oh-ho,}
+Dann fühl' ich mich gut!}
+
+Küstennebel, Ouzo, Absinth, Raki und Pastis,
+werden mir oft angeboten, doch mag ich kein Anis.
+Ich befolge außerdem konsequent das Barcadi-Boykott,
+Und bleib mir bloß vom Leib mit dem ganzen exotischen Schrott!
+
+\Refrain
+
+Intermezzo:
+Ich trink' so gern Branntwein
+Ich werd' nie mehr krank sein.
+\Repeat[6]{Ich fühl mich gut, ich fühl mich gut,}
+Ich fühl mich gut, ich fühl --
+\Repeat{ich trink' so gern Branntwein, Baby, Whoo}
+
+\Refrain
+Dann fühl' ich mich gut!
+Ich fühl' mich gut.
+* TODO Die Wallerts: Nackt (Raubkopiert, 2010)
+Ich hab meine Scham verloren
+ Ich wurde schließlich auch gänzlich nackt geboren
+ Kein Schlüpfer, kein Hemd, nicht mal ein Feigenblatt
+ Ich bin ganz nackt
+
+ Reißt euch die Kleider vom Leib 
+ Und rennt nackt durch die City, nackt durch die City
+
+ Ich will zur Natur zurück
+ Ich werf ins Lagerfeuer jedes Kleidungsstück
+ Das Nicki von Armani, den Schlüpfer von Calvin Klein
+ Nach exothermer Reaktion wird alles Asche sein
+
+ Reißt euch die Kleider vom Leib ...
+
+ Wir wollen euch alle sehen
+ Wie Gott euch einst erschuf
+ Auch wenn es etwas hängt
+ Man folge unserem Ruf
+ Werft ab textile Fesseln
+ Und reiht euch bei uns ein
+ Ihr sollt nackig sein
+
+ Reißt euch die Kleider vom Leib ...
+* PEND Corroschs Klage (DSA, aus "Die Zwerge Aventuriens")
+Quelle: [[http://www.ithilion.de/index.php?nav=040.020.010]]
+
+ Ich [C]jagte in den Bergen, die das [Am]Mittelreich durchziehen,
+ auf [F]reiche Pfeffersäcke und noch [C]keiner konnte fliehen.
+ Und [C]wenn ich dann die Beute schnell zu [Am]mir nach Hause brachte,
+ ach, wie [F]freut' sich meine Jalla, daß ihr [C]Herz im Leibe lachte.
+
+Refrain:
+ Masch arim domedin domeda
+ [C]phequol de deddio,
+ [F]phequol de deddio, und [C]bringt ein [G]Faß voll [C]Bier!
+
+ Eines Morgens in den Bergen traf ich einen Trupp Soldaten,
+ sie hatten gerade Zahltag und sie protzten mit Dukaten.
+ Sie wollten wohl nach Beilunk, das Gold dort zu verprassen,
+ doch ich zeigte meine Armbrust und so mußten sie's mir lassen.
+
+ Ich zählte rasch die Münzen, und es war ein hübscher Haufen,
+ die Soldaten aber waren wie die Hasen fortgelaufen...
+ Ich packte schnell mein Bündel und brachte es nach Hause
+ und feierte mit Jalla bei Wein und gutem Schmause.
+
+ Doch als ich mich zurückzog, um von Geld und Gold zu träumen,
+ beeilte sich mein Weib, keine Stunde zu versäumen.
+ Sie packte die Dukaten und zerstörte meine Sachen,
+ dann eilte sie nach Beilunk und verständigte die Wachen.
+
+ Ich wachte morgens auf und sah ein Heer von Bütteln,
+ fürwahr ein guter Anreiz, um die Faulheit abzuschütteln.
+ Ich suchte meine Waffen und begriff den ganzen Ärger:
+ Konnt' weder hau'n noch schießen und man warf mich in den Kerker.
+
+ Sie durften mich nicht hängen, sondern gaben mich den Zwergen.
+ Inzwischen hatte Jalla Zeit, sich gründlich zu verbergen.
+ Wenn einer mir noch helfen kann, dann ist das nur mein Bruder,
+ er ist bestimmt getreuer als mein Weib, das falsche Luder.

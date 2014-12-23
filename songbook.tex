@@ -1,4 +1,4 @@
-\documentclass[a5paper,pagesize,twoside,10pt,headings=small]{scrreprt}
+\documentclass[a5paper,pagesize,twoside,10pt,headings=small]{scrartcl}
 
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
@@ -18,13 +18,14 @@
 
 % \songheader{Titel}{Autor}
 \newcommand\songheader[3][]{%TODO: Seitenumbrüche sind hier genau falsch.
-  \clearpage%
     % \par{\Large\bf\sffamily #2}\\[0.2\baselineskip]%
-    \subsection*{\centering #2}\vspace{0.5\baselineskip}%
+    \subsubsection*{\centering #2}\vspace{0.5\baselineskip}%
     \addcontentsline{toc}{subsection}{#2}
     \centering \textit{#3}\\%
     \vspace{\baselineskip}\par%
 }
+
+\newenvironment{myguitar}{\begin{guitar}}{\clearpage\end{guitar}}
 
 \newcommand\Definepart[1]{\textbf{#1}\xspace}
 \newcommand\Repeatpart[1]{\textbf{\ensuremath{\uparrow} #1}\vspace{-1.0\baselineskip}\xspace}
@@ -45,11 +46,11 @@
 
 \begin{document}
 \tableofcontents
-\chapter{Rock/Pop}
+\newpage\section{Rock/Pop}
 
-\section{Deutsch}
+\subsection{Deutsch}
 \songheader{Als ich fortging}{Karat}
-\begin{guitar}
+\begin{myguitar}
 [Bm]Als ich fortging war die [Em]Straße steil, [A]kehr' wieder [D]um.
 [G]Nimm an ihrem Kummer [A]teil, mach sie [Bm]heil.
 
@@ -72,11 +73,11 @@
 [G]Nichts ist von [D]Dauer, was [Em]keiner recht [Bm]will.
 [G]Auch die Trauer wird da sein, [A]schwach und [Bm]klein.
 \songfooter
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Marzipan}{(Norbert und die Feiglinge)}
-\begin{guitar}
+\begin{myguitar}
 {\tiny(Melodie: Lady in Black von Uriah Heap)}
 [Am]Ich ess so gerne Marzipan
 [Am]Es geht nichts über Marzipan
@@ -138,10 +139,10 @@ Dann ist das völlig einerlei
 ich leide gern, mein Leid ist durch die Liebe motiviert.
 
 Aaaaaaaaah...
-\end{guitar}
+\end{myguitar}
 
 \songheader{Ich denk, es war ein gutes Jahr}{Reinhard Mey}%%TODO
-\begin{guitar}
+\begin{myguitar}
 Der Raureif legt sich vor mein Fenster,
 Kandiert die letzten Blätter weiß.
 Der Wind von Norden jagt Gespenster 
@@ -179,13 +180,13 @@ Du kommst den Arm um mich zu legen,
 Streichst mit den Fingern durch mein Haar:
 \Repeat{"`Denk dran ein Holzscheit nachzulegen ... Ich glaub', es war ein gutes Jahr!"'}
 ladadada.....
-\end{guitar}
+\end{myguitar}
 
 
 
 
 \songheader{Du hast mir gesagt}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 Ich [A]liege träge in der [D]Sonne, und [A]sehe, wie der Fluß [D]vorüberfließt
 [A]Du hast mir gesagt, daß man [D]nichts erzwingen soll
 Und ich [A]warte hier, und ich [D]warte hier
@@ -216,10 +217,10 @@ Und ich warte hier, und ich warte hier, und ich warte hier,
 auf das Glück und den gestrigen Tag
 
 \Refrain: Wenn du mich liebst ...
-\end{guitar}
+\end{myguitar}
 
 \songheader{Wer ich wirklich bin}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 [Em]In meinem Schädel wohnt ein Tier, das trampelt alles kurz [Am]und klein
 [Em]Was ich mir vorgenommen hab für einen lieben [Am]langen Tag
 [D]Wozu bewegen, [H]ich weiß ja nicht [Em]wohin
@@ -239,10 +240,10 @@ In meinen Augen wohnt ein Tier, das sieht mich immer hungrig an
 Als ob's mich aufgehoben hat für einen lieben langen Tag
 Was soll werden, wenn es die Oberhand gewinnt
 Manchmal wüsst ich gern, wer ich wirklich bin
-\end{guitar}
+\end{myguitar}
 
 \songheader{Delmenhorst}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 [G/C (4x)] 
 
 [G]Ich bin jetzt immer da, wo [C]du nicht bist / [G]Und das ist immer Delmen[C]horst
@@ -269,10 +270,10 @@ Erst wenn alles scheißegal ist / Macht das Leben wieder Spaß
 Hinter Huchting ist ein Graben / Der ist weder breit noch tief
 Und dann kommt gleich Getränke Hoffmann
 \Repeat{[Cm]Sag Bescheid, [G]wenn du mich liebst}$_3$
-\end{guitar}
+\end{myguitar}
 
 \songheader{Straßenbahn des Todes}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 [Am]Wo die alten Leute [Em]immer / [Am]Schimpfend an der Ecke [Em]stehen
 [Am]Werd ich mich dazu [Em]gesellen / [Am]Und Zigaretten für sie [H7]drehen
 
@@ -302,10 +303,10 @@ Mit den Leuten die auf meinen Füßen stehen
 Wo die Neurosen wuchern
 Will ich Landschaftsgärtner sein
 \Repeat{Und dich will ich endlich wiedersehen}
-\end{guitar}
+\end{myguitar}
 
 \songheader{Bring den Vorschlaghammer mit}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 [Am]Siehst du diesen Teller, den hab ich aus [C]Florenz
 [Am]und der alte Benz läuft immer noch wie [C]neu
 na und [F]wie ich mich da freu
@@ -334,11 +335,11 @@ da ist noch Pfand auf den Flaschen, die in der Küche stehen,
 da will ich bald mal Scherben sehen
 und der Bücherwand, für die ein halber Wald einmal starb,
 schlägt die letzte Stunde bald
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Ich war nicht dabei}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 [Em]Erst war es Silvester und später neues Jahr
 Und sie [Am]schrien mir ins Ohr, wie es später wirklich war
 Da sprangen [H]alle auf die Tische, und ich war nicht [Em]dabei.
@@ -362,11 +363,11 @@ Am Besten war's am Ende, da hat keiner mehr gelacht
 Da floß der Reue heiße Träne, das hat richtig Spaß gemacht
 Da waren alle richtig alle, und ich war nicht dabei
 Wo ich da wohl grade war -- das wissen eigentlich nur wir zwei!
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Mit Dir allein}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 Mit [Gm]zitternden Händen sitz ich am [Am]Fenster
 Und [Gm]rauche als kriegt ich's be[Am]zahlt
 Im [Fmaj7]Hinterhof schreit eine [Gm]Katze
@@ -392,10 +393,10 @@ Im Hinterhof zerplatzt eine Lampe
 Und als stiller Komplize
 kriecht die Dämmerung zu uns rein
 \Repeat{Das erste Mal mit dir allein}
-\end{guitar}
+\end{myguitar}
 
 \songheader{Wenn der Morgen graut}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 [G] \ [Em] \ [G] \ [Em] \ 
 
 [G]Kurz vor der ersten Straßen[Em]bahn
@@ -424,11 +425,11 @@ Ein [Am]Stern fällt ins Wasser und der Mond hinter[G]her,
 [G]Einmal für [Em]dich, [Em]einmal für [G]mich.
 
 Wo ist der Gott, ...
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Und du wartest}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 Ein [Am]alter Mann steht unten am See
 Und be[Dm]wirft die Enten mit [F]Brot vom vorigen [Am]Jahr
 Und du [Em]wartest.
@@ -458,11 +459,11 @@ Und du wartest -- auf gar nichts mehr
 Auf den Sommer nicht, und nicht auf längeres Haar.
 Und darauf, dass einer dein Herz repariert.
 Schon gar nicht auf ein Zeichen von ihr.
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Weißes Papier}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 Ich [Dm]nehm deine Katze und [Dm]schüttel sie aus, bis [Am]alles herausfällt [Am]aus ihr,
 was sie [Gm]jemals aus meiner Hand [F]fraß
 [B]später klopf ich noch den [A]Teppich aus
@@ -490,11 +491,11 @@ Am liebsten wär ich ein Astronaut
 und flöge auf Sterne, wo gar nichts vertraut
 und versaut ist durch eine Berührung von dir
 Ich werd nie mehr so rein und so dumm sein wie weißes Papier
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Ganz leicht}{Element of Crime}
-\begin{guitar}
+\begin{myguitar}
 [Am]Leichen im Keller, Beton im Gemüt
 Und [Dm]viel zu lang schon allein
 Beim [C]Essen ein Schwein, beim Trinken ein Loch ohne [Dm]Grund
@@ -519,11 +520,11 @@ Ich weiß, wie man Betten zerwühlt
 Und beim Minigolf lernte ich, wie man mit Anstand verliert
 Und selbst dich hab ich schon manchmal verstanden
 Ganz doof, ganz doof bin ich nicht
-\end{guitar}
+\end{myguitar}
 
 \songheader{Ein Kompliment/Un Complimento}{Sportfreunde Stiller}
 \begin{minipage}{0.55\textwidth}
-\begin{guitar}
+\begin{myguitar}
 [D]Wenn man so will,
 bist [Am]du das Ziel einer langen Reise. 
 Die [C]Perfektion der besten Art und [Em]Weise, 
@@ -546,9 +547,9 @@ meine [C]Feiertage in jedem Jahr,
 [C]dass man [Em]nie darauf verzichten mag.
 
 Chorus 2x
-\end{guitar}
+\end{myguitar}
 \end{minipage}\begin{minipage}{0.458\textwidth}
-\begin{guitar}
+\begin{myguitar}
 [D]Chiamati se vuoi,
 la fine di un [Am]tragitto lungo,
 [C]perfetta sotto ogni [Em]aspetto
@@ -571,26 +572,26 @@ un [Em]frigo pieno di gelati alla spiaggia,
 [C]che non vor[Em]rei mai farne a meno.
 
 Chorus 2x
-\end{guitar}
+\end{myguitar}
 \end{minipage}
 
 
-\newpage\section{International}
+\newpage\subsection{International}
 \songheader{Shape of my Heart}{Sting}\vspace{-\baselineskip}
-\begin{guitar}
-[Fm]He deals the cards as a [Bm]meditation
-[Fm]And those he plays never [Bm]suspect
-[D/F#]He doesnt play for the [A]money he [C#/F]wins
-[D/F#]He doesnt play for the [Fm]respect
-[Fm]He deals the cards to find the [Bm]answer
-[Fm]The sacred geometry of [Bm]chance
-[D/F#]The hidden law of [A]probable [C#/F]outcome
-[D/F#]The numbers lead a [Fm]dance
+\begin{myguitar}
+[Am]He deals the [C]cards as a [Dm]meditation [C] [Em]
+[Am]And those he [C]plays never [Dm]suspect
+[F]He doesnt play for the [C]money he [E]wins
+[F]He doesnt [Em]play for the [Am]respect
+[Am]He deals the [C]cards to find the [Em]answer
+[Am]The sacred [C]geometry of [Dm]chance
+[F]The hidden law of [C]probable [E]outcome
+[F]The [C]numbers lead a [Am]dance.
 
-\Refraindef [Fm]I know that the spades are the [Bm]swords of a soldier
-[Fm]I know that the clubs are weapons of [Bm]war
-[D/F#]I know that diamonds mean [A]money for this [C#/F]art
-[D/F#]But thats not the shape of my [Fm]heart
+\Refraindef [Am]I know that the [C]spades are the [Em]swords of a [Dm]soldier
+[Am]I know that the [C]clubs are weapons of [Dm]war
+[F]I know that diamonds mean [C]money for this [E]art
+[F]But thats not the [E]shape of my [Am]heart
 
 He may play the jack of diamonds, He may lay the queen of spades
 He may conceal a king in his hand, While the memory of it fades
@@ -604,13 +605,13 @@ Like those who curse their luck in too many places
 And those who smile are lost.
 
 \Refrain
-\end{guitar}
+\end{myguitar}
 
 \songheader{Fields of Gold}{Sting}
-\begin{guitar}
+\begin{myguitar}
 [Am]You'll remember me [F]when the west wind moves,
-[F]Upon the [F/G?]fields of [C]barley
-[Am]You'll forget the sun [F]in his [C]jealous sky
+[F]Upon the fields of [C]barley
+[Am]You'll forget the sun in his [F]jealous [C]sky
 [F]As we walk in the [G]fields of [C]gold
 
 So she took her love / For to gaze awhile / Upon the fields of barley
@@ -622,9 +623,9 @@ We'll forget the sun in his jealous sky / As we lie in the fields of gold
 See the west wind move like a lover so / Upon the fields of barley
 Feel her body rise when you kiss her mouth / Among the fields of gold
 
-[Am]I never made [F]promises [G]lightly [C],
-[Am]And there have been [F]some that I've [G]broken [C],
-[Am]But I swear in the [F]days still [G]left [C],
+[Am]I never made [F]promises [G]lightly,
+[Am]And there have been [F]some that I've [G]broken,
+[Am]But I swear in the [F]days still [G]left,
 \Repeat{[F]We'll walk in the [G]fields of [C]gold}
 
 Many years have passed since those summer days
@@ -635,22 +636,22 @@ You'll remember me when the west wind moves
 Upon the fields of barley
 You can tell the sun in his jealous sky
 \Repeat{When we walked in the fields of gold}$_3$
-\end{guitar}
+\end{myguitar}
 
 \newcommand\newpartindex{$\ \uparrow$}
 \newcommand\oldpartindex{$\ \downarrow$}
 
 
 \songheader{Maxïmo Park: Books from Boxes}{Our Earthly Pressure, 2007}
-\begin{guitar}
+\begin{myguitar}
 Intro / Zwischenspiel: B -- F -- Dm -- C -- C\sus4 -- C -- B
 
 [B]Night [F]falls and [Dm]towns become cir[C]cuit boards
 We can [B]beat the sun as [C]long as we keep [Dm]moving
 [B]From the [F]air, [Dm]stadium lights stand [C]out like flares
 And [C]all I know is that [C\sus4]you're [C]sat here right [B]next to me
-[B]We rarely [F]see warning signs in the air we breathe
-Right now I feel each and every fragment
+[B]We rarely [F]see [Dm]warning signs in the [C]air we breathe
+[B]Right now I feel [C]each and every [Dm]fragment
 
 [B]This paper trail [C]leads right [Dm]back to you[C], [B]You say you need me to [C]step out-[Dm]side
 
@@ -676,12 +677,12 @@ And we decided just to write after all, after all
 (Zwischenspiel)
 The pounding rain continued it's bleak fall% (1b)\oldpartindex
 And we decided just to write after all
-\end{guitar}
+\end{myguitar}
 
-\chapter{Alte Musik}
+\newpage\section{Alte Musik}
 
 \songheader{An hellen Tagen}{Giovanni Gastoldi, "`Balletti a 5 voci"', 1591 \quad deutsch: Peter Cornelius (1824 - 1874)}
-\begin{guitar}
+\begin{myguitar}
 \Repeat{[C]An hellen Tagen, [C]Herz welch ein Schlagen.
 [C]Fa la la la la, [G]fa la la [C]la.}
 [C]Himmel dann [F]blauet, Auge dann schauet,
@@ -699,11 +700,11 @@ Fa la la la la, fa la la.}
 Schlummer mag walten, Traum sich entfalten
 Herz hat mit beiden Zwiesprach zu halten.
 Fa la la la la la , fa la la la.
-\end{guitar}
+\end{myguitar}
 
 
 \songheader[Scribere proposui]{Ad Mortem festinamus}{Llibre Vermell \emph{(sic!)}, Kloster Montserrat, ca. 1397}%TODO
-\begin{guitar}
+\begin{myguitar}
 Scribere proposui de contemptu mundano,
 ut degentes seculi non mulcentur in vano.
 Iam est hora surgere a sompno mortis pravo.
@@ -725,10 +726,10 @@ Electos in patria, prescitos ad inferna.
 Ad mortem festinamus, peccare desistamus!
 
 ...
-\end{guitar}
+\end{myguitar}
 
 \songheader{Gaudete}{16. Jahrhundert, "`Piæ Cantiones"'}
-\begin{guitar}
+\begin{myguitar}
 \Refraindef
 [Am]Gaude[G]te, [Am]gaude[C]te! [C]Chris[Em]tus est natus
 [G]Ex Ma[Em]ria virgine, [Am]gau[G]de[Am]te!
@@ -760,10 +761,10 @@ Benedicat Domino:
 Salus Regi nostro.
 
 \Refrain
-\end{guitar}
+\end{myguitar}
 
 \songheader{Gaudete (Potentia Animi)}{Potentia Animi}
-\begin{guitar}
+\begin{myguitar}
 \Refraindef
 \Repeat{[Am]Gaude[G]-te, [Am]Gaude[C]-te! Chris[Em]-tus est natus 
 [G]Ex Ma[Em]-ria virgine, [Am]Gau[G]de[Am]te!}
@@ -787,12 +788,12 @@ Syphilis, Gonorrhoe, Ulcus molle lues
 Balanitis Scabies, Peticulus Pubes!
 
 \Refrain
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Gaudeamus igitur}{Christian Wilhelm Kindleben, 1781}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 \Repeat{[G]Gaudeamus [C]igitur
 [D]iuvenes dum [G]sumus}
 [D]post iucundam [G]iuven[D]tutem,
@@ -834,14 +835,14 @@ pereant osores}
 pereat diabolus
 quivis antiburschius
 \Repeat{atque irrisores}
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 
-\chapter{Landsknechtlieder}
-\section{Traditionell}
+\newpage\section{Landsknechtlieder}
+\subsection{Traditionell}
 \songheader{Unser liebe Fraue vom kalten Bronnen}{um 1536}%%TODO
-\begin{guitar}
+\begin{myguitar}
 [Am]Unser liebe [F]Fra[C]ue vom [C]kalten [G]Bron[C]nen,
 [C]Bescher uns armen [F]Landsknecht ein' warme Sonnen!
 Daß wir nit erfrieren, gehn in des Wirtes Haus
@@ -873,13 +874,13 @@ bescher' uns armen Landsknecht ein' warme Sonnen!
 Daß wir endlich finden von aller Arbeit Ruh!
 Der Teufel hol das Saufen, das Rauben auch dazu.
 \Refrain
-\end{guitar}
 \songfooter{1536 aufgezeichnet}
+\end{myguitar}
 
 
 \songheader{Oh Magdeburg}{Nach einer Soldatenweise von 1540}%TODO: Akkorde
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 O Magdeburg, halt dich feste,
 du wohlgebautes Haus!
 Dir kommen fremde Gäste,
@@ -931,11 +932,11 @@ Dies Liedlein hat gesungen
 ein Landsknecht frisch und frei,
 stund, da viel Kronen klungen,
 daß Gott stets bei ihm sei.
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 \songheader{Der Tod in Flandern}{Text: 1917 in Flandern entstanden, ergänzt von Elsa Laura von Wolzogen \quad Melodie: Nach einem rheinischen Tanzliede von Elsa Laura von Wolzogen}%TODO: Akkorde
-\begin{guitar}
+\begin{myguitar}
 Der Tod reit't auf einem kohlschwarzen Rappen,
 Er hat eine undurchsichtige Kappen.
 Wenn Landsknecht' in das Feld marschieren,
@@ -974,11 +975,11 @@ Der Tod kann lächelnd im Tanze schreiten.
 Er trommelt laut, er trommelt fein:
 Gestorben, gestorben, gestorben muß sein.
 \Refrain
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Die Landsknechte kommen}{}%TODO: Einordnen. Wer hats geschrieben, Zeitangabe?, akkorde
-\begin{guitar}
+\begin{myguitar}
 Die Landsknechte kommen
 Trum, trum, terum tum tum
 Trum, trum, terum tum tum,
@@ -1012,10 +1013,10 @@ die besten schlägt sie lahm und krumm.
 Auf endlosen Wegen, an Trümmern entlang,
 bellt fremd uns entgegen der heisere Sang.
 Hei, hei, heißa juchei...
-\end{guitar}
+\end{myguitar}
 
 \songheader{Wir zogen in das Feld}{nach Georg Forster, 1540}%TODO: Akkorde
-\begin{guitar}
+\begin{myguitar}
 Wir zogen in das Feld.
 Wir zogen in das Feld.
 Da hätten wir weder Säckl noch Geld
@@ -1047,11 +1048,11 @@ Da hat all unser Not ein End.
 Strampede mi 
 A la mi presente 
 Al vostra signori.
-\end{guitar}
+\end{myguitar}
 
-\newpage\section{Neuzeitlich}
+\newpage\subsection{Neuzeitlich}
 \songheader{Jörg von Frundsberg, führt uns an!}{Wilhelm Kutschbach, 1934}
-\begin{guitar}
+\begin{myguitar}
 [Am]Jörg von Frundsberg, führt uns an,
 [Am]Tra la la [Dm]la la la [E]la,
 \Repeat{[F]Der die [C/Am]Schlacht [F/Am]gewann,
@@ -1076,10 +1077,10 @@ Und der euch dies Liedlein sang,
 Tra la la la la la la,
 Ward ein Landsknecht genannt,
 Lerman vor Pavia.
-\end{guitar}
+\end{myguitar}
 
 \songheader{Des Geyers schwarzer Haufen}{Anfang 20. Jh.}
-\begin{guitar}
+\begin{myguitar}
 [Am]Wir sind des Geyers schwarzer Haufen - [F]Heyah [Am]Heyoh
 [G]Wir wolln mit Pfaff und Adel [Am]raufen - [E]Heyah [Am]Heyoh
 \Refraindef [Am]Spieß voran - hey! [F]Rauf und [Am]ran
@@ -1120,12 +1121,12 @@ und machten uns mit Hunger satt, Heyah Heyoh
 Geschlagen gehen wir nach Haus - Heyah Heyoh
 Die Enkel fechten's besser aus - Heyah Heyoh
 \Refrain
-\end{guitar}
 \songfooter{Der Text entstand um 1920 in Kreisen der Jugendbewegung unter Verwendung von Textteilen des Gedichtes "`Ich bin der arme Kunrad"' von Heinrich von Reder (1885); die Melodie stammt von Fritz Sotke (1919) - (Quelle:Wikipedia)}
+\end{myguitar}
 
 
 \songheader{Es klappert der Huf am Stege}{Hans Riedel/Robert Götz, 1920}%TODO: Akkorde
-\begin{guitar}
+\begin{myguitar}
 Es klappert der Huf am Stege,
 Wir ziehn mit dem Fähnlein ins Feld;
 Blut'ger Kampf allerwege,
@@ -1152,11 +1153,11 @@ Wir reiten und reiten und reiten
 Und hören von fern schon die Schlacht,
 Herr, laß uns stark sein im Streiten,
 Dann sei unser Leben vollbracht.
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Wilde Gesellen}{Fritz Sotke, 1923}%TODO: Akkorde - oder gleich raus damit?
-\begin{guitar}
+\begin{myguitar}
 Wilde Gesellen vom Sturmwind durchweht,
 Fürsten in Lumpen und Loden,
 Ziehn wir dahin bis das Herze uns steht,
@@ -1192,13 +1193,13 @@ Aus ist ein Leben voll farbiger Pracht,
 Zügellos drüber und drunter.
 Speier und Spötter, ihr habt uns verlacht,
 Uns geht die Sonne nicht unter.
-\end{guitar}
+\end{myguitar}
 
-\chapter{Folk (International)}
+\newpage\section{Folk (International)}
 \begin{landscape}
 \songheader{Young Ned of the Hill (The Pogues)}{\vspace{-3\baselineskip}}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 [Am]Have you ever walked the [Em]lonesome hills
 [Am]And heard the curlews [Em]cry
 [Am]Or seen the raven [G]black as night
@@ -1244,12 +1245,12 @@ The love of dear old Ireland
 That will forge an iron will
 As long as there are gallant men
 Like young Ned of the hill
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 \end{landscape}
 
 \songheader{Arthur McBride}{Trad. irish / Paul Brady / Bob Dylan}
-\begin{guitar}
+\begin{myguitar}
 Oh me[G] and my cousin one A[G]rthur McBride
 As we[C] went a-wal[G]king down by[Am7] the seasi[C]de
 A-ma[G]rking what followed and what[G] might betide
@@ -1316,10 +1317,10 @@ And so to conclude and to finish disputes,
 We obligingly asked if they wanted recruits,
 For we were the lads who would give them hard clouts,
 And bid them look sharp in the morning.
-\end{guitar}
+\end{myguitar}
 
 \songheader{Ye Jacobites by Name}{Robert Burns, 1791}
-\begin{guitar}
+\begin{myguitar}
 [Am]Ye Jacobites by name, [C]lend an ear, [G]lend an ear,
 [Am]Ye Jacobites by [Em]name, lend [(G)]an [Am]ear,
 [C]Ye Jacobites by name,
@@ -1343,12 +1344,12 @@ Then let your schemes alone in the state.
 Then let your schemes alone,
 Adore the rising sun,
 And leave a man undone, to his fate.
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Skellig}{Loreena McKennit, The Book of Secrets (1997)}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 Intro: Am - G - F - G - Am
 
 [Am]O light the candle, [G]John
@@ -1405,12 +1406,12 @@ O light the candle, John
 The daylight is almost gone
 The birds have sung their last
 The bells call all to mass
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 \songheader{The Mummer's Dance}{Loreena McKennit}
-\begin{guitar}
-Intro: D - F - C - D - H - C - D
+\begin{myguitar}
+Intro: D - F - C - D - B - C - D
 [Dm]When in the springtime [C]of the year
 [Am]When the trees are crowned with [Dm]leaves
 [Dm]When the ash and oak, and the [C]birch and yew
@@ -1421,8 +1422,8 @@ In the blue veil of the night
 The shadows of the trees appear
 Amidst the lantern light 
 
-[Dm]We've been rambling [C]all the night / And [G]some time of this [Dm]day
-[D]Now returning [C]back again / we [G]bring A garland [D]gay  [Dm H C Am](2x)
+[D]We've been rambling [C]all the night / And [G]some time of this [D]day
+[D]Now returning [C]back again / we [G]bring A garland [D]gay [D D7 D]
 
 Who will go down to those shady groves
 And summon the shadows there
@@ -1443,9 +1444,10 @@ When all the shades are gone
 A garland gay we bring you here / And at your door we stand
 It is a sprout well budded out / The work of Our Lord's hand
 We've rambling.....
-\end{guitar}
+\end{myguitar}
 
 \songheader{Katjuscha}{Text: Michail Issakowski, 1938; Melodie: Matwei Blanter}
+\begin{myguitar}
 [Am]Leuchtend prangten ringsum [Em]Apfelblüten,
 still vom Fluss zog Nebel noch ins [Am]Land;
 [Am]durch die [G]Wiesen kam [Dm]hurtig [Am]Katjuscha
@@ -1471,11 +1473,12 @@ still vom Fluss zog Nebel noch ins Land.
 Fröhlich singend ging heimwärts Katjuscha,
 einsam träumt der sonnenhelle Strand.
 \songfooter{1. Strophe stellt die Begleitung mit Am (einfacher zu begleiten), 2. die mit Dm (einfacher zu singen) dar.}
+\end{myguitar}
 
-\chapter{Volksliedgut und Vagantenlieder}
+\newpage\section{Volksliedgut und Vagantenlieder}
 \songheader{Papst und Sultan}{Text: Christian Ludwig Noack (1767-1821), Melodie: Zupfgeigenhansel}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 Der [C]Papst lebt herrlich in der [G]Welt,
 es [G]fehlt ihm nie an Ablaß[C]geld;
 [C]er trinkt vom aller[G]besten [Am]Wein:
@@ -1536,11 +1539,11 @@ Puellula, da osculum!
 Nam ecce, sultanus nunc sum!
 Implete, fratres, pocula,
 Ut iterum tunc sim papa!
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 \songheader{Es dunkelt schon auf der Heide}{Volkslied aus Ostpreußen; Melodie: 1535 (Spinnstubenlied)}
-\begin{guitar}
+\begin{myguitar}
 Es [A]dunkelt schon [D]in der [A]Heide, nach [A]Hause [E]lass uns [A]geh'n.
 \Repeat{[A]Wir haben das Korn geschnitten mit [D]unserm [E]blanken [A]Schwert.}
 
@@ -1561,12 +1564,12 @@ das eine trägt Muskaten, das and're Braunnägelein.
 
 Muskaten, die sind süße, Braunnägelein sind schön;
 wir beide uns müssen scheiden, ja scheiden, das tut weh.
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Es wollt' ein Bauer früh aufstehn}{16. Jahrhundert}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 [C]Es wollt' ein Bauer früh aufstehn,
 [C]Es wollt' ein Bauer [G]früh aufstehn,
 [G]Und hinaus auf seinen [C]Acker gehn
@@ -1615,13 +1618,13 @@ Es war des Pfaffen Arschgesicht
 
 Und die Moral von der Geschicht
 Trau nicht des Pfaffen Arschgesicht
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 
 \songheader{Ein Mönch kam vor ein Nonnenkloster}{Trad., ca. 17. Jhd.}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 Ein [C]Mönch kam vor 1 Nonnenkloster
 -- [C]Ei, [G]ei, [C]ei!
 Mit [C]seinem langen [G]Paternoster,
@@ -1665,13 +1668,13 @@ Sieh nur mein ...
 Und die Moral von der Geschicht
 Wer's nicht versteht, der orgele nicht!
 Mit einem ...
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 
 \songheader{Bunt sind schon die Wälder}{Johann Gaudenz Frhr. v. Salis-Seewis, 1782}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 [G]Bunt sind schon die [D]Wäl[G]der,
 [G]Gelb die Stoppel[C]fel[G]der,
 [D]Und der [A]Herbst be[D]ginnt.
@@ -1735,13 +1738,13 @@ Und im Mondesglanz;
 Junge Winzerinnen
 Winken und beginnen
 Frohen Erntetanz.
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 
 
 \songheader{Wenn alle Brünnlein fließen}{Schwäbisches Volkslied, 16. Jh.}
-\begin{guitar}
+\begin{myguitar}
 Wenn [D]alle [A]Brünnlein [D]fließen,
 So [G]muß man [Em]trin-[A]ken
 Wenn [D]ich mein'n [A]Schatz nicht [D]rufen darf,
@@ -1773,10 +1776,10 @@ Wohl unterm Sonnenschein;
 Ein solches Mädel findst du nicht,
 Ju, ja, findst du nicht,
 Wohl unterm Sonnenschein.
-\end{guitar}
+\end{myguitar}
 
 \songheader{Zogen einst fünf wilde Schwäne}{Ostpreußen, frühes 20. Jh.}
-\begin{guitar}
+\begin{myguitar}
 {\tiny (Jede Zeile wird zweimal gesungen. Das eingeklammerte "`ja"' wird nur beim ersten Mal gesungen.)}
 Es [A]zogen [D]einst [A]fünf wilde [F#m]Schwäne, [D]Schwäne leuchtend [E]weiß und [A]schön.
 [E]Sing, sing, [A]was geschah? [E]Keiner ward mehr [A]gesehen(, ja).
@@ -1793,12 +1796,12 @@ Sing, sing, was geschah? Keine den Brautkranz wand(, ja).
 \Repeat{Sing, sing, was geschah? Keine den Brautkranz wand(, ja).}
 
 \songfooter{Zur historischen Einordnung siehe: \url{http://www.liederlexikon.de/lieder/zogen_einst_fuenf_wilde_schwaene}}
-\end{guitar}
+\end{myguitar}
 
 
 \songheader{Es, es, es und es}{Handwerkerlied, um 1800}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 [G]Es, [D]es, [G]es und es,
 Es ist ein [D]harter [G]Schluss,
 Weil, [D]weil, [G]weil und weil,
@@ -1845,12 +1848,12 @@ Hab ich euch was zuleid getan
 So bitt' ich um Verzeihung an.
 \Repeat{Ich will mein Glück probieren,
 Marschieren.}
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 \songheader{Ich bin ein freier Bauernknecht}{Liederhandschrift des Johannes Werlin, 1646}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 [Gm]Ich bin ein freier [Cm]Bauern[B]knecht
 ob [Eb]mein Stand gleich [F]ist eben [B]schlecht
 So [B]hab ich [F]mich [B]doch ebenso[D] gut
@@ -1901,13 +1904,13 @@ Wer war damals ein Edelmann
 Taltiralla
 Ich leb alle Morgen 
 Sicher und frei von allen Sorgen.
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 
-\chapter{Moderne Balladen}
+\newpage\section{Moderne Balladen}
 \songheader{Andre, die das Land so sehr nicht liebten}{Text: Theodor Kramer \quad Melodie: E. Schmeckenbecher (Zupfgeigenhansel)}
-\begin{guitar}
+\begin{myguitar}
 [C]Andre, die das Land so sehr nicht [G]liebten,
 [Am]warn von Anfang [F]an gewillt zu [C]gehn' [G];
 [Am]ihnen - manche [F]sind schon fort - [C]ist besser,
@@ -1931,10 +1934,10 @@ sicher; schluchzend wider mich gewandt,
 hätt ich Tag und Nacht mich nur zu heißen,
 mich samt meinen Wurzeln auszureißen
 und zu setzen in ein andres Land.
-\end{guitar}
+\end{myguitar}
 
 \songheader{Mein Michel, was willst du noch mehr?}{Text: um 1918 \quad Melodie: Zupfgeigenhansel}
-\begin{guitar}
+\begin{myguitar}
 1. [Am]Du hast [G]Batallionen, [Am]Schwadronen
 Batter[C]ien, Ma[G]schinenge[C]wehr
 du [Dm]hast auch die größten [C]Kano[Dm]nen
@@ -1964,12 +1967,38 @@ Mein Michel was willst du noch mehr...
 am Kasernenhof, kreuz und die quer,
 und dann für den Kaiser krepieren,
 Mein Michel was willst du noch mehr...
-\end{guitar}
+\end{myguitar}
+
+\songheader{Budjonnys Reiterlied}{Melodie: Gebr. Prokrass, dt. Text: Erich Weinert}
+\begin{myguitar}
+Und sie [Am]nahten sich brausend an die hundertmal Tausend,
+unsern [Dm]Sieg zu ersticken in [E]Blut.
+Doch wir [Dm]saßen zu Pferde und es [Am/C]stand unsre Erde
+vom [E]Kuban bis zur Wolga in [Am]Blut.
+
+\Refraindef Am F C F Am E Am 
+
+Und wir sprengten geschlossen als Budjonnys Genossen
+wie ein Sturm in den feurigen Dampf.
+Und wir packten die Zügel, über Täler und Hügel
+ging es vorwärts zum ruhmvollen Kampf.
+
+Und es bleichen wie Steine die verfluchten Gebeine
+unsrer Feinde nach blutigem Tanz.
+Wir vertrieben vom Lande die verrufene Bande,
+Atamane und polnische Pans.
+
+Und wenn wieder sie kehren mit Maschinengewehren
+dann entrollt unsre Fahne sich rot
+Woroschilow wir fliegen mit Budjonny zu siegen
+unsrer Heimat getreu bis zum Tod.
+\songfooter{Originaltitel: Konarmejskaja, interpretiert vom Oktoberklub}
+\end{myguitar}
 
 \begin{landscape}
 \songheader{Mit Wunder jetzunder}{Trad. aus :"`Ebermannstädter Liederhandschrift"', 1750}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 [C]Mit Wunder [G]jezunder man [C]sehen kann [G]recht
 [F]wie mancher [C]verachtet das [G]Baurenge[C]schlecht
 [C]er bildet ihm ein, [C]viel besser zu sein
@@ -2004,13 +2033,13 @@ drum jeder denk fein, und bilde ihm ein
 das Er nicht woll besser als Bauersleut seyn
 die Bauren auf Erden seynd Ehrens wohl wert
 die--weil sich ein jeder vom Bauren ernährt.
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 \end{landscape}
 
 \songheader{Wer jetzig Zeiten leben will}{17. Jh.}
 \begin{multicols*}{2}
-\begin{guitar}
+\begin{myguitar}
 Wer [G]jetzig Zeiten [C]leben [D]will, 
 muss [Am]han ein [D]tapfer [G]Herze.
 Er hat der argen [C]Feind so [D]viel, 
@@ -2052,11 +2081,11 @@ Steh selbstbewusst und unverzagt
 in deiner blanken Wehre:
 Wenn sich der Feind jetzt an uns wagt, 
 es geht um Gut und Ehre!
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
 \songheader{Die Gedanken sind frei}{Um 1800}%TODO
-\begin{guitar}
+\begin{myguitar}
 Die [G]Gedanken sind frei, wer [D]kann sie [G]erraten,
 sie eilen vorbei, wie [D]nächtliche [G]Schatten.
 Kein [D]Mensch kann sie [G]wissen, kein [D]Jäger er-[G]schießen.
@@ -2081,10 +2110,10 @@ Drum will ich auf immer den Sorgen entsagen
 und will mich auch nimmer mit Grillen mehr plagen.
 Man kann ja im Herzen stets lachen und scherzen
 und denken dabei: Die Gedanken sind frei!
-\end{guitar}
+\end{myguitar}
 
 \songheader{Schließ Aug' und Ohr für eine Weil}{Text: Friedrich Gundolf, 1920er; Melodie: Alfred Zschiesche}
-\begin{guitar}
+\begin{myguitar}
 Schließ [Dm]Aug' und Ohr für [A]eine Weil
 vor [Gm]dem Getös [A]der [Dm]Zeit.
 Du [F]heilst es nicht und [C]hast kein [A]Heil
@@ -2104,13 +2133,13 @@ Dein Amt ist Hüten, Harren, Sehen
 In die Ewigkeit.
 So bist du schon im Weltgeschehen
 Befangen und befreit.
-\end{guitar}
+\end{myguitar}
 
 
 
 
 \songheader{Das weiche Wasser}{Dieter Dehm}%TODO: Chords
-\begin{guitar}
+\begin{myguitar}
 Europa hatte zweimal Krieg
 der dritte wird der letzte sein.
 Gib bloß nicht auf, gib nicht klein bei,
@@ -2153,15 +2182,15 @@ Mensch, Menschen können Menschen sein,
 das weiche Wasser bricht den Stein.
 
 {\tiny "`Das weiche Wasser bricht den Stein"' wurde Ende der 70er / Anfang der 80er Jahre von Dieter Dehm für die Friedensbewegung geschrieben, friedensbewegter Barde der SPD.}
-\end{guitar}
+\end{myguitar}
 
 \songheader{Zehn Orks}{Text: Die Streuner, Melodie: Trad. jiddisch}
 \begin{multicols*}{2}
-\begin{guitar}
-Zehn Orks sennen wir gewesen
-Haben wir nit geblieben daheim
-Haben Elfenstamm getroffen
-Sennen wir geblieben neun
+\begin{myguitar}
+[Am]Zehn Orks sennen wir gewesen
+[Em]Haben wir nit geblieben daheim
+[Dm]Haben Elfenstamm getroffen
+[C]Sennen wir geblieben [Am]neun
 
 Neun Orks sennen wir gewesen
 Haben wir über Zwerg gelacht
@@ -2169,10 +2198,10 @@ Zwerg der hat nicht mitgelacht
 Sennen wir geblieben acht
 
 \Refraindef
-Grishnak mit große Hammer
-Zorg mit rostig Schwert
-Raufen, Saufen, Schnaufen
-Bis sich nichts mehr wehrt ...
+[Am]Grishnak mit große Hammer
+[C]Zorg mit rostig Schwert
+[Em]Raufen, Saufen, Schnaufen
+[Am]Bis sich nichts mehr wehrt ...
 
 Acht Orks sennen wir gewesen
 Wollten wir Menschenweiber lieben
@@ -2219,14 +2248,12 @@ Wollt' ich andere Orks zurick
 Seitdem bin ich auf der Suche
 Nach einen guten F...rau
 \Refrain
-\end{guitar}
+\end{myguitar}
 \end{multicols*}
 
-
-
-\chapter{Seemannslieder}
+\newpage\section{Seemannslieder}
 \songheader{Alle, die mit uns auf Kaperfahrt fahren}{Shanty aus Flandern}
-\begin{guitar}
+\begin{myguitar}
 \Repeat{[Am]Alle, die mit uns auf Kaperfahrt fahren
 [Am]Müssen Männer mit Bärten sein}
 [Am]Jan und Hein und [G]Klaas und [C]Pit - [Am]die haben [G]Bärte, die haben [Am]Bärte
@@ -2251,10 +2278,10 @@ Alle, die mit uns die Shanties singen \ldots
 Alle, die endlich zur Hölle mitfahren \ldots
 
 \songfooter{Dieses Lied hat so viele Strophen wie das Tau lang ist.}
-\end{guitar}
+\end{myguitar}
 
 \songheader{Hamburger Veermaster}{Norddeutscher Shanty, Mitte 19. Jh.}%TODO: Chords
-\begin{guitar}
+\begin{myguitar}
 Ick heff mol en Hamborger Veermaster sehn, 
 To my ho dae! To my ho dae! 
 De Masten so scheef as den Schipper sien Been, 
@@ -2293,10 +2320,10 @@ To my ho dae, to my ho dae!
 De Lüd for dat Schipp weurn Ok blot schangheit. 
 To my ho dae ho dae ho ho ho ho! 
 \Refrain
-\end{guitar}
+\end{myguitar}
 
 \songheader{Spanish Ladies}{Englisches Seemannslied, Ende 18. Jh.}
-\begin{guitar}
+\begin{myguitar}
 [Am]Farewell and adieu to [C]you, Spanish [Em]Ladies,
 [Am]Farewell and adieu to you, [C]ladies of [Em]Spain;
 [C]For we've received orders for to [Am]sail for old [Em]England,
@@ -2330,10 +2357,10 @@ And let ev'ry man drink off his full glass;
 We'll drink and be jolly and drown melancholy,
 And here's to the health of each true-hearted lass.
 \Refrain
-\end{guitar}
+\end{myguitar}
 
 \songheader{Trutz, blanke Hans}{Text: Detlev von Liliencron, 1882/83 \quad Melodie: Achim Reichel, 1978}
-\begin{guitar}%TODO: chords
+\begin{myguitar}%TODO: chords
 Heut bin ich über Rungholt gefahren
 Die Stadt ging unter vor 600 Jahren
 Noch schlagen die Wellen da wild und emport
@@ -2405,6 +2432,6 @@ Schwamm anderntags der stumme Fisch.
 Heut bin ich über Rungholt gefahren,
 Die Stadt ging unter vor 600 Jahren.
 Trutz, blanke Hans!
-\end{guitar}
+\end{myguitar}
 
 \end{document}
