@@ -398,7 +398,7 @@ Now [C]where are you when the [G]sun goes down -- and you're so far a[C]way from
 C G F C
 }
 
-I'm [C]tired of bein in love and bein [G]all alone -- when you're so far a[C]way from me
+I'm [C]tired of being in love and being [G]all alone -- when you're so far a[C]way from me
 I'm [C]tired of making out on the [G]telephone -- cus you're so far a[C]way from me
 
 \Refrain
@@ -407,60 +407,35 @@ And [C]I get so tired when I [G]have to explain -- you're so far a[C]way from me
 [C]See you be in the sun and I [G]be in the rain -- and you're so far a[C]way from me.
 
 \Refrain
-* TODO Dire Straits: Walk of Life
+* DONE Dire Straits: Walk of Life
+Vor-/Zwischenspiel: E A H A H
+[E]Here comes Johnny singing oldies, goldies.  Be-Bop-A-Lula, Baby What I Say!
+[E]Here comes Johnny singing I Gotta Woman, [E]Down in the tunnels, trying to make it pay
 
-E	A	B	A	B	E
-Here comes Johnny singing oldies, goldies  Be-Bop-A-Lula, Baby What I Say
-Here comes Johnny singing I Gotta Woman
-Down in the tunnels, trying to make it pay
- 	A	E
- 	He got the action, He got the motion    	Yeah the boy can play
- 	A	E
- 	Dedication, devotion   	Turning all the night time into the day
- 	E	B
- 	He do the song about the sweet lovin' 	woman
- 	E	A
-He do the 	song about the knife	 
- 	E7	B	A	B	E	A	B	A	B
-He do the 	walk,	 he do the walk of 	life. Yeah	, he do the walk of 	life	 	 	 	 
- 	E
- 	Here comes Johnny and he'll tell you the story
-Hand me down my walkin' shoes
-Here come Johnny with the power and the glory
-Backbeat the talkin' blues
- 	A
- 	He got the action, He got the motion
- 	E
- 	Yeah the boy can play
- 	A
- 	Dedication, devotion
- 	E
- 	Turning all the night time into the day
- 	E	B
- 	He do the song about the sweet lovin' 	woman
- 	E
-He do the 	song about the knife
- 	E7	B	A	B	E	A	B	A	B
-He do the 	walk	, he do the walk of 	life.  	Yeah, he do the walk of 	lif	e	 	 	 
- 	E
- 	Here comes Johnny singing oldies, goldies  Be-Bop-A-Lula, Baby What I Say
-Here comes Johnny singing I Gotta Woman
-Down in the tunnels, trying to make it pay
- 	A
- 	He got the action, He got the motion
- 	E
- 	Yeah the boy can play
- 	A
- 	Dedication, devotion
- 	E
- 	Turning all the night time into the day
- 	E	B
- 	And after all the violence and 	double talk
- 	E	A
-There's just a 	song in all the trouble and the 	strife
- 	E7	B	A	B	E	A	B	A	B
-You do the 	walk	, you do the walk of 	life. Yea	h, you do the walk of 	lif	e	 	 	 
+[A]He got the action, He got the motion, [E]Yeah the boy can play
+[A]Dedication, devotion, [E]Turning all the night time into the day
+He do the [E]song about the sweet lovin' [H]woman
+He do the [E]song about the knife[A]
+He do the [E7]walk[H], he do the walk of [A]life. Yeah[H], he do the walk of [A]life	 	 	 
 
+[E]Here comes Johnny and he'll tell you the story
+[E]Hand me down my walkin' shoes
+[E]Here come Johnny with the power and the glory
+[E]Backbeat the talkin' blues
+[A]He got the action, He got the motion, [E]Yeah the boy can play
+[A]Dedication, devotion. [E]Turning all the night time into the day
+[E]He do the song about the sweet lovin' [H]woman
+He do the [E]song about the knife[A]
+He do the [E7]walk[H], he do the walk of [A]life. Yeah[H], he do the walk of [A]life	 	 	 
+
+[E]Here comes Johnny singing oldies, goldies.  Be-Bop-A-Lula, Baby What I Say!
+[E]Here comes Johnny singing I Gotta Woman, [E]Down in the tunnels, trying to make it pay
+
+[A]He got the action, He got the motion, [E]Yeah the boy can play
+[A]Dedication, devotion, [E]Turning all the night time into the day
+[E]And after all the violence and [H]double talk
+There's just a [E]song in all the trouble and the [A]strife
+You do the [E7]walk[H], you do the walk of [A]life. Yeah[H], you do the walk of [A]life	 	 	 
 * DONE Dire Straits: Brothers in Arms
 \Definepart{Intro/Zwischenspiel:}
 [Em C Am Am_G Am_{F#}]\quad
@@ -497,9 +472,9 @@ But we [Hm]live in different [C]ones[D]
 Now the sun's gone to hell	 
 And the moon's riding high	 	 
 Let me bid your farewell	 
-Everyman has to die
+Every man has to die
 But its written in the starlight	 
-ANd every line on your palm	 	 
+And every line on your palm	 	 
 We're fools to make war
 On our brothers in arms
 
@@ -549,14 +524,15 @@ I feel fantastic and I'm still alive.
 While you're dying I'll be still alive. 
 And when you're dead I will be, still alive. 
 Still alive, still alive.
-* TODO Die Wallerts: Branntwein (Raubkopiert, 2010)
-Ich behaupte voller Stolz von mir selbst, ich sei ein Gourmet.
-Drum mix' ich meine Coke nicht mit Wodka, sondern mit Chantré.
-Die Penner trinken Pilsner und die Kenner roten Wein. (Oh yeah!)
-Doch in meine Einkaufstüte kommt nur ein Getränk hinein.
+* PEND Die Wallerts: Branntwein (Raubkopiert, 2010)
+Vorspiel: C F G F
+Ich be[C]haupte voller [F]Stolz von mir [G]selbst, ich [F]sei ein Gour[C]met.[F,G,F]
+Drum mix' [C]ich meine [F]Coke nicht mit [G]Wodka, sondern [F]mit Chantr[C]é.[F,G,F]
+Die [C]Penner trinken [F]Pilsner und die [G]Kenner [F]roten [C]Wein.[F] (Oh [G]yeah![F])
+Doch in [C]meine Einkaufs[F]tüte kommt nur [G]ein Ge[F]tränk hin[C]ein.[F,G,F]
 
-\Refraindef{\Repeat[3]{Ich trink' so gern Branntwein, Oh-ho,}
-Dann fühl' ich mich gut!}
+\Refraindef{\Repeat[3]{Ich [F]trink' so gern Brannt[G]wein, Oh-[F]ho,}
+[G]Dann [F]fühl' ich mich [C]gut!}
 
 Küstennebel, Ouzo, Absinth, Raki und Pastis,
 werden mir oft angeboten, doch mag ich kein Anis.
