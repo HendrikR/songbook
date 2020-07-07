@@ -1,5 +1,6 @@
 * DONE Heroes del Silencio: Entre dos Tierras {1990}
-\Definepart{Intro:} [Hm]\quad[G]\quad[Hm]\quad[A]
+\Definepart{Intro:}
+[Hm]\quad[G]\quad[Hm]\quad[A]
 \quad[Hm]\quad[F#m]\quad[Em]\quad[G]\quad
 
 Te [Hm]puedes ven[F#m]der,
@@ -91,18 +92,19 @@ My feet don't hardly make no sound walking on, walking on the moon
 [B|F]Some say [F|C]to[C|G]morrow's an[Gm|Dm]other day
 [B|F]You stay [F|C]I may as [C|G]well play
 
-1. Strophe wiederholen
+\Usepart{1. Strophe wiederholen}
 
 \Refrain
 
 \Repeat[$\infty$]{[Dm|Am]Keep it up [B|F]\quad[C|G]}
-* DONE Nick Cave: Where The Wild Roses Grow {Murder Ballads, 1996}
+* PEND Nick Cave: Where The Wild Roses Grow {Murder Ballads, 1996}
 Eventuell auf 2 Spalten verteilen, so dass He/Elisa je in 1 Spalte landen.
 
-They [Gm]call me The [Cm]Wild 	Rose
-[Gm]But my [B]name was Elisa [D]Day
+\textbf{Elisa:}
+They [Gm/e]call me The Wild [Cm/a]Rose[e]
+[Gm]But my [G]name was Elisa [H/Fis]Day
 Why they [Gm]call me it I do not [Cm]know
-[Gm]For my name was [F]Elisa [Gm]Day
+[Gm/e]For my name was [F/D]Elisa [Gm/e]Day
 
 \textbf{He:}
 From the [Gm]first day I saw her I knew [B]she was the one
@@ -165,7 +167,7 @@ Who would stand [F]by my [Dm]side
 And now you've [Am]given me, [G]given me
 Nothing but [F]shattered dreams, shattered [Dm]dreams
 Feel like I could [Am]run away, run a[G]way
-From this empty [F]heart[Dm]\ 
+From this empty [F]heart[Dm] 
 [Am]\quad[G]You said you'd [F]die for [Dm]me
 
 [Am]Woke up to re[Em]ality
@@ -218,7 +220,7 @@ auch [F]sechs ist nicht ge[G]nug
 
 \Refraindef
 [Am]Sieben mal flecht ich dein [G]Haar um den alten Apfelbaum
-[Am]Sieben Mal und es wird [G]wahr
+[Am]Sieben Mal und [F-]es wird [G]wahr
 [G]Du hast keine Wahl
 Denn die [Am]Sie-[G]ben ist meine [Am]Zahl.
 
@@ -296,15 +298,15 @@ wo meine Wiege [F]stand,
 [F]bot eine dunkle [Em]Wolke
 dem [Em]Zwielicht ihre [Am]Hand.
 
-Auf allen Wänden tanzten
-die Schemen um mich her,
-ich las in ihren Rätseln
-mein Schicksal und Begehr.
+[Am]Auf allen Wänden [Em]tanzten
+die Schemen um mich [F]her,
+[F]ich las in ihren [Em]Rätseln
+mein [Em]Schicksal und auch mein [Am]Begehr.
 
 \Refraindef
-Wo[C]hin ich auch [D]immer geh, [Am]ich meide [C]stets das [Hm7]Licht,
-[Am]ich traue [C]keinem Schatten [F]und auch dem eigenen nicht.
-Wo[C]hin ich auch [D]immer geh, [Am]ich meide [C]stets das [Hm7]Licht,
+Wo[C]hin ich auch [D]immer geh, [Am]ich meide [C?Cm]stets das [Dm]Licht,
+[Am]ich traue [C]keinem Schatten [F]und auch dem [E?]eigenen nicht.
+Wo[C]hin ich auch [D]immer geh, [Am]ich meide [C?Cm]stets das [Hm7?Cm]Licht,
 [Am]ich traue [C]keinem Schatten [F]und auch dem eigenen nicht.
 
 
@@ -320,9 +322,9 @@ Wo[C]hin ich auch [D]immer geh, [Am]ich meide [C]stets das [Hm7]Licht,
 
 \Refrain
 
- Ich stell mich in den Schatten,
- werf keinen je voraus
- und werf ihn nicht auf andre,
+ [Am]Ich stell mich [Cm]in den Schatten,
+ [Am]werf keinen je [Hm?]voraus
+ [dito]und werf ihn nicht auf andre,
  die Nacht ist mein Zuhaus.
 
 \Refrain
@@ -386,7 +388,6 @@ ein [Hm]kleiner Tod [Em]im [Asus4]Morgen[Hm]rot
 [F#m]so kam der Tag
 
 \Refrain
-
 * DONE Dire Straits: So far away {Brothers in Arms, 1985}
 Vor-/Zwischenspiel: C G F C
 [C]Here I am again in this [G]mean old town -- and you're so far a[C]way from me.
@@ -443,7 +444,7 @@ You do the [E7]walk[H], you do the walk of [A]life. Yeah[H], you do the walk of 
 These mist covered [C]moun[D]tains	 
  [D]Are home now for [G]me
 [Hm]But my home is the [Em]low[Hm]lands	 
-And always will [C]be[D]
+And always will [C]be [D].
 [D]Someday you'll re[Em]turn to[Hm]
 Your [Hm]valley and your [C]farms[D]
 And you'll [D]no longer [Em]burn
@@ -454,29 +455,29 @@ To be [C]brothers in [D]arms
 Through these fields of de[C]struc[D]tion
 [D]Baptisms of [G]fire
 [Hm]I've watched all your [Em]suffe[Hm]ring
-As the battles raged [C]higher[D]
+As the battles raged [C]higher [D].
 And though they did [Em]hurt me so [Hm]bad
-In the fear and a[C]larm[D]
+In the fear and a[C]larm [D],
 You [D]did not de[Em]sert me
 My [C]brothers in [D]arms
 
 \Usepart{Zwischenspiel}
 
-There's so many different [Em]worlds[D]
-So [Hm]many different [C]suns[D]
-And [D]we have just one [Em]world[D]
-But we [Hm]live in different [C]ones[D]
+There's so many different [Em]worlds[D],
+So [Hm]many different [C]suns[D].
+And [D]we have just one [Em]world[D],
+But we [Hm]live in different [C]ones[D].
 
 \Usepart{Zwischenspiel}
 
-Now the sun's gone to hell	 
-And the moon's riding high	 	 
-Let me bid your farewell	 
-Every man has to die
-But its written in the starlight	 
-And every line on your palm	 	 
+Now the sun's gone to hell
+And the moon's riding high.
+Let me bid your farewell
+Every man has to die.
+But its written in the starlight,
+And every line on your palm:
 We're fools to make war
-On our brothers in arms
+On our brothers in arms.
 
 \Usepart{Zwischenspiel}
 \emph{fadeout}
@@ -546,36 +547,36 @@ Ich trink' so gern Branntwein
 Ich werd' nie mehr krank sein.
 \Repeat[6]{Ich fühl mich gut, ich fühl mich gut,}
 Ich fühl mich gut, ich fühl --
-\Repeat{ich trink' so gern Branntwein, Baby, Whoo}
+\Repeat{Ich trink' so gern Branntwein, Baby, Whoo!}
 
 \Refrain
 Dann fühl' ich mich gut!
 Ich fühl' mich gut.
 * TODO Die Wallerts: Nackt (Raubkopiert, 2010)
 Ich hab meine Scham verloren
- Ich wurde schließlich auch gänzlich nackt geboren
- Kein Schlüpfer, kein Hemd, nicht mal ein Feigenblatt
- Ich bin ganz nackt
+Ich wurde schließlich auch gänzlich nackt geboren
+Kein Schlüpfer, kein Hemd, nicht mal ein Feigenblatt
+Ich bin ganz nackt
 
- Reißt euch die Kleider vom Leib 
- Und rennt nackt durch die City, nackt durch die City
+Reißt euch die Kleider vom Leib 
+Und rennt nackt durch die City, nackt durch die City
 
- Ich will zur Natur zurück
- Ich werf ins Lagerfeuer jedes Kleidungsstück
- Das Nicki von Armani, den Schlüpfer von Calvin Klein
- Nach exothermer Reaktion wird alles Asche sein
+Ich will zur Natur zurück
+Ich werf ins Lagerfeuer jedes Kleidungsstück
+Das Nicki von Armani, den Schlüpfer von Calvin Klein
+Nach exothermer Reaktion wird alles Asche sein
 
- Reißt euch die Kleider vom Leib ...
+Reißt euch die Kleider vom Leib ...
 
- Wir wollen euch alle sehen
- Wie Gott euch einst erschuf
- Auch wenn es etwas hängt
- Man folge unserem Ruf
- Werft ab textile Fesseln
- Und reiht euch bei uns ein
- Ihr sollt nackig sein
+Wir wollen euch alle sehen
+Wie Gott euch einst erschuf
+Auch wenn es etwas hängt
+Man folge unserem Ruf
+Werft ab textile Fesseln
+Und reiht euch bei uns ein
+Ihr sollt nackig sein
 
- Reißt euch die Kleider vom Leib ...
+Reißt euch die Kleider vom Leib ...
 * PEND Corroschs Klage (DSA, aus "Die Zwerge Aventuriens")
 Quelle: [[http://www.ithilion.de/index.php?nav=040.020.010]]
 
@@ -584,32 +585,712 @@ Quelle: [[http://www.ithilion.de/index.php?nav=040.020.010]]
  Und [C]wenn ich dann die Beute schnell zu [Am]mir nach Hause brachte,
  ach, wie [F]freut' sich meine Jalla, daß ihr [C]Herz im Leibe lachte.
 
-Refrain:
+Refraindef{
  Masch arim domedin domeda
  [C]phequol de deddio,
  [F]phequol de deddio, und [C]bringt ein [G]Faß voll [C]Bier!
+}
 
  Eines Morgens in den Bergen traf ich einen Trupp Soldaten,
  sie hatten gerade Zahltag und sie protzten mit Dukaten.
  Sie wollten wohl nach Beilunk, das Gold dort zu verprassen,
  doch ich zeigte meine Armbrust und so mußten sie's mir lassen.
 
+\Refrain
+
  Ich zählte rasch die Münzen, und es war ein hübscher Haufen,
- die Soldaten aber waren wie die Hasen fortgelaufen...
+ die Soldaten aber waren wie die Hasen fortgelaufen!
  Ich packte schnell mein Bündel und brachte es nach Hause
  und feierte mit Jalla bei Wein und gutem Schmause.
+
+\Refrain
 
  Doch als ich mich zurückzog, um von Geld und Gold zu träumen,
  beeilte sich mein Weib, keine Stunde zu versäumen.
  Sie packte die Dukaten und zerstörte meine Sachen,
  dann eilte sie nach Beilunk und verständigte die Wachen.
 
+\Refrain
+
  Ich wachte morgens auf und sah ein Heer von Bütteln,
  fürwahr ein guter Anreiz, um die Faulheit abzuschütteln.
  Ich suchte meine Waffen und begriff den ganzen Ärger:
  Konnt' weder hau'n noch schießen und man warf mich in den Kerker.
 
+\Refrain
+
  Sie durften mich nicht hängen, sondern gaben mich den Zwergen.
  Inzwischen hatte Jalla Zeit, sich gründlich zu verbergen.
  Wenn einer mir noch helfen kann, dann ist das nur mein Bruder,
  er ist bestimmt getreuer als mein Weib, das falsche Luder.
+
+\Refrain
+* PEND The Hooters: 500 Miles
+D - D - G - C - C - G - D
+E - E - A - D - D - A - E
+
+If you []miss the Train I'm []on,
+You will []know that I am []gone,
+You can []hear the Whistle []blow a 100 []Miles.
+A hundred [] Miles, a hundred []Miles, a hundred []Miles, a hundred []Miles,
+You can []hear the Whistle []blow a hundred []Miles.
+
+Not a Shirt on my Back,
+Not a Penny to my Name,
+And the Land that I once loved is not my own.
+Lord I'm one-, Lord I'm two-, Lord I'm three-, Lord I'm four-, 
+Lord I'm five-hundred Miles away from Home.
+
+A hundred Tanks along the Square,
+One Man stands and stops them there.
+Some Day soon, the Tide will turn, and I'll be free.
+I'll be free, I'll be free, I'll return to my Country,
+Some Day soon, the Tide will turn, and I'll be free.
+
+If you miss the Train I'm on, you will know that I am gone,
+You can hear the Whistle blow a hundred Miles.
+Lord I'm one, Lord I'm two, Lord I'm three, Lord I'm four,
+Lord I'm five hundred Miles away from Home.
+Lord I'm five hundred Miles away from Home.
+
+I'll be free, I'll be free, I'll come home to my Country,
+Lord I'm five hundred Miles away from Home.
+You can hear the Whistle blow a hundred Miles,
+Lord I'm five hundred Miles away from Home.
+* TODO Reinhard Lakomy: Heute bin ich allein
+Heute []bin ich []allein,
+ja, auch []das muss []ab und zu mal []sein.
+Du bist []fort für einen []Tag, wir machen []Ferien heut,
+ich von []Dir, du von []mir.
+
+[C]Heute bin ich endlich [A]mal bei mir allein zu [C]Gast,
+ich dreh mich [F]noch mal rum und [G]schlaf' mich richtig [C]aus.
+[F]Heute mach' ich alles, [D]was Du sonst nicht gerne [F]hast,
+denn ich ra[F]sier mich nicht und [G]mach mir nichts [F]daraus.
+
+Heute [C]bin ich [F]allein,
+und ich richte mir den Tag schön ein.
+Ja, als erstes koch ich dann einen Kaffee für mich,
+extra stark, nichts für Dich.
+
+Heute kram' ich alles aus dem großen Schrank hervor,
+ich such' mein Notenheft und find' nur Kritzeleien.
+Und mein altes Fahrrad bau' ich auf dem Korridor.
+Ich glaub, du fielst glatt um, kämst du dazu, grad' zur Tür herein.
+
+Heute bin ich allein,
+Freunde, heut' lad' ich euch alle ein.
+Und bringt gute Laune mit, heut ist was angesagt!
+Niemand hört, keiner stört.
+
+Abends geh'n wir alle in die "Böse-Buben-Bar"
+und dann bestell'n wir uns ein riesengroßes Faß.
+Da war ich das letzte Mal vor einem Jahr,
+steht denn das Billiard noch? Darauf war ich ein As!
+
+Heute bin ich allein,
+ja, auch das muss ab und zu mal sein.
+Fragst du morgen: "Na, war's schön, was war denn gestern los?"
+Ja, ganz schön, nichts gescheh'n.
+Ja, ganz schön, nichts gescheh'n.
+* TODO Gerhard Schöne: Geburtstag
+Wie die Fußgänger schimpfen
+in den klitschnassen Strümpfen,
+denn der Regen rinnt über'n Asphalt.
+Was für Augen sie machen,
+denn sie sehen mich lachen
+an 'nem Tag, der so trübe und kalt.
+
+Ich bin so glücklich,
+ich spiel für alle
+Ziehharmonika, na klar.
+Denn Geburtstag hat man leider
+nur einmal im Jahr.
+Denn Geburtstag hat man leider
+nur einmal im Jahr.
+
+Plötzlich kommt, ungelogen,
+ein blaues Flugzeug geflogen
+und ein Zauberer steigt aus, ganz in weiß
+Er will mir gratulieren,
+ein paar Filme vorführen
+und er schenkt allen Eskimoeis.
+
+Ich bin so glücklich,
+ich spiel für alle
+Ziehharmonika, na klar.
+Denn Geburtstag
+hat man leider
+nur einmal im Jahr.
+Denn Geburtstag
+hat man leider
+nur einmal im Jahr.
+* DONE Liederjan: Drei Gesellen
+(Den Text musst du dir noch mal anhören, da fehlt evtl. noch was)
+|: Es [C]waren drei Gesellen, sie [G]taten, was sie [C]wollten : |
+der [C]eine war besoffen, der [F]zweite war [G]voll,
+|: der [G]dritte sprach: Ihr Brüder, und [C]mir ist [G]auch nicht [C]wohl! : |
+
+Gesellen warum soll's bleiben verschwiegen,
+Wir wollen des Meisters Arbeit lassen liegen
+Wir wollen ein wenig spazieren gehen,
+|: zum roten kühlen Wein, wo die schönen Mädchen stehn :|
+
+Und als sie ins Wirtshaus sind gekommen,
+Frau Wirtin hat sie ganz höflich empfangen
+Willkommen, willkommen, Gesellen mein,
+Was wollt ihr für ein Essen, was trinkt ihr für ein' Wein?
+Was woll'n wir für ein Essen, was trinken wir für'n Wein?
+
+Und haben sie kein' Ungarischen, trinken wir ein' Fränkerischen,
+Und haben sie kein' Fränkerischen, trinken wir ein' Ungarischen,
+Der ungarische Wein ist ein sehr guter Wein,
+|: den wollen wir jetzt trinken und dabei lustig sein! :|
+
+Und als sie gegessen und getrunken haben,
+da kommt des Meisters rotziger Knabe
+Gesellen ihr sollet nach Hause gehen
+Den Abschied sollt ihr nehmen, in Gottes Namen gehn
+
+Die Gesellen kamen gesungen und gesprungen,
+Der Meister war sauer, die Meisterin tat brummen:
+»Ihr scheint mir die wahren Gesllen zu sein,
+|: Beim Fressen und beim Saufen, bei der Arbeit hab ich kein'« :|
+
+Sie nehmen ihr Bündel wohl auf den Rücken,
+und gehen über die fränkerische Brücke
+da kommt des Meisters Töchterlein,
+|: Gesellen ihr sollt bleiben, ohne euch kann ich nicht sein :|
+* DONE Liederjan: Fünf Söhne
+\comment{Herrlich traurige Ballade auf Plattdeutsch.}
+Ik [d]hev' se nich op de [a]Scholen gebracht.
+Ik [d]hev' nich einmal över [a]se gelacht.
+Se [g]gan nich [d]spelen op de [a]Straten.
+Ik [F]hev' se op de [F]wilde [C]See [d]gesandt,
+Eren [d]levesten Vadder\footnote{=Taufpate} to [a]sö[d]ken.
+
+De [d]Ein', de starf den [a]bitteren Dod,
+De [d]Ander', de starf von [a]Hunger so grot.
+De [g]Dridde de [d]ward ge[a]hangen.
+De [F]Verde, de blef op de [F]wilde [C]See [d]dot,
+De [d]Vifte flut achter dem [a]Lan[d]de.
+
+Und als se nun up 'n Kerkhof kam,
+Rep se God eren himmlischen Vader an.
+Un bedet all mit fliete.
+Dat er God wolde de Sünn'n vergeven,
+Un halen er in sin Rike.
+
+Ik hev' se nich op de scholen gebracht.
+Ik hev' nich einmal över se gelacht.
+Se gan nich spelen op de straten.
+Ik hev' se op de wilde see gesandt,
+Eren levesten Vadder to söken.
+* TODO A-Ha: Hunting High and Low
+[Verse 1]
+Here I am
+And within the reach of my hands
+She's sound asleep
+And she's sweeter now than the wildest dream
+Could have seen her
+And I watch her slipping away
+But I know I'll be
+
+[Chorus]
+Hunting high and low
+High
+There's no end to the lengths I'll go to
+Hunting high and low
+High
+There's no end to lengths I'll go
+
+[Verse 2]
+To find her again
+Upon this my dreams are depending
+Through the dark
+I sense the pounding of her heart
+Next to mine
+She's the sweetest love I could find
+So I guess I'll be
+
+[Chorus]
+Hunting high and low
+High
+There's no end to the lengths I'll go to
+High and low
+High
+Do you know what it means to love you?
+
+[Bridge]
+I'm hunting high and low
+And now she's telling me she's got to go away
+
+[Chorus]
+I'll always be hunting high and low
+Only for you
+Watch me tearing myself to pieces
+Hunting high and low
+High
+There's no end to the lengths I'll go to
+
+[Outro]
+Oh, for you I'll be hunting high and low
+* PEND A-Ha: Slender Frame
+|: [d] [a] [d] [a] :|
+
+Your coat is hanging loosely
+On your slender frame
+There's many roads to leave by
+But few come back again
+
+I don't believe it
+I believe it
+
+Take a look around and see
+What's stopping you is stopping me
+One moonless night, we'll make it right
+And vanish in the dark of night
+
+Pack up your things and go
+Run down the road, don't take it slow
+Pack up your things today
+And run away, yeah, run away
+
+You say it's useless crying
+That never got you far
+You'd claim there's none as lonely
+Lonely as you are
+
+I don't believe it
+I believe it
+
+Take a look around and see
+What's breaking you is breaking me
+One moonless night, we'll make it right
+And vanish in the dark of night
+
+Pack up your things and go
+Run down the road, they'll never know
+Wrap up your things today
+And run away, yeah, run away
+
+One moonless night
+And vanish in the dark of night
+
+Pack up your things and go
+Run down the road, don't take it slow
+Pack up your things today
+And run away, yeah, run away
+
+Pack up your things and go
+Run down the road, they'll never know
+Wrap up your things today
+And run away, yeah, run away
+* TODO A-Ha: Losing You
+It wasn't the rain that washed away
+Rinsed out the colours of your eyes
+Putting the gun down on the bedside table
+I must have realised
+
+It wasn't the rain that made no difference
+And I could have sworn it wasn't me
+Yet I did it all so coldly, almost slowly
+Plain for all to see
+
+Oh, come on, please now, talk to me
+Tell me things I could find helpful
+How can I stop now?
+Is there nothing I can do?
+I have lost my way
+I've been losing you
+
+I can still hear our screams competing
+You're hissing your s's like a snake
+Now in the mirror stands half a man
+I thought no one could break
+
+It wasn't the rain that made no difference
+Nervously drumming on, run away
+But I want the guilt to get me, thoughts to wreck me
+Preying on my mind
+
+Refrain:
+So, [F]please now, talk to me
+[C]Tell me [G]things I could find [F]helpful
+How can I [C]stop now?
+Is there nothing I can do?
+I have lost my way
+I've been losing you
+
+Please now, talk to me
+Tell me things I could find helpful
+How can I stop now?
+Is there nothing I can do?
+
+Please now, talk to me
+Tell me, tell me what to do
+How can I stop now?
+Is there nothing I can do?
+I have lost my way
+I've been losing you
+I've been losing you
+I've been losing you
+* TODO A-Ha: Crying in the Rain
+I'll never let you see
+The way my broken heart is hurting me
+I've got my pride
+And I know how to hide
+All my sorrow and pain
+I'll do my crying in the rain
+
+If I wait for stormy skies
+You won't know the rain from the tears in my eyes
+You'll never know
+That I still love you so
+Only heartaches remain
+I'll do my crying in the rain
+
+Raindrops falling from heaven
+Could never take away my misery
+Since we're not together
+I'll pray for stormy weather
+To hide these tears I hope you'll never see
+
+Some day when my crying's done
+I'm going to wear a smile and walk in the sun
+I may be a fool
+But till then, darling, you'll
+Never see me complain
+I'll do my crying in the rain
+
+Since we're not together
+I'll pray for stormy weather
+To hide these tears I hope you'll never see
+
+Some day when my crying's done
+I'm going to wear a smile and walk in the sun
+I may be a fool
+But till then, darling, you'll
+Never see me complain
+I'll do my crying in the rain
+I'll do my crying in the rain
+I'll do my crying in the rain
+* PEND A-Ha: Stay on these Roads
+(Verse 1)
+The [C]cold has a [a]voice[F] 
+[F]It [G]talks to me
+[C]Stillborn by [a]choice[F] 
+[F]It [G]airs no need
+To hold
+
+(Pre-Chorus)
+[G]Old man feels the [F]cold
+Oh, baby, don't ‘cause [G]I've been [C]told
+
+(Chorus)
+[C]Stay on these [a]roads
+[F]We shall meet, [G]I know
+[C]Stay on, my [a]love
+[F]We shall meet, [G]I know, [C]I know
+
+(Verse 2)
+Where joy should reign
+These skies restrain
+Shadows your love
+The voice trails off again (x2)
+
+(Pre-Chorus)
+Old man feels the cold
+Oh, baby, don't ‘cause I've been told
+
+(Chorus 2)
+Stay on these roads
+We shall meet, I know
+Stay on, my love
+You feel so weak, be strong
+Stay on, stay on
+We shall meet, I know, I know
+I know, my love, I know
+
+(Pre-Chorus 2)
+Feel the cold
+Winter's gone, I'm on my own
+
+(Chorus 3)
+Stay on these roads
+We shall meet, I know
+Stay on, my love
+We will meet, I know
+So stay on, I know
+Stay, my love, stay on
+We will meet, I know, I know
+* DONE A-Ha: Velvet
+[G] [D] [a] [C] [G] [D] [a] [C(6)]
+(Aah-aah-aaah, aah-aah-aah)
+
+[G]Her [D]skin is like [a]velvet[C] [G], her [D]face cut from [a]stone[C6] 
+[G]Her [D]eyes when she's [a]smiling[C] [G]will [D]never reach [a]home[C6]
+
+But hear how she sings ([G]aah-[D]aah[a]-aa[C]ah[G], [G]aah-[D]aah-[a]aah[C6])
+
+Her touch would be tender, her lips would be warm
+But when we're together I'm always alone
+
+But hear how she sings (aah-aah-aaah, aah-aah-aah)
+But hear how she sings (aah-aah-aaah, aah-aah-aah)
+But hear how she sings
+
+Her skin is like velvet, so I went to her home
+Her place like a palace with things you can't own
+Her skin is like velvet
+
+But hear how she sings (aah-aah-aaah, aah-aah-aah)
+But hear how she sings (aah-aah-aaah, aah-aah-aah)
+(Aah-aaah, aah-aah, aah-aah, aah-aah)
+* TODO A-Ha: Take on me
+[Verse 1]
+We're talking away
+I don't know what I'm to say
+I'll say it anyway
+Today's another day to find you
+Shying away
+I'll be coming for your love, okay?
+
+[Chorus]
+Take on me (Take on me)
+Take me on (Take on me)
+I'll be gone
+In a day or two
+
+[Verse 2]
+So needless to say
+I'm odds and ends
+But I'll be stumbling away
+Slowly learning that life is okay
+Say after me
+It's no better to be safe than sorry
+
+[Chorus]
+Take on me (Take on me)
+Take me on (Take on me)
+I'll be gone
+In a day or two
+
+[Instrumental Break]
+
+[Verse 3]
+Oh, things that you say
+Is it a life or just to play my worries away?
+You're all the things I've got to remember
+You're shying away
+I'll be coming for you anyway
+
+[Outro]
+Take on me (Take on me)
+Take me on (Take on me)
+I'll be gone
+In a day
+Take on me (Take on me)
+Take me on (Take on me)
+I'll be gone
+In a day
+* TODO Alle, die mit uns auf Kaperfahrt fahren
+Alle, die mit uns auf Kaperfahrt fahren,
+müssen Männer mit Bärten sein.
+Ref.:
+Jan und Hein und Klaas und Pit,
+die haben Bärte, die haben Bärte!
+Jan und Hein und Klaas und Pit,
+die haben Bärte, die fahren mit!
+
+Alle, die Weiber und Branntwein lieben,
+müssen Männer mit Bärten sein!
+Ref.
+
+Alle, die mit uns das Walross töten, ...
+
+Alle, die Tod und Teufel nicht fürchten, ...
+
+Alle, die endlich zur Hölle mit fahren, ...
+
+* DONE J.R.R. Tolkien: The world was young (Durin's Song)
+(Poem #736)
+(Kapodaster: 1. Bund. (Gern auch höher für Großlinge ...))
+
+The world was [G/A]young, the [(C/D)]mountains [F/G]green,
+No stain yet [G/A]on the [(e/fis)]Moon was [a/h]seen,
+No words were [G/A]laid on stream or [C/D]stone,
+When [F/G]Durin [G/A]woke and walked [a/h]alone.
+He [a/h]named the nameless [F/G]hills and [G/A]dells;
+He [a/h]drank from yet un[F/G]tasted [G/A]wells;
+He [a/h]stooped and looked in [d/e]Mirror[G/A]mere,
+And [d/e]saw a [(C/D)]crown of [F/G]stars [G/A]appear,
+As [a/h]gems up[G/A]on a [C/D]silver [F/G]thread,
+Above the [G/A]shadow of his [a/h]head.
+
+The world was [G]fair, the [(C)]mountains [F]tall,
+In Elder [G]Days be[(e)]fore the [a]fall
+Of mighty [G]kings in Nargo[F]thrond
+And Gondo[C]lin, who now be[G]yond
+The [a]Western [G]Seas have passed [C]away:
+The [F]world was fair in [G]Durin's [a]Day.
+
+A [a]king he [F]was on [C]carven [G]throne
+In [a]many-[e]pillared [a]halls of [G]stone
+With [a]golden [C]roof and [F]silver [a]floor,
+And [F]runes of [C]power [a]upon the [G]door.
+The [a]light of [F]sun and [C]star and [G]moon
+In [d]shining [C]lamps of [F]crystal [G]hewn
+Un[a]dimmed by [G]cloud or [C]shade of [F]night
+There shone for [G]ever fair and [a]bright.
+
+There [a]hammer [F]on the [C]anvil [G]smote,
+There [a]chisel [C]clove, and [F]graver [G]wrote;
+ There [a]forged was [C]blade, and [F]bound was [G]hilt;
+The [F]delver [C]mined, the [a]mason [G]built.
+There [a]beryl, [F]pearl, and [C]opal [G]pale,
+And [d]metal [a]wrought like [C]fishes' [g]mail,
+[a]Buckler and [G]corslet, [C]axe and [F]sword,
+And shining [G]spears were laid in [a]hoard.
+
+Un[a]wearied then were [F]Durin's [G]folk;
+Be[a]neath the mountains [F]music [G]woke:
+The [a]harpers [G]harped, the [C]minstrels [F]sang,
+And at the [G]gates the trumpets [a]rang.
+
+The world is [G]grey, the [C]mountains [F]old,
+The forge's [G]fire is [(e)]ashen-[a]cold;
+No harp is [G]wrung, no hammer [C]falls:
+The [(F)]darkness [G]dwells in Durin's [a]halls;
+The [a]shadow lies up[F]on his [G]tomb
+In [a]Mo-ria, in [F]Khazad-[G]dum.
+But still the sunken stars appear
+In [d]dark and [C]windless [F/a]Mirror[G]mere;
+There [a]lies his [G]crown in [C]water [F]deep,
+Till Durin [G]wakes again from [a]sleep.
+* PEND Coldplay: Low
+[Em]You see the world in [?Gm]black and [Hm]white
+No [C]colour or [Am]light[Em].
+You think you'll [Em]never get it [Hm] right
+But you're [C]wrong. You [Am]might[Em].
+
+[Em]The sky could fall, could fall on me
+The parting of the sea
+But you mean more, mean more to me
+Than any colour I can see
+
+\Refraindef{
+[C]All you ever wanted was love,
+But you never looked hard enough,
+It's never gonna give itself up
+
+All you ever wanted to be
+Living in perfect symmetry,
+Nothing is as down or as up as us
+}
+
+You see the world in black and white
+Not painted right
+You see no meaning to your life
+You should try
+You should try
+
+\Refrain
+
+Don't you want to see it come soon,
+Floating in a big white balloon
+Come give her your own silver spoon
+
+Don't you want to see it come down?
+There for throwing your arms around
+And say "You're not a moment too soon."
+
+Cause I feel low, cause I feel low--ooooh...
+Yeah I feel low, oh no--oooh
+Cause I feel low, cause I feel low--oh...
+Yet I feel low, oh no-oooh
+* TODO Coldplay: Clocks
+Original: [Dis] [Cis] [Cis] [C]
+Transponiert: [G] [F] [F] [E]
+
+The [G]lights go out and [F]I can't be saved
+Tides that [F]I tried to [E]swim against
+Have [G]brought me down u[F]pon my knees
+[F]Oh I beg, I [E]beg and plead, singing
+
+[G]Come out of [F]things unsaid
+[F]Shoot an apple [E]off my head and a
+[G]Trouble that [F]can't be named
+A [F]tiger's waiting [E]to be tamed, singing
+
+\Refraindef
+|: [G] Yo-[F]ou-[F]u [E]are : |
+|: [G] [F] [F] [E] :|
+
+[G]Confusion [F]never stops
+[F]Closing walls and [E]ticking clocks 
+Gonna [G]come back and [F]take you home
+I [F]could not stop that [E]you now know, singing
+
+[G]Come out [F]upon my seas
+Cursed missed opportunities 
+Am I [G]a part of the cure?
+[F]Or am I part of [E]the disease? Singing
+
+\Refrain (3x)
+
+\Zwischenspiel
+And nothing else compares
+Oh nothing else compares
+And nothing else compares
+
+You are 
+You are
+
+Home, home where I wanted to go 
+Home, home where I wanted to go
+Home, home where I wanted to go
+Home, home where I wanted to go
+* TODO America: A Horse with no Name
+On the first part of the journey
+I was looking at all the life
+There were plants and birds and rocks and things
+There was sand and hills and rings
+The first thing I met was a fly with a buzz
+And the sky with no clouds
+The heat was hot and the ground was dry
+But the air was full of sound
+
+I've []been through the desert on a []horse with no name
+It felt []good to be out of the []rain
+In the []desert you can re[]member your name
+'Cause there []ain't no one for to []give you no pain
+|: []La, la, []la la la la, []la la la, []la la... :|
+
+After two days in the desert sun
+My skin began to turn red
+After three days in the desert fun
+I was looking at a river bed
+And the story it told of a river that flowed
+Made me sad to think it was dead
+
+(You see) I've been through the desert on a horse with no name
+It felt good to be out of the rain
+In the desert you can remember your name
+'Cause there ain't no one for to give you no pain
+La, la, la la la la, la la la, la la...
+
+After nine days I let the horse run free
+'Cause the desert had turned to sea
+There were plants and birds and rocks and things
+There was sand and hills and rings
+The ocean is a desert with its life underground
+And a perfect disguise all above
+Under the cities lies a heart made of ground
+But the humans will give no love
+
+You see I've been through the desert on a horse with no name
+It felt good to be out of the rain
+In the desert you can remember your name
+'Cause there ain't no one for to give you no pain
+La, la, la la la la, la la la, la la... [repeats] 
