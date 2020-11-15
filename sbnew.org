@@ -1,3 +1,8 @@
+#+OPTIONS: toc:nil todo:nil
+#+LaTeX_HEADER: \setlength{\parindent}{0pt}\renewcommand{\section}[1]{\\[1ex] $\bullet$ \textbf{#1}}
+###+LaTeX_HEADER: \usepackage{marvosym}\DeclareUnicodeCharacter{1F6CF}{\\\Coffeecup}\DeclareUnicodeCharacter{1F4DE}{\Telefon}\DeclareUnicodeCharacter{21AA}{\\$\pmb\hookrightarrow$}
+#+LaTeX_HEADER: \pagestyle{empty}\usepackage[margin=3cm]{geometry}
+
 * DONE Heroes del Silencio: Entre dos Tierras {1990}
 \Definepart{Intro:}
 [Hm]\quad[G]\quad[Hm]\quad[A]
@@ -1146,7 +1151,7 @@ There shone for [G]ever fair and [a]bright.
 
 There [a]hammer [F]on the [C]anvil [G]smote,
 There [a]chisel [C]clove, and [F]graver [G]wrote;
- There [a]forged was [C]blade, and [F]bound was [G]hilt;
+There [a]forged was [C]blade, and [F]bound was [G]hilt;
 The [F]delver [C]mined, the [a]mason [G]built.
 There [a]beryl, [F]pearl, and [C]opal [G]pale,
 And [d]metal [a]wrought like [C]fishes' [g]mail,
@@ -1164,36 +1169,36 @@ No harp is [G]wrung, no hammer [C]falls:
 The [(F)]darkness [G]dwells in Durin's [a]halls;
 The [a]shadow lies up[F]on his [G]tomb
 In [a]Mo-ria, in [F]Khazad-[G]dum.
-But still the sunken stars appear
+But [a]still the sunken [d]stars [e]appear
 In [d]dark and [C]windless [F/a]Mirror[G]mere;
 There [a]lies his [G]crown in [C]water [F]deep,
 Till Durin [G]wakes again from [a]sleep.
 * PEND Coldplay: Low
-[Em]You see the world in [?Gm]black and [Hm]white
+[Em]You see the world in black and [Hm]white
 No [C]colour or [Am]light[Em].
-You think you'll [Em]never get it [Hm] right
+You think you'll [Em]never get it [Hm]right
 But you're [C]wrong. You [Am]might[Em].
 
-[Em]The sky could fall, could fall on me
-The parting of the sea
-But you mean more, mean more to me
-Than any colour I can see
+[Em]The sky could fall, could fall on [Hm]me
+The [C]parting [Am]of the [Em]sea
+But you mean [Em]more, mean more to [Hm]me
+Than any [C]colour I can [Am]see-[Em]e
 
 \Refraindef{
-[C]All you ever wanted was love,
-But you never looked hard enough,
-It's never gonna give itself up
+[C]All you ever wanted was [Am]love,
+But you never looked hard [Em]enough,
+It's never gonna give itself [A]up
 
-All you ever wanted to be
-Living in perfect symmetry,
-Nothing is as down or as up as us
+[C]All you ever wanted to [Am]be
+Living in perfect symme[Em]try,
+Nothing is as down or as up as [A]us
 }
 
-You see the world in black and white
-Not painted right
-You see no meaning to your life
-You should try
-You should try
+[Em]You see the world in black and [Hm]white
+Not [C]painted [Am]right[Em].
+[Em]You see no meaning to your [Hm]life
+[C]You should [Am]try[Em]-y
+[C]You should [Am]try-[Em]y
 
 \Refrain
 
@@ -1294,3 +1299,36 @@ It felt good to be out of the rain
 In the desert you can remember your name
 'Cause there ain't no one for to give you no pain
 La, la, la la la la, la la la, la la... [repeats] 
+* DONE Knorkator: Liebeslied
+Intro: [Am]\ [C]\ [Em]\ [F]\ [G]\ (x2)
+
+Alles [Am]leuchtet, dieser [C]Tag
+zeigt sich [Em]heiter.
+Er um[C]armt mich, [Em]lacht mich an[F],
+es geht [G]weiter[Am].
+Alle [Am]sagen hab [C]Geduld,
+deine [Em]Schmerzen werden [F]gehen[G].
+Doch so [Am]weit ich blicken [C]kann,
+ist kein [Em]Trost für mich zu [F]seh'n[G].
+
+Refrain:
+Denn das [Am]Loch in [Em]meinem [F]Herzen[G],
+sieht ge[Am]nauso [Em]aus wie [F]du[G].
+Und mit [Am]keinem [Em]anderen [F]Deckel[G]
+geht es [Am]je wieder [D]zu[F],
+geht es [G]je wieder [Am]zu[Em F G].
+
+Ich war [Am]formlos, trieb [C]dahin,
+hab [Em]geschlafen.
+Ich war [C]farblos, bis wir [Em]uns[F]
+endlich [G]trafen[Am].
+Erst mit [Am]dir bekam mein [C]Herz
+seine [Em]endgültige [F]Form[G].
+Doch seit [Am]du gegangen [C]bist,
+hab ich [Em]so viel Blut ver[F]lor'n[G].
+
+Refrain
+Solo: Am  C  Em  F  G (x2)
+Refrain
+* Golden Brown
+Am Em F C
