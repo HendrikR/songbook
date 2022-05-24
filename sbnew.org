@@ -619,15 +619,12 @@ Refraindef{
  er ist bestimmt getreuer als mein Weib, das falsche Luder.
 
 \Refrain
-* PEND The Hooters: 500 Miles
-D - D - G - C - C - G - D
-E - E - A - D - D - A - E
-
-If you []miss the Train I'm []on,
-You will []know that I am []gone,
-You can []hear the Whistle []blow a 100 []Miles.
-A hundred [] Miles, a hundred []Miles, a hundred []Miles, a hundred []Miles,
-You can []hear the Whistle []blow a hundred []Miles.
+* DONE The Hooters: 500 Miles
+If you [Am]miss the Train I'm [C]on,
+You will [Dm]know that I am [F]gone,
+You can [Dm]hear the Whistle [F]blow a 100 [G]Miles.
+A hundred [Am]Miles, a hundred [C]Miles, a hundred [Dm]Miles, a hundred [F]Miles,
+You can [Dm]hear the Whistle [F]blow a hundred [Am]Miles.
 
 Not a Shirt on my Back,
 Not a Penny to my Name,
@@ -651,16 +648,16 @@ I'll be free, I'll be free, I'll come home to my Country,
 Lord I'm five hundred Miles away from Home.
 You can hear the Whistle blow a hundred Miles,
 Lord I'm five hundred Miles away from Home.
-* TODO Reinhard Lakomy: Heute bin ich allein
-Heute []bin ich []allein,
-ja, auch []das muss []ab und zu mal []sein.
-Du bist []fort für einen []Tag, wir machen []Ferien heut,
-ich von []Dir, du von []mir.
+* PEND Reinhard Lakomy: Heute bin ich allein
+Heute [D]bin ich [G]allein,
+ja, auch [Am]das muss [D]ab und zu mal [G]sein.
+Du bist [Am]fort für einen [D]Tag, wir machen [G]Ferien heut,
+ich von [Am]Dir, [D]du von [G]mir.
 
-[C]Heute bin ich endlich [A]mal bei mir allein zu [C]Gast,
-ich dreh mich [F]noch mal rum und [G]schlaf' mich richtig [C]aus.
-[F]Heute mach' ich alles, [D]was Du sonst nicht gerne [F]hast,
-denn ich ra[F]sier mich nicht und [G]mach mir nichts [F]daraus.
+[C]Heute bin ich [G]endlich [C]mal bei mir [G]allein zu [C]Gast,
+ich dreh mich [Dm]noch mal rum und [G]schlaf' mich richtig [C]aus.
+[C]Heute mach' ich [G]alles, [C]was Du sonst nicht [G]gerne [C]hast,
+denn ich ra[Dm]sier mich nicht und [G]mach mir nichts [C]daraus.
 
 Heute [C]bin ich [F]allein,
 und ich richte mir den Tag schön ein.
@@ -687,38 +684,31 @@ ja, auch das muss ab und zu mal sein.
 Fragst du morgen: "Na, war's schön, was war denn gestern los?"
 Ja, ganz schön, nichts gescheh'n.
 Ja, ganz schön, nichts gescheh'n.
-* TODO Gerhard Schöne: Geburtstag
-Wie die Fußgänger schimpfen
-in den klitschnassen Strümpfen,
-denn der Regen rinnt über'n Asphalt.
-Was für Augen sie machen,
-denn sie sehen mich lachen
-an 'nem Tag, der so trübe und kalt.
+* DONE Gerhard Schöne: Geburtstag
+Wie die [Am]Fußgänger schimpfen
+in den [E]klitschnassen Strümpfen,
+denn der [E]Regen rinnt über'n [Am]Asphalt.
+Was für [A7]Augen sie machen,
+denn sie [Dm]sehen mich lachen
+an 'nem [Am]Tag, der so [E]trübe und [Am]kalt.
 
-Ich bin so glücklich,
-ich spiel für alle
-Ziehharmonika, na klar.
-Denn Geburtstag hat man leider
-nur einmal im Jahr.
-Denn Geburtstag hat man leider
-nur einmal im Jahr.
+\Refraindef
+Ich bin so [G]glücklich,
+ich spiel für [C]alle
+Ziehhar[Dm]moni[G]ka, na [C]klar.
+Denn Ge[Dm]burtstag [G]hat man [C]leider
+[Am]nur ein[E]mal im [Am]Jahr[A7].
+Denn Ge[Dm]burtstag [G]hat man [C]leider
+[Am]nur ein[E]mal im [Am]Jahr.
 
-Plötzlich kommt, ungelogen,
-ein blaues Flugzeug geflogen
-und ein Zauberer steigt aus, ganz in weiß
-Er will mir gratulieren,
-ein paar Filme vorführen
-und er schenkt allen Eskimoeis.
+Plötzlich [Am]kommt, ungelogen,
+ein blaues [E]Flugzeug geflogen
+und ein [E]Zauberer steigt aus, ganz in [Am]weiß
+Er will [A7]mir gratulieren,
+ein paar [Dm]Filme vorführen
+und er [Am]schenkt allen [E]Eskimo[Am]eis.
 
-Ich bin so glücklich,
-ich spiel für alle
-Ziehharmonika, na klar.
-Denn Geburtstag
-hat man leider
-nur einmal im Jahr.
-Denn Geburtstag
-hat man leider
-nur einmal im Jahr.
+\Refrain
 * DONE Liederjan: Drei Gesellen
 (Den Text musst du dir noch mal anhören, da fehlt evtl. noch was)
 |: Es [C]waren drei Gesellen, sie [G]taten, was sie [C]wollten : |
