@@ -870,7 +870,7 @@ Pack up your things and go
 Run down the road, they'll never know
 Wrap up your things today
 And run away, yeah, run away
-* TODO A-Ha: Losing You
+* PEND A-Ha: Losing You
 It wasn't the rain that washed away
 Rinsed out the colours of your eyes
 Putting the gun down on the bedside table
@@ -902,7 +902,7 @@ Refrain:
 So, [F]please now, talk to me
 [C]Tell me [G]things I could find [F]helpful
 How can I [C]stop now?
-Is there nothing I can do?
+Is there [G]nothing I can [Dm]do?
 I have lost my way
 I've been losing you
 
@@ -919,46 +919,39 @@ I have lost my way
 I've been losing you
 I've been losing you
 I've been losing you
-* TODO A-Ha: Crying in the Rain
-I'll never let you see
-The way my broken heart is hurting me
-I've got my pride
-And I know how to hide
-All my sorrow and pain
-I'll do my crying in the rain
+* DONE A-Ha: Crying in the Rain
+[C]I'll [F]never [G]let you see
+[C]The way my [F]broken heart is [G]hurting me
+[C]I've got my [F]pride
+And I [G]know how to [Am]hide
+All my [F]sorrow and pain
+[G]I'll do my crying in the [Am]rain
 
-If I wait for stormy skies
-You won't know the rain from the tears in my eyes
-You'll never know
-That I still love you so
-Only heartaches remain
-I'll do my crying in the rain
+[C]If I wait for [F]stormy [G]skies
+[C]You won't know the rain from the [F]tears in my [G]eyes
+[C]You'll never [F]know
+That I [G]still love you [Am]so
+Only [F]heartaches remain
+[G]I'll do my crying in the [Am]rain
 
-Raindrops falling from heaven
-Could never take away my misery
-Since we're not together
-I'll pray for stormy weather
-To hide these tears I hope you'll never see
+[F]Raindrops falling from [Dm]heaven
+[G]Could never take away my [C]misery
+\Repeat{
+[Am]Since we're not together
+I'll [F]pray for stormy weather
+To [G]hide these tears I hope you'll never see
 
-Some day when my crying's done
-I'm going to wear a smile and walk in the sun
-I may be a fool
-But till then, darling, you'll
-Never see me complain
-I'll do my crying in the rain
+[C]Some day when my [F]crying's [G]done
+[C]I'm going to wear a smile and [F]walk in the [G]sun
+[C]I may be a [F]fool
+But till [G]then, darling, [Am]you'll
+Never [F]see me complain
+[G]I'll do my crying in the [Am]rain
+}
 
-Since we're not together
-I'll pray for stormy weather
-To hide these tears I hope you'll never see
-
-Some day when my crying's done
-I'm going to wear a smile and walk in the sun
-I may be a fool
-But till then, darling, you'll
-Never see me complain
-I'll do my crying in the rain
-I'll do my crying in the rain
-I'll do my crying in the rain
+[G]I'll do my crying in the [Am]rain
+[G]I'll do my crying in the [Am]rain
+[G]I'll do my crying in the [Am]rain
 * PEND A-Ha: Stay on these Roads
 (Verse 1)
 The [C]cold has a [a]voice[F] 
@@ -1031,7 +1024,7 @@ Her skin is like velvet
 But hear how she sings (aah-aah-aaah, aah-aah-aah)
 But hear how she sings (aah-aah-aaah, aah-aah-aah)
 (Aah-aaah, aah-aah, aah-aah, aah-aah)
-* TODO A-Ha: Take on me
+* PEND A-Ha: Take on me
 [Verse 1]
 We're talking away
 I don't know what I'm to say
@@ -1041,10 +1034,11 @@ Shying away
 I'll be coming for your love, okay?
 
 [Chorus]
-Take on me (Take on me)
-Take me on (Take on me)
-I'll be gone
-In a day or two
+a-gis-a, a-e-fis
+[G]Take [D]on [Em]me ([C]Take on me)
+[G]Take [D]me [Em]on ([C]Take on me)
+[G]I'll [D]be [Em]gone
+[C]In a day or [G]two\ [D]\ [Em]\ [C]
 
 [Verse 2]
 So needless to say
@@ -1152,28 +1146,28 @@ But [a]still the sunken [d]stars [e]appear
 In [d]dark and [C]windless [F/a]Mirror[G]mere;
 There [a]lies his [G]crown in [C]water [F]deep,
 Till Durin [G]wakes again from [a]sleep.
-* PEND Coldplay: Low
-[Em]You see the world in black and [Hm]white
+* DONE Coldplay: Low
+[Em]You see the world in [D]black and [Hm]white
 No [C]colour or [Am]light[Em].
 You think you'll [Em]never get it [Hm]right
-But you're [C]wrong. You [Am]might[Em].
+But you're [C]wrong. [Am]You [Em]might.
 
-[Em]The sky could fall, could fall on [Hm]me
+[Em]The sky could fall, could [D]fall on [Hm]me
 The [C]parting [Am]of the [Em]sea
 But you mean [Em]more, mean more to [Hm]me
 Than any [C]colour I can [Am]see-[Em]e
 
-\Refraindef{
+\Refraindef
 [C]All you ever wanted was [Am]love,
 But you never looked hard [Em]enough,
 It's never gonna give itself [A]up
 
 [C]All you ever wanted to [Am]be
 Living in perfect symme[Em]try,
-Nothing is as down or as up as [A]us
-}
+Nothing is as down or as [A]up as us
 
-[Em]You see the world in black and [Hm]white
+
+[Em]You see the world in [D]black and [Hm]white
 Not [C]painted [Am]right[Em].
 [Em]You see no meaning to your [Hm]life
 [C]You should [Am]try[Em]-y
@@ -1181,49 +1175,46 @@ Not [C]painted [Am]right[Em].
 
 \Refrain
 
-Don't you want to see it come soon,
-Floating in a big white balloon
-Come give her your own silver spoon
+(Tonartwechsel)
+[C]Don't you want to see it come [Am]soon,
+Floating in a big white bal[Em]loon
+Come give her your own silver [A]spoon
 
-Don't you want to see it come down?
-There for throwing your arms around
-And say "You're not a moment too soon."
+[C]Don't you want to see it come [Am]down?
+There for throwing your arms a[Em]round
+And say "You're not a moment too [A]soon."
 
-Cause I feel low, cause I feel low--ooooh...
-Yeah I feel low, oh no--oooh
-Cause I feel low, cause I feel low--oh...
-Yet I feel low, oh no-oooh
-* TODO Coldplay: Clocks
-Original: [Dis] [Cis] [Cis] [C]
-Transponiert: [G] [F] [F] [E]
+(Verschleppter, langsamerer Rythmus)
+[G]Cause I feel [G_e/A7]low, cause I feel low--ooooh...
+[G]Yeah I feel [C]low, [G]oh [G_e/A7]no--oooh ....
+* DONE Coldplay: Clocks
+The [D]lights go out and [Am]I can't be saved
+Tides that [Am]I tried to [Em]swim against
+Have [D]brought me down u[Am]pon my knees
+[Am]Oh I beg, I [Em]beg and plead, singing
 
-The [G]lights go out and [F]I can't be saved
-Tides that [F]I tried to [E]swim against
-Have [G]brought me down u[F]pon my knees
-[F]Oh I beg, I [E]beg and plead, singing
-
-[G]Come out of [F]things unsaid
-[F]Shoot an apple [E]off my head and a
-[G]Trouble that [F]can't be named
-A [F]tiger's waiting [E]to be tamed, singing
+[D]Come out of [Am]things unsaid
+[Am]Shoot an apple [Em]off my head and a
+[D]Trouble that [Am]can't be named
+A [Am]tiger's waiting [Em]to be tamed, singing
 
 \Refraindef
-|: [G] Yo-[F]ou-[F]u [E]are : |
-|: [G] [F] [F] [E] :|
+|: [D] Yo-[Am]ou-u [Em]are :  |
+|: [D] [Am] [Em] : |
 
-[G]Confusion [F]never stops
-[F]Closing walls and [E]ticking clocks 
-Gonna [G]come back and [F]take you home
-I [F]could not stop that [E]you now know, singing
+[D]Confusion [Am]never stops
+[Am]Closing walls and [Em]ticking clocks 
+Gonna [D]come back and [Am]take you home
+I [Am]could not stop that [Em]you now know, singing
 
-[G]Come out [F]upon my seas
-Cursed missed opportunities 
-Am I [G]a part of the cure?
-[F]Or am I part of [E]the disease? Singing
+[D]Come out [Am]upon my seas
+[Am]Cursed missed opportunities 
+Am I [D]a part of the [Am]cure?
+[Am]Or am I part of [Em]the disease? Singing
 
 \Refrain (3x)
 
-\Zwischenspiel
+\Definepart{Zwischenspiel}
 And nothing else compares
 Oh nothing else compares
 And nothing else compares
@@ -1235,6 +1226,65 @@ Home, home where I wanted to go
 Home, home where I wanted to go
 Home, home where I wanted to go
 Home, home where I wanted to go
+* DONE Coldplay: Viva la Vida
+[C] [D7] [G] [Esus2]
+
+I used to [C]rule the [D7]world
+Seas would [G]rise when I gave the [Em]word
+Now in the morning I [C]sleep a[D7]lone
+Sweep the [G]streets I used to [Esus2]own
+
+I used to roll the dice
+Feel the fear in my enemy's eyes
+Listen as the crowd would sing
+"Now the old king is dead! Long live the king!"
+
+One minute I held the key
+Next the walls were closed on me
+And I discovered that my castles stand
+Upon pillars of salt and pillars of sand
+
+\Refraindef
+I [C]hear Jerusalem [D7]bells a ringing
+[G]Roman Calvary [Esus2]choirs are singing
+[C]Be my mirror, my [D7]sword and shield
+My [G]missionaries in a [Esus2]foreign field
+
+For some reason I can't explain
+Once you go there was never
+Never an honest word
+And that was when I ruled the world
+
+It was the wicked and wild wind
+Blew down the doors to let me in
+Shattered windows and the sound of drums
+People couldn't believe what I'd become
+
+Revolutionaries wait
+For my head on a silver plate
+Just a puppet on a lonely string
+Oh who would ever want to be king?
+
+I hear Jerusalem bells a ringing
+Roman Calvary choirs are singing
+Be my mirror, my sword and shield
+My missionaries in a foreign field
+
+For some reason I can't explain
+I know Saint Peter won't call my name
+Never an honest word
+But that was when I ruled the world
+
+
+I hear Jerusalem bells a ringing
+Roman Calvary choirs are singing
+Be my mirror, my sword and shield
+My missionaries in a foreign field
+
+For some reason I can't explain
+I know Saint Peter won't call my name
+Never an honest word
+But that was when I ruled the world
 * TODO America: A Horse with no Name
 On the first part of the journey
 I was looking at all the life
