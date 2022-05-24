@@ -1,8 +1,3 @@
-#+OPTIONS: toc:nil todo:nil
-#+LaTeX_HEADER: \setlength{\parindent}{0pt}\renewcommand{\section}[1]{\\[1ex] $\bullet$ \textbf{#1}}
-###+LaTeX_HEADER: \usepackage{marvosym}\DeclareUnicodeCharacter{1F6CF}{\\\Coffeecup}\DeclareUnicodeCharacter{1F4DE}{\Telefon}\DeclareUnicodeCharacter{21AA}{\\$\pmb\hookrightarrow$}
-#+LaTeX_HEADER: \pagestyle{empty}\usepackage[margin=3cm]{geometry}
-
 * DONE Heroes del Silencio: Entre dos Tierras {1990}
 \Definepart{Intro:}
 [Hm]\quad[G]\quad[Hm]\quad[A]
@@ -1332,3 +1327,34 @@ Solo: Am  C  Em  F  G (x2)
 Refrain
 * Golden Brown
 Am Em F C
+* LaTeX-Präambel                                                  :noexport:
+#+OPTIONS: toc:t todo:nil
+#+LaTeX_HEADER: \usepackage{guitar,xspace,multicol,lscape}\usepackage[top=1.2cm, bottom=1.5cm, left=2.0cm, right=0.5cm]{geometry}
+#+LaTeX_HEADER: \makeatletter\newcommand\ignore[1]{}\setlength{\parskip}{-3ex}
+#+LaTeX_HEADER: % \songheader{Titel}{Autor}
+#+LaTeX_HEADER: \newcommand\songheader[3][]{%TODO: Seitenumbrüche sind hier genau falsch.
+#+LaTeX_HEADER:     % \par{\Large\bf\sffamily #2}\\[0.2\baselineskip]%
+#+LaTeX_HEADER:     \subsubsection*{\centering #2}\vspace{0.5\baselineskip}%
+#+LaTeX_HEADER:     \addcontentsline{toc}{subsection}{#2}
+#+LaTeX_HEADER:     \centering \textit{#3}\\%
+#+LaTeX_HEADER:     \vspace{\baselineskip}\par%
+#+LaTeX_HEADER: }
+#+LaTeX_HEADER: 
+#+LaTeX_HEADER: \newenvironment{myguitar}{\begin{guitar}}{\clearpage\end{guitar}}
+#+LaTeX_HEADER: 
+#+LaTeX_HEADER: \newcommand\Definepart[1]{\textbf{#1}\xspace}
+#+LaTeX_HEADER: \newcommand\Repeatpart[1]{\textbf{\ensuremath{\uparrow} #1}\vspace{-1.0\baselineskip}\xspace}
+#+LaTeX_HEADER: %\newcommand\songfooter[1]{\par\begin{flushright}\tiny #1\end{flushright}}
+#+LaTeX_HEADER: \newcommand\songfooter[1]{\vfill\par\begin{flushright}\tiny #1\end{flushright}}
+#+LaTeX_HEADER: %% Abstand vergrößern zwischen Strophen, der ist sonst kaum vom Zeilenabstand zu unterscheiden.
+#+LaTeX_HEADER: \renewcommand\guitarEndPar{\par\vspace{1.5\baselineskip}}
+#+LaTeX_HEADER: \newcommand\Refrain{\Repeatpart{Refrain}}
+#+LaTeX_HEADER: \newcommand\Refraindef{\Definepart{Refrain:}}
+#+LaTeX_HEADER: \newcommand\leftrepeat{{\large $|\hspace{-0.2ex}|\hspace{-0.8ex}:\,$}}%TODO
+#+LaTeX_HEADER: \newcommand\rightrepeat{{\large $\,:\hspace{-0.8ex}|\hspace{-0.2ex}|$}}%TODO
+#+LaTeX_HEADER: \newcommand\Repeat[1]{\leftrepeat #1 \rightrepeat}
+#+LaTeX_HEADER: 
+#+LaTeX_HEADER: \newcommand\sus{\ensuremath{_\mathrm{sus}}}
+#+LaTeX_HEADER: \makeatother
+#+LaTeX_HEADER: 
+#+LaTeX_HEADER: \setlength{\footskip}{2.0\baselineskip}
