@@ -1358,8 +1358,106 @@ hab ich [Em]so viel Blut ver[F]lor'n[G].
 Refrain
 Solo: Am  C  Em  F  G (x2)
 Refrain
-* Golden Brown
+* TODO The Stranglers: Golden Brown
 Am Em F C
+* DONE Klee: Die Stadt
+Vorspie: C  Em  Am  F
+[C]Manchmal glaub ich, du siehst [Em]Dinge
+[Am]die die anderen nicht [F]sehen
+[C]Wieder manchmal sagst du [Em]Sachen
+Die ich [Am]einfach nicht versteh’[F].
+[C]Was weiß ich warum die Vögel [Em]singen
+[Am]\quad mitten in der [F]Nacht
+[C]Doch ich weiß, dass ich’s nicht [Em]träume
+Ich bin [Am]grad’ erst aufge[F]wacht 
+
+\Refraindef{
+[F]Wir können die Zeit zurück drehn 
+[Em]Von hier zu jedem Kuss davor 
+[Am]Die Stadt ist [G]heute wie ein [F]Song
+Und ich bin [G]voll mit Erinner[C]ungen 
+[F]Wir können das, denn wir sind anders 
+[Em]Flüstern Engel in mein Ohr
+[Am]Die Stadt ist [G]heute wie ein [F]Song 
+Und ich bin [G]voll mit Erinner[C]ungen
+}
+
+[C]Ich wollte meine [Em]Schlüssel 
+[Am]Meine Schlüssel und mein [F]Geld 
+[C]Einfach in den [Em]Fluss werfen
+Doch ich [Am]hab den Fluss verfehlt[F].
+[C]Später hab’ ich dann statt[Em]dessen
+[Am]Das kleine rote [F]Buch 
+[C]Auf deinem Küchentisch ver[Em]gessen
+Ich hab nie [Am]mehr danach ge[F]sucht 
+
+\Refrain
+ 
+\Definepart{Zwischenspiel}
+[F]Du brauchst mich um zu [C]bleiben
+[F]Ich brauch dich um zu [C]gehen
+[F]Du brauchst meine [C]Augen 
+[G]Um Dich selber zu sehen 
+
+\Refrain
+\Repeat[3]{
+[Am]Die Stadt ist [G]heute wie ein [F]Song 
+Und ich bin [G]voll mit Erinner[C]ungen
+}
+* DONE Hugues Aufray: Santiano
+C'est [Am] un fameux trois-mâts fin comme [C]un oi[G]seau
+# Sie ist ein berühmter Dreimaster, fein wie ein Vogel
+[Am]Hisse et ho, Santi[G]ano
+# Segel hoch und los, Santiano!
+[F]Dix-huit nœuds, quatre [Dm]cents tonn[Em]eaux
+# Achtzehn Knoten, vierhundert Tonnen
+Je suis [Am]fier d'y [G]être [Am]matelot
+# Ich bin stolz, auf ihr Matrose zu sein.
+
+\Refraindef
+Tiens [Am]bon la vague et tiens [C]bon le [G]vent
+# Nimm gut die Welle und gut den Wind,
+[Am]Hisse et ho, Santi[G]ano
+# Segel hoch und los, Santiano
+[F]Si Dieu veut toujours [Dm]droit de[Em]vant
+# Wenn Gott will, bleibt alles hinter uns
+Nous i[Am]rons jusqu'[G]à San [Am]Francisco
+# Wir fahren bis nach San Fracisco.
+
+Je [Am]pars pour de longs mois en laiss[C]ant Mar[G]got
+# Ich breche für viele Monate auf, lasse Margot zurück
+[Am]Hisse et ho, Santi[G]ano
+[F]D'y penser j'avais [Dm]le cœur [Em]gros
+# An sie denkend, wird mein Herz schwer
+En doub[Am]lant les [G]feux de [Am]Saint-Malo
+# Während wir die Leuchtfeuer von Saint-Malo passieren
+
+\Refrain
+
+On [Am]prétend que là-bas l'argent [C]coule à [G]flots
+# Man sagt, dort fließe das Geld in Strömen
+[Am]Hisse et ho, Santi[G]ano
+[F]On trouve l'or au fond [Dm]des ruisse[Em]aux
+# Man findet am Grund der Bäche
+J'en ra[Am]mèner[G]ai plus[Am]ieurs lingots
+# Ich werde ein paar Barren davon mitbringen.
+
+\Refrain
+
+Un jour, je reviendrai chargé de cadeaux
+# Eines Tages kehre ich zurück, mit Geschenken beladen
+Hisse et ho, Santiano
+Au pays, j'irai voir Margot
+# Im Heimatland werde ich Margot wiedersehen
+À son doigt, je passerai l'anneau
+# Auf ihren Finger den Ring stecken
+
+Tiens bon le cap tiens bon le flot
+# Nimm gut das Kap und gut die Flut(en)
+Hisse et ho, Santiano
+Sur la mer qui fait le gros dos
+# Über das Meer, das einen großen Buckel macht
+Nous irons jusqu'à San Francisco
 * LaTeX-Präambel                                                  :noexport:
 #+OPTIONS: toc:t todo:nil
 #+LaTeX_HEADER: \usepackage{guitar,xspace,multicol,lscape}\usepackage[top=1.2cm, bottom=1.5cm, left=2.0cm, right=0.5cm]{geometry}
