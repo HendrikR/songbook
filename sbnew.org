@@ -12,10 +12,10 @@ I [Hm]Que facil [F#m]es,
 si te [GGG]piensas e[Hm]char [F#m]atras
 [Em]tienes muchas [G]huellas que [Hm]borrar [F#m]dddarrr, [Em]Hmmm[G]mm:
 
-\Refraindef{
+\Refraindef
 deja[Hm]me, que [D]yo no tengo la [G]culpa de verte [Hm]caer
 si [D]yo no tengo la [G]culpa de verte [Hm]caer.
-}
+
 
 \Repeatpart{Intro}
 
@@ -41,7 +41,7 @@ per[Hm]mite pa[F#m]sar [Em]\ [GGG]y si no piensas e-
 [Em]tienes mucho [G]barro que [Hm]tragar        [F#m]oohoho[Em]\quad[G]
 
 \Refrain
-\Zwischenspiel
+\Repeatpart{Zwischenspiel}
 
 \Definepart{Solo:}
 
@@ -52,7 +52,7 @@ muted:          Hm  A  G   F#m   Hm
 Hm   A  ->  F#m
 
 \Refrain
-\Zwischenspiel
+\Repeatpart{Zwischenspiel}
 * DONE The Police: So lonely {Outlandos d'Amour, 1978}
 [C]Well, 	[G]someone told me 	[Am]yester-	[F]day
 [C]that 	[G]when you throw your 	[Am]love a	[F]way
@@ -98,8 +98,6 @@ My feet don't hardly make no sound walking on, walking on the moon
 
 \Repeat[$\infty$]{[Dm|Am]Keep it up [B|F]\quad[C|G]}
 * PEND Nick Cave: Where The Wild Roses Grow {Murder Ballads, 1996}
-Eventuell auf 2 Spalten verteilen, so dass He/Elisa je in 1 Spalte landen.
-
 \textbf{Elisa:}
 They [Gm/e]call me The Wild [Cm/a]Rose[e]
 [Gm]But my [G]name was Elisa [H/Fis]Day
@@ -111,28 +109,28 @@ From the [Gm]first day I saw her I knew [B]she was the one
 As she [Cm]stared in my eyes and  [D]smiled
 For her [Gm]lips were the color of the [B]roses
 They [Cm]grew down the river, all [D]bloody and wild
-\Refrain
 
 \textbf{Elisa:}
 When he knocked on my door and entered the room
 My trembling subsided in his sure embrace
 He would be my first man, and with a careful hand
 He wiped the tears that ran down my face
-\Refrain
+
+\textbf{Both:} \Refrain
 
 \textbf{He:}
 On the second day I brought her a flower
 She was more beautiful than any woman I'd seen
 I said, "Do you know where the wild roses grow
 So sweet and scarlet and free?"
-\Refrain
 
 \textbf{Elisa:}
 On the second day he came with a single rose
 Said: "Will you give me your loss and your sorrow?"
 I nodded my head, as I lay on the bed
 He said, "If I show you the roses will you follow?"
-\Refrain
+
+\textbf{Both:} \Refrain
 
 \textbf{Elisa:}
 On the third day he took me to the river
@@ -145,14 +143,9 @@ As he stood smiling above me with a rock in his fist
 On the last day I took her where the wild roses grow
 And she lay on the bank, the wind light as a thief
 As I kissed her goodbye, I said, "All beauty must die"
-And I lent down and planted a rose between her teeth
+And I leant down and planted a rose between her teeth
 
-\textbf{Elisa:}
-They call me The Wild Rose
-But my name was Elisa Day
-Why they call me it I do not know
-\Refrain
-
+\textbf{Elisa:} \Refrain
 \Repeat[3]{For my name was Elisa Day}
 * DONE Johnny hates Jazz: Shattered Dreams {Shattered Dreams, 1987}
 [Am]So much for your [Em]promises
@@ -239,7 +232,7 @@ auch [F]sechs ist nicht ge[G]nug
 [Am]\quad[G]\quad[C]Sieben [F]Mal! [Am]\quad[G]Du hast [C]keine [F]Wahl! 
 denn die [Am]Sie-[G]ben ist meine [Am]Zahl.
 
-Zwischenspiel:
+\Definepart{Zwischenspiel}
 [F]Sieben Lieben [G]sind gekommen 
 [Am]keine ist mir lang geblieben 
 [F]sechs mal hab ichs [G]hingenommen 
@@ -393,11 +386,11 @@ Vor-/Zwischenspiel: C G F C
 [C]Here I am again in this [G]mean old town -- and you're so far a[C]way from me.
 Now [C]where are you when the [G]sun goes down -- and you're so far a[C]way from me.
 
-\Refraindef{
+\Refraindef
 [F]So far a[Dm]way from me, [G]so far I [C]just can't see.
 [F]So far a[Dm]way from me, [G]just so [F]far from [C]me.
 C G F C
-}
+
 
 I'm [C]tired of being in love and being [G]all alone -- when you're so far a[C]way from me
 I'm [C]tired of making out on the [G]telephone -- cus you're so far a[C]way from me
@@ -482,12 +475,12 @@ On our brothers in arms.
 \Usepart{Zwischenspiel}
 \emph{fadeout}
 * TODO Portal?: Still alive
-This was a triumph. 
-I'm making a note here: 
-"Huge Success" 
-It's hard to overstate my satisfaction. 
-Aperture Science. We do what we must, because we can, 
-For the good of all of us, except the ones who are dead.
+This was a [C]triumph[F] [C].
+I'm [F]making a [C]note here: 
+"[F]Huge Suc[C]cess" 
+It's [G]hard to overstate my satis[C]faction. 
+[F]Aperture [C]Science[F] [C]. We [F]do what we [C]must, be[F]cause we [C]can[F],
+[G]For the good of all of us, except the ones who are dead.
 
 But there's no sense crying over every mistake. 
 You just keep on trying 'till you run out of cake. 
@@ -532,7 +525,8 @@ Drum mix' [C]ich meine [F]Coke nicht mit [G]Wodka, sondern [F]mit Chantr[C]é.[F
 Die [C]Penner trinken [F]Pilsner und die [G]Kenner [F]roten [C]Wein.[F] (Oh [G]yeah![F])
 Doch in [C]meine Einkaufs[F]tüte kommt nur [G]ein Ge[F]tränk hin[C]ein.[F,G,F]
 
-\Refraindef{\Repeat[3]{Ich [F]trink' so gern Brannt[G]wein, Oh-[F]ho,}
+\Refraindef
+\Repeat[3]{Ich [F]trink' so gern Brannt[G]wein, Oh-[F]ho,
 [G]Dann [F]fühl' ich mich [C]gut!}
 
 Küstennebel, Ouzo, Absinth, Raki und Pastis,
@@ -552,14 +546,14 @@ Ich fühl mich gut, ich fühl --
 \Refrain
 Dann fühl' ich mich gut!
 Ich fühl' mich gut.
-* TODO Die Wallerts: Nackt (Raubkopiert, 2010)
-Ich hab meine Scham verloren
-Ich wurde schließlich auch gänzlich nackt geboren
-Kein Schlüpfer, kein Hemd, nicht mal ein Feigenblatt
-Ich bin ganz nackt
+* PEND Die Wallerts: Nackt (Raubkopiert, 2010)
+[Dm]Ich hab meine [Am]Scham verloren
+Ich wurde [Dm]schließlich auch gänzlich [Am]nackt geboren
+Kein [Dm]Schlüpfer, kein Hemd, nicht mal ein [Am]Feigenblatt
+Ich [H]bin ganz nackt
 
-Reißt euch die Kleider vom Leib 
-Und rennt nackt durch die City, nackt durch die City
+[Em]Reißt euch die Kleider vom Leib 
+Und rennt [G]nackt durch die City, nackt durch die City
 
 Ich will zur Natur zurück
 Ich werf ins Lagerfeuer jedes Kleidungsstück
