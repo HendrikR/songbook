@@ -1091,20 +1091,19 @@ Alle, die Tod und Teufel nicht fürchten, ...
 
 Alle, die endlich zur Hölle mit fahren, ...
 
-* DONE J.R.R. Tolkien: The world was young (Durin's Song)
-(Poem #736)
+* DONE J.R.R. Tolkien: The world was young (Durin's Song / Poem #736)
 (Kapodaster: 1. Bund. (Gern auch höher für Großlinge ...))
 
-The world was [G/A]young, the [(C/D)]mountains [F/G]green,
-No stain yet [G/A]on the [(e/fis)]Moon was [a/h]seen,
-No words were [G/A]laid on stream or [C/D]stone,
-When [F/G]Durin [G/A]woke and walked [a/h]alone.
-He [a/h]named the nameless [F/G]hills and [G/A]dells;
-He [a/h]drank from yet un[F/G]tasted [G/A]wells;
-He [a/h]stooped and looked in [d/e]Mirror[G/A]mere,
-And [d/e]saw a [(C/D)]crown of [F/G]stars [G/A]appear,
-As [a/h]gems up[G/A]on a [C/D]silver [F/G]thread,
-Above the [G/A]shadow of his [a/h]head.
+The world was [G]young, the [(C)]mountains [F]green,
+No stain yet [G]on the [(e)]Moon was [a]seen,
+No words were [G]laid on stream or [C]stone,
+When [F]Durin [G]woke and walked [a]alone.
+He [a]named the nameless [F]hills and [G]dells;
+He [a]drank from yet un[F]tasted [G]wells;
+He [a]stooped and looked in [d]Mirror[G]mere,
+And [d]saw a [(C)]crown of [F]stars [G]appear,
+As [a]gems up[G]on a [C]silver [F]thread,
+Above the [G]shadow of his [a]head.
 
 The world was [G]fair, the [(C)]mountains [F]tall,
 In Elder [G]Days be[(e)]fore the [a]fall
@@ -1118,13 +1117,13 @@ In [a]many-[e]pillared [a]halls of [G]stone
 With [a]golden [C]roof and [F]silver [a]floor,
 And [F]runes of [C]power [a]upon the [G]door.
 The [a]light of [F]sun and [C]star and [G]moon
-In [d]shining [C]lamps of [F]crystal [G]hewn
+In [d]shining [Am]lamps of [F]crystal [G]hewn
 Un[a]dimmed by [G]cloud or [C]shade of [F]night
 There shone for [G]ever fair and [a]bright.
 
 There [a]hammer [F]on the [C]anvil [G]smote,
 There [a]chisel [C]clove, and [F]graver [G]wrote;
-There [a]forged was [C]blade, and [F]bound was [G]hilt;
+There [a]forged was [C]blade, and [F]bound was [C]hilt;
 The [F]delver [C]mined, the [a]mason [G]built.
 There [a]beryl, [F]pearl, and [C]opal [G]pale,
 And [d]metal [a]wrought like [C]fishes' [g]mail,
@@ -1142,8 +1141,8 @@ No harp is [G]wrung, no hammer [C]falls:
 The [(F)]darkness [G]dwells in Durin's [a]halls;
 The [a]shadow lies up[F]on his [G]tomb
 In [a]Mo-ria, in [F]Khazad-[G]dum.
-But [a]still the sunken [d]stars [e]appear
-In [d]dark and [C]windless [F/a]Mirror[G]mere;
+But [a]still the sunken [d]stars [G]appear
+In [d]dark and [C]windless [F]Mirror[G]mere;
 There [a]lies his [G]crown in [C]water [F]deep,
 Till Durin [G]wakes again from [a]sleep.
 * DONE Coldplay: Low
